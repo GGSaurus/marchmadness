@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <style>
+        .tab {
+            overflow: hidden;
+            border: 1px solid #2b2b2b;
+            border-bottom: 1px solid #8a8a8a;
+            background-color: #eeeeee;
+            margin-top: -7px;
+            margin-left: 0px;
+        }
+        
+        .bat {
+            overflow: hidden;
+            border: 1px solid #2b2b2b;
+            border-bottom: 1px solid #8a8a8a;
+            background-color: #eeeeee;
+            margin-top: -7px;
+            margin-left: -13px;
+        }
+        
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 18px;
+        }
+        
+        .bat button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 18px;
+        }
+
+        .tab button:hover {
+            background-color: #b7b7b7;
+        }
+        
+        .bat button:hover {
+            background-color: #b7b7b7;
+        }
+
+        .tab button.active {
+            background-color: #8a8a8a;
+        }
+        
+        .bat button.active {
+            background-color: #8a8a8a;
+        }
+
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            border: 1px solid #8a8a8a;
+            border-top: none;
+        }
+        .tabtabcontent {
+            display: none;
+            padding: 6px 12px;
+            border: 1px solid #8a8a8a;
+            border-top: none;
+            margin-left: -13px;
+        }
+    </style>
+  </head>
+
+  <body>
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'rank')">Rankings</button>
+        <button class="tablinks" onclick="openTab(event, 'livematch')">Live Matches</button>
+        <button class="tablinks" onclick="openTab(event, 'other')">Other</button>
+    </div>
+    <div id="Main" class="tabcontent">
+        <div class="bat">
+            <button class="tabtablinks" onclick="openTabTab(event, 'rankmen')">Men's Rankings</button>
+            <button class="tabtablinks" onclick="openTabTab(event, 'rankwomen')">Women's Rankings</button>
+        </div>
+        <div id="Main 1" class="tabtabcontent">
+            <p id="days"></p>
+        </div>
+        <div id="Main 2" class="tabtabcontent">
+            <p id="years"></p>
+        </div>
+    </div>
+    <div id="Second" class="tabcontent">
+        <button type="button" onclick="update()">Click</button>
+        <p id="clicks"></p>
+    </div>
+    <div id="Other" class="tabcontent">
+        <p>Hi</p>
+    </div>
+    <script src="game.js"></script>
+  </body>
+
+</html>
