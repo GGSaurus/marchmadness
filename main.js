@@ -1,7 +1,3 @@
-function initializeTabs() {
-    console.log("Tabs initialized");
-}
-
 function openTab(evt, tabName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tab-content");
