@@ -72,6 +72,8 @@
             text-align: center
         }
     </style>
+    <title>March Madness 2025</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   </head>
 
   <body>
@@ -79,14 +81,14 @@
         <h1 class="header">March Madness 2025</h1>
     </header>
     <div class="tab">
-        <button class="tab-button" onclick="openTab(event, 'rank')">Rankings</button>
-        <button class="tab-button" onclick="openTab(event, 'livematch')">Live Matches</button>
-        <button class="tab-button" onclick="openTab(event, 'bracket')">Brackets</button>
+        <button class="tab-button" onclick="openSection(event, 'rank', 'tab-content', 'tab-button')">Rankings</button>
+        <button class="tab-button" onclick="openSection(event, 'livematch', 'tab-content', 'tab-button')">Live Matches</button>
+        <button class="tab-button" onclick="openSection(event, 'bracket', 'tab-content', 'tab-button')">Brackets</button>
     </div>
     <div id="rank" class="tab-content">
         <div class="sub-tab">
-            <button class="sub-tab-button" onclick="openSubTab(event, 'rankmen')">Men's Rankings</button>
-            <button class="sub-tab-button" onclick="openSubTab(event, 'rankwomen')">Women's Rankings</button>
+            <button class="sub-tab-button" onclick="openSection(event, 'rankmen', 'sub-tab-content', 'sub-tab-button')">Men's Rankings</button>
+            <button class="sub-tab-button" onclick="openSection(event, 'rankwomen', 'sub-tab-content', 'sub-tab-button')">Women's Rankings</button>
         </div>
         <div id="rankmen" class="sub-tab-content">
             <p id="days"></p>
@@ -97,8 +99,8 @@
     </div>
     <div id="livematch" class="tab-content">
         <div class="sub-tab">
-            <button class="sub-tab-button" onclick="openSubTab(event, 'menmatch')">Men's Matches</button>
-            <button class="sub-tab-button" onclick="openSubTab(event, 'womenmatch')">Women's Matches</button>
+            <button class="sub-tab-button" onclick="openSection(event, 'menmatch', 'sub-tab-content', 'sub-tab-button')">Men's Matches</button>
+            <button class="sub-tab-button" onclick="openSection(event, 'womenmatch', 'sub-tab-content', 'sub-tab-button')">Women's Matches</button>
         </div>
         <div id="menmatch" class="sub-tab-content">
             <div id="mengames"></div>
@@ -108,21 +110,39 @@
         </div>
     </div>
     <div id="bracket" class="tab-content">
-        <div class="container">
-            <div class="section">
-                <p>1st Round</p>
-                
+        <div class="sub-tab">
+            <button class="sub-tab-button" onclick="openSection(event, 'menbracket', 'sub-tab-content', 'sub-tab-button')">Men's Bracket</button>
+            <button class="sub-tab-button" onclick="openSection(event, 'womenbracket', 'sub-tab-content', 'sub-tab-button')">Women's Bracket</button>
+        </div>
+        <div id="menbracket" class="sub-tab-content">
+            <div class="container">
+                <div class="section"><p>1st Round</p></div>
+                <div class="section"><p>2nd Round</p></div>
+                <div class="section"><p>Sweet 16</p></div>
+                <div class="section"><p>Elite 8</p></div>
+                <div class="section"><p>Final 4</p></div>
+                <div class="section"><p>Championship</p></div>
+                <div class="section"><p>Final 4</p></div>
+                <div class="section"><p>Elite 8</p></div>
+                <div class="section"><p>Sweet 16</p></div>
+                <div class="section"><p>2nd Round</p></div>
+                <div class="section"><p>1st Round</p></div>
             </div>
-            <div class="section"><p>2nd Round</p></div>
-            <div class="section"><p>Sweet 16</p></div>
-            <div class="section"><p>Elite 8</p></div>
-            <div class="section"><p>Final 4</p></div>
-            <div class="section"><p>Championship</p></div>
-            <div class="section"><p>Final 4</p></div>
-            <div class="section"><p>Elite 8</p></div>
-            <div class="section"><p>Sweet 16</p></div>
-            <div class="section"><p>2nd Round</p></div>
-            <div class="section"><p>1st Round</p></div>
+        </div>
+        <div id="womenbracket" class="sub-tab-content">
+            <div class="container">
+                <div class="section"><p>1st Round</p></div>
+                <div class="section"><p>2nd Round</p></div>
+                <div class="section"><p>Sweet 16</p></div>
+                <div class="section"><p>Elite 8</p></div>
+                <div class="section"><p>Final 4</p></div>
+                <div class="section"><p>Championship</p></div>
+                <div class="section"><p>Final 4</p></div>
+                <div class="section"><p>Elite 8</p></div>
+                <div class="section"><p>Sweet 16</p></div>
+                <div class="section"><p>2nd Round</p></div>
+                <div class="section"><p>1st Round</p></div>
+            </div>
         </div>
     </div>
     <script src="main.js"></script>
