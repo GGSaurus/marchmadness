@@ -18,214 +18,217 @@ let menBracketData = [
     {name: "Dad 'Broome' Ben", firstfour1: "Alabama St", firstfour2: "North Carolina", firstfour3: "Mount St Marys", firstfour4: "Texas", south1: "Auburn", south8: "Louisville", south5: "Michigan", south4: "Yale", south6: "Ole Miss", south3: "Iowa State", south7: "Marquette", south2: "Michigan St", west1: "Florida", west8: "UConn", west5: "Colorado St", west4: "Maryland", west6: "Drake", west3: "Texas Tech", west7: "Arkansas", west2: "St John's", east1: "Duke", east8: "Baylor", east5: "Oregon", east4: "Arizona", east6: "BYU", east3: "Wisconsin", east7: "Saint Mary's", east2: "Alabama", midwest1: "Houston", midwest8: "Gonzaga", midwest5: "Clemson", midwest4: "Purdue", midwest6: "Illinois", midwest3: "Kentucky", midwest7: "Utah State", midwest2: "Tennessee", south16_1: "Auburn", south16_4: "Michigan", south16_3: "Iowa State", south16_2: "Michigan St.", west16_1: "Florida", west16_4: "Maryland", west16_3: "Texas Tech", west16_2: "St John's", east16_1: "Duke", east16_4: "Oregon", east16_3: "BYU", east16_2: "Alabama", midwest16_1: "Houston", midwest16_4: "Clemson", midwest16_3: "Kentucky", midwest16_2: "Tennessee", south8_1: "Auburn", south8_2: "Michigan St", west8_1: "Florida", west8_2: "Texas Tech", east8_1: "Duke", east8_2: "Alabama", midwest8_1: "Houston", midwest8_2: "Tennessee", south: "Auburn", west: "Florida", east: "Duke", midwest: "Tennessee", finalleft: "Auburn", finalright: "Duke", champion: "Auburn"},
     {name: "Helena", firstfour1: "St Francis PA", firstfour2: "San Diego St", firstfour3: "American", firstfour4: "Xavier", south1: "Auburn", south8: "Louisville", south5: "Michigan", south4: "Texas A&M", south6: "Ole Miss", south3: "Lipscomb", south7: "Marquette", south2: "Michigan St", west1: "Florida", west8: "Oklahoma", west5: "Memphis", west4: "Grand Canyon", west6: "Drake", west3: "Texas Tech", west7: "Arkansas", west2: "St John's", east1: "Duke", east8: "Baylor", east5: "Liberty", east4: "Arizona", east6: "BYU", east3: "Wisconsin", east7: "Vanderbilt", east2: "Alabama", midwest1: "Houston", midwest8: "Gonzaga", midwest5: "McNeese", midwest4: "Purdue", midwest6: "Illinois", midwest3: "Troy", midwest7: "UCLA", midwest2: "Wofford", south16_1: "Auburn", south16_4: "Texas A&M", south16_3: "Ole Miss", south16_2: "Michigan St", west16_1: "Florida", west16_4: "Memphis", west16_3: "Texas Tech", west16_2: "St John's", east16_1: "Duke", east16_4: "Liberty", east16_3: "BYU", east16_2: "Alabama", midwest16_1: "Houston", midwest16_4: "Purdue", midwest16_3: "Illinois", midwest16_2: "UCLA", south8_1: "Auburn", south8_2: "Ole Miss", west8_1: "Florida", west8_2: "Texas Tech", east8_1: "Duke", east8_2: "Alabama", midwest8_1: "Purdue", midwest8_2: "Illinois", south: "Auburn", west: "Texas Tech", east: "Duke", midwest: "Illinois", finalleft: "Auburn", finalright: "Duke", champion: "Auburn"},
     {name: "Unc G", firstfour1: "St Francis PA", firstfour2: "North Carolina", firstfour3: "American", firstfour4: "Xavier", south1: "Auburn", south8: "Creighton", south5: "Michigan", south4: "Yale", south6: "North Carolina", south3: "Iowa State", south7: "New Mexico", south2: "Michigan St", west1: "Florida", west8: "UConn", west5: "Colorado St", west4: "Maryland", west6: "Drake", west3: "Texas Tech", west7: "Kansas", west2: "St John's", east1: "Duke", east8: "Baylor", east5: "Oregon", east4: "Arizona", east6: "BYU", east3: "Wisconsin", east7: "Vanderbilt", east2: "Alabama", midwest1: "Houston", midwest8: "Georgia", midwest5: "Clemson", midwest4: "Purdue", midwest6: "Illinois", midwest3: "Kentucky", midwest7: "UCLA", midwest2: "Tennessee", south16_1: "Auburn", south16_4: "Michigan", south16_3: "Iowa State", south16_2: "New Mexico", west16_1: "Florida", west16_4: "Maryland", west16_3: "Texas Tech", west16_2: "St John's", east16_1: "Duke", east16_4: "Arizona", east16_3: "Wisconsin", east16_2:"Alabama", midwest16_1: "Houston", midwest16_4: "Purdue", midwest16_3: "Illinois", midwest16_2: "UCLA", south8_1: "Michigan", south8_2: "Iowa State", west8_1: "Florida", west8_2: "St John's", east8_1: "Arizona", east8_2: "Wisconsin", midwest8_1: "Houston", midwest8_2: "Illinois", south: "Michigan", west: "St John's", east: "Wisconsin", midwest: "Illinois", finalleft: "Michigan", finalright: "Illinois", champion: "Illinois"},
-    {name: "Eric", firstfour1: "Alabama St", firstfour2: "North Carolina", firstfour3: "American", firstfour4: "Texas", south1: "Auburn", south8: "Creighton", south5: "Michigan", south4: "Yale", south6: "North Carolina", south3: "Iowa State", south7: "New Mexico", south2: "Michigan St", west1: "Florida", west8: "UConn", west5: "Colorado St", west4: "Maryland", west6: "Drake", west3: "UNC Wilmington", west7: "Arkansas", west2: "St John's", east1: "Duke", east8: "Mississippi St", east5: "Oregon", east4: "Arizona", east6: "BYU", east3: "Wisconsin", east7: "Vanderbilt", east2: "Alabama", midwest1: "Houston", midwest8: "Gonzaga", midwest5: "Clemson", midwest4: "Purdue", midwest6: "Illinois", midwest3: "Kentucky", midwest7: "UCLA", midwest2: "Tennessee", south16_1: "Auburn", south16_4: "Michigan", south16_3: "Iowa State", south16_2: "Michigan St", west16_1: "UConn", west16_4: "Maryland", west16_3: "Drake", west16_2: "????????", east16_1: "Duke", east16_4: "Oregon", east16_3: "BYU", east16_2: "Alabama", midwest16_1: "Houston", midwest16_4: "Purdue", midwest16_3: "Illinois", midwest16_2: "Tennessee", south8_1: "Auburn", south8_2: "Iowa State", west8_1: "Maryland", west8_2: "Drake", east8_1: "Duke", east8_2: "BYU", midwest8_1: "Pudue", midwest8_2: "Tennessee", south: "Iowa State", west: "Maryland", east: "Duke", midwest: "Purdue", finalleft: "Iowa State", finalright: "Duke", champion: "Iowa State"},
-    {name: "Camilla", firstfour1: "Alabama St", firstfour2: "San Diego St", firstfour3: "American", firstfour4: "Xavier", south1: "Auburn", south8: "Creighton", south5: "Michigan", south4: "Texas A&M", south6: "Ole Miss", south3: "Iowa State", south7: "Marquette", south2: "Michigan St", west1: "FLorida", west8: "Oklahoma", west5: "Memphis", west4: "Maryland", west6: "Missouri", west3: "Texas Tech", west7: "Kansas", west2: "St John's", east1: "Duke", east8: "Baylor", east5: "Oregon", east4: "Arizona", east6: "BYU", east3: "Wisconsin", east7: "Saint Mary's", east2: "Alabama", midwest1: "Houston", midwest8: "Georgia", midwest5: "Clemson", midwest4: "Purdue", midwest6: "Illinois", midwest3: "Kentucky", midwest7: "UCLA", midwest2: "Tennessee"}
+    {name: "Eric", firstfour1: "Alabama St", firstfour2: "North Carolina", firstfour3: "American", firstfour4: "Texas", south1: "Auburn", south8: "Creighton", south5: "Michigan", south4: "Yale", south6: "North Carolina", south3: "Iowa State", south7: "New Mexico", south2: "Michigan St", west1: "Florida", west8: "UConn", west5: "Colorado St", west4: "Maryland", west6: "Drake", west3: "UNC Wilmington", west7: "Arkansas", west2: "St John's", east1: "Duke", east8: "Mississippi St", east5: "Oregon", east4: "Arizona", east6: "BYU", east3: "Wisconsin", east7: "Vanderbilt", east2: "Alabama", midwest1: "Houston", midwest8: "Gonzaga", midwest5: "Clemson", midwest4: "Purdue", midwest6: "Illinois", midwest3: "Kentucky", midwest7: "UCLA", midwest2: "Tennessee", south16_1: "Auburn", south16_4: "Michigan", south16_3: "Iowa State", south16_2: "Michigan St", west16_1: "UConn", west16_4: "Maryland", west16_3: "Drake", west16_2: "St John's", east16_1: "Duke", east16_4: "Oregon", east16_3: "BYU", east16_2: "Alabama", midwest16_1: "Houston", midwest16_4: "Purdue", midwest16_3: "Illinois", midwest16_2: "Tennessee", south8_1: "Auburn", south8_2: "Iowa State", west8_1: "Maryland", west8_2: "Drake", east8_1: "Duke", east8_2: "BYU", midwest8_1: "Purdue", midwest8_2: "Tennessee", south: "Iowa State", west: "Maryland", east: "Duke", midwest: "Purdue", finalleft: "Iowa State", finalright: "Duke", champion: "Iowa State"},
+    {name: "LeBron (Elder)", firstfour1: "*Alabama St", firstfour2: "*North Carolina", firstfour3: "*", firstfour4: "*", south1: "Auburn", south8: "Louisville", south5: "Michigan", south4: "Texas A&M", south6: "Ole Miss", south3: "Iowa State", south7: "New Mexico", south2: "Michigan St", west1: "Florida", west8: "Oklahoma", west5: "Memphis", west4: "Maryland", west6: "Drake", west3: "Texas Tech", west7: "Kansas", west2: "St John's", east1: "Duke", east8: "Baylor", east5: "Oregon", east4: "Arizona", east6: "BYU", east3: "Wisconsin", east7: "Vanderbilt", east2: "Alabama", midwest1: "Houston", midwest8: "Gonzaga", midwest5: "Clemson", midwest4: "Purdue", midwest6: "Illinois", midwest3: "Kentucky", midwest7: "Utah State", midwest2: "Tennessee", south16_1: "Auburn", south16_4: "Texas A&M", south16_3: "Iowa State", south16_2: "Michigan St", west16_1: "Florida", west16_4: "Memphis", west16_3: "Texas Tech", west16_2: "St John's", east16_1: "Duke", east16_4: "Oregon", east16_3: "BYU", east16_2: "Alabama", midwest16_1: "Houston", midwest16_4: "Clemson", midwest16_3: "Kentucky", midwest16_2: "Tennessee", south8_1: "Auburn", south8_2: "Iowa State", west8_1: "Florida", west8_2: "St John's", east8_1: "Duke", east8_2: "Alabama", midwest8_1: "Houston", midwest8_2: "Tennessee", south: "Auburn", west: "St John's", east: "Alabama", midwest: "Tennessee", finalleft: "St John's", finalright: "Tennessee", champion: "St John's"},
+    {name: "Camilla", firstfour1: "Alabama St", firstfour2: "San Diego St", firstfour3: "American", firstfour4: "Xavier", south1: "Auburn", south8: "Creighton", south5: "Michigan", south4: "Texas A&M", south6: "Ole Miss", south3: "Iowa State", south7: "Marquette", south2: "Michigan St", west1: "Florida", west8: "Oklahoma", west5: "Memphis", west4: "Maryland", west6: "Missouri", west3: "Texas Tech", west7: "Kansas", west2: "St John's", east1: "Duke", east8: "Baylor", east5: "Oregon", east4: "Arizona", east6: "BYU", east3: "Wisconsin", east7: "Saint Mary's", east2: "Alabama", midwest1: "Houston", midwest8: "Georgia", midwest5: "Clemson", midwest4: "Purdue", midwest6: "Illinois", midwest3: "Kentucky", midwest7: "UCLA", midwest2: "Tennessee"}
 ]
 
+let menScoreData = [];
+
 function countMenScore() {
-    let menScoreData = [];
+    menScoreData = [];
     const actual = menBracketData[0];
     menBracketData.forEach(data => {
         let score = 0;
-        if (data.firstfour1 == actual.firstfour1) {
+        if (data.firstfour1 && data.firstfour1 !== 'TBD' && data.firstfour1 == actual.firstfour1) {
             score += 1;
         }
-        if (data.firstfour2 == actual.firstfour2) {
+        if (data.firstfour2 && data.firstfour2 !== 'TBD' && data.firstfour2 == actual.firstfour2) {
             score += 1;
         }
-        if (data.firstfour3 == actual.firstfour3) {
+        if (data.firstfour3 && data.firstfour3 !== 'TBD' && data.firstfour3 == actual.firstfour3) {
             score += 1;
         }
-        if (data.firstfour4 == actual.firstfour4) {
+        if (data.firstfour4 && data.firstfour4 !== 'TBD' && data.firstfour4 == actual.firstfour4) {
             score += 1;
         }
-        if (data.south1 == actual.south1) {
+        if (data.south1 && data.south1 !== 'TBD' && data.south1 == actual.south1) {
             score += 2;
         }
-        if (data.south8 == actual.south8) {
+        if (data.south8 && data.south8 !== 'TBD' && data.south8 == actual.south8) {
             score += 2;
         }
-        if (data.south5 == actual.south5) {
+        if (data.south5 && data.south5 !== 'TBD' && data.south5 == actual.south5) {
             score += 2;
         }
-        if (data.south4 == actual.south4) {
+        if (data.south4 && data.south4 !== 'TBD' && data.south4 == actual.south4) {
             score += 2;
         }
-        if (data.south6 == actual.south6) {
+        if (data.south6 && data.south6 !== 'TBD' && data.south6 == actual.south6) {
             score += 2;
         }
-        if (data.south3 == actual.south3) {
+        if (data.south3 && data.south3 !== 'TBD' && data.south3 == actual.south3) {
             score += 2;
         }
-        if (data.south7 == actual.south7) {
+        if (data.south7 && data.south7 !== 'TBD' && data.south7 == actual.south7) {
             score += 2;
         }
-        if (data.south2 == actual.south2) {
+        if (data.south2 && data.south2 !== 'TBD' && data.south2 == actual.south2) {
             score += 2;
         }
-        if (data.west1 == actual.west1) {
+        if (data.west1 && data.west1 !== 'TBD' && data.west1 == actual.west1) {
             score += 2;
         }
-        if (data.west8 == actual.west8) {
+        if (data.west8 && data.west8 !== 'TBD' && data.west8 == actual.west8) {
             score += 2;
         }
-        if (data.west5 == actual.west5) {
+        if (data.west5 && data.west5 !== 'TBD' && data.west5 == actual.west5) {
             score += 2;
         }
-        if (data.west4 == actual.west4) {
+        if (data.west4 && data.west4 !== 'TBD' && data.west4 == actual.west4) {
             score += 2;
         }
-        if (data.west6 == actual.west6) {
+        if (data.west6 && data.west6 !== 'TBD' && data.west6 == actual.west6) {
             score += 2;
         }
-        if (data.west3 == actual.west3) {
+        if (data.west3 && data.west3 !== 'TBD' && data.west3 == actual.west3) {
             score += 2;
         }
-        if (data.west7 == actual.west7) {
+        if (data.west7 && data.west7 !== 'TBD' && data.west7 == actual.west7) {
             score += 2;
         }
-        if (data.west2 == actual.west2) {
+        if (data.west2 && data.west2 !== 'TBD' && data.west2 == actual.west2) {
             score += 2;
         }
-        if (data.east1 == actual.east1) {
+        if (data.east1 && data.east1 !== 'TBD' && data.east1 == actual.east1) {
             score += 2;
         }
-        if (data.east8 == actual.east8) {
+        if (data.east8 && data.east8 !== 'TBD' && data.east8 == actual.east8) {
             score += 2;
         }
-        if (data.east5 == actual.east5) {
+        if (data.east5 && data.east5 !== 'TBD' && data.east5 == actual.east5) {
             score += 2;
         }
-        if (data.east4 == actual.east4) {
+        if (data.east4 && data.east4 !== 'TBD' && data.east4 == actual.east4) {
             score += 2;
         }
-        if (data.east6 == actual.east6) {
+        if (data.east6 && data.east6 !== 'TBD' && data.east6 == actual.east6) {
             score += 2;
         }
-        if (data.east3 == actual.east3) {
+        if (data.east3 && data.east3 !== 'TBD' && data.east3 == actual.east3) {
             score += 2;
         }
-        if (data.east7 == actual.east7) {
+        if (data.east7 && data.east7 !== 'TBD' && data.east7 == actual.east7) {
             score += 2;
         }
-        if (data.east2 == actual.east2) {
+        if (data.east2 && data.east2 !== 'TBD' && data.east2 == actual.east2) {
             score += 2;
         }
-        if (data.midwest1 == actual.midwest1) {
+        if (data.midwest1 && data.midwest1 !== 'TBD' && data.midwest1 == actual.midwest1) {
             score += 2;
         }
-        if (data.midwest8 == actual.midwest8) {
+        if (data.midwest8 && data.midwest8 !== 'TBD' && data.midwest8 == actual.midwest8) {
             score += 2;
         }
-        if (data.midwest5 == actual.midwest5) { 
+        if (data.midwest5 && data.midwest5 !== 'TBD' && data.midwest5 == actual.midwest5) { 
             score += 2;
         }
-        if (data.midwest4 == actual.midwest4) {
+        if (data.midwest4 && data.midwest4 !== 'TBD' && data.midwest4 == actual.midwest4) {
             score += 2;
         }
-        if (data.midwest6 == actual.midwest6) {
+        if (data.midwest6 && data.midwest6 !== 'TBD' && data.midwest6 == actual.midwest6) {
             score += 2;
         }
-        if (data.midwest3 == actual.midwest3) {
+        if (data.midwest3 && data.midwest3 !== 'TBD' && data.midwest3 == actual.midwest3) {
             score += 2;
         }
-        if (data.midwest7 == actual.midwest7) {
+        if (data.midwest7 && data.midwest7 !== 'TBD' && data.midwest7 == actual.midwest7) {
             score += 2;
         }
-        if (data.midwest2 == actual.midwest2) {
+        if (data.midwest2 && data.midwest2 !== 'TBD' && data.midwest2 == actual.midwest2) {
             score += 2;
         }
-        if (data.south16_1 == actual.south16_1) {
+        if (data.south16_1 && data.south16_1 !== 'TBD' && data.south16_1 == actual.south16_1) {
             score += 4;
         }
-        if (data.south16_4 == actual.south16_4) {
+        if (data.south16_4 && data.south16_4 !== 'TBD' && data.south16_4 == actual.south16_4) {
             score += 4;
         }
-        if (data.south16_3 == actual.south16_3) {
+        if (data.south16_3 && data.south16_3 !== 'TBD' && data.south16_3 == actual.south16_3) {
             score += 4;
         }
-        if (data.south16_2 == actual.south16_2) {
+        if (data.south16_2 && data.south16_2 !== 'TBD' && data.south16_2 == actual.south16_2) {
             score += 4;
         }
-        if (data.west16_1 == actual.west16_1) {
+        if (data.west16_1 && data.west16_1 !== 'TBD' && data.west16_1 == actual.west16_1) {
             score += 4;
         }
-        if (data.west16_4 == actual.west16_4) {
+        if (data.west16_4 && data.west16_4 !== 'TBD' && data.west16_4 == actual.west16_4) {
             score += 4;
         }
-        if (data.west16_3 == actual.west16_3) {
+        if (data.west16_3 && data.west16_3 !== 'TBD' && data.west16_3 == actual.west16_3) {
             score += 4;
         }
-        if (data.west16_2 == actual.west16_2) {
+        if (data.west16_2 && data.west16_2 !== 'TBD' && data.west16_2 == actual.west16_2) {
             score += 4;
         }
-        if (data.east16_1 == actual.east16_1) {
+        if (data.east16_1 && data.east16_1 !== 'TBD' && data.east16_1 == actual.east16_1) {
             score += 4;
         }
-        if (data.east16_4 == actual.east16_4) {
+        if (data.east16_4 && data.east16_4 !== 'TBD' && data.east16_4 == actual.east16_4) {
             score += 4;
         }
-        if (data.east16_3 == actual.east16_3) {
+        if (data.east16_3 && data.east16_3 !== 'TBD' && data.east16_3 == actual.east16_3) {
             score += 4;
         }
-        if (data.east16_2 == actual.east16_2) {
+        if (data.east16_2 && data.east16_2 !== 'TBD' && data.east16_2 == actual.east16_2) {
             score += 4;
         }
-        if (data.midwest16_1 == actual.midwest16_1) {
+        if (data.midwest16_1 && data.midwest16_1 !== 'TBD' && data.midwest16_1 == actual.midwest16_1) {
             score += 4;
         }
-        if (data.midwest16_4 == actual.midwest16_4) {
+        if (data.midwest16_4 && data.midwest16_4 !== 'TBD' && data.midwest16_4 == actual.midwest16_4) {
             score += 4;
         }
-        if (data.midwest16_3 == actual.midwest16_3) {
+        if (data.midwest16_3 && data.midwest16_3 !== 'TBD' && data.midwest16_3 == actual.midwest16_3) {
             score += 4;
         }
-        if (data.midwest16_2 == actual.midwest16_2) {
+        if (data.midwest16_2 && data.midwest16_2 !== 'TBD' && data.midwest16_2 == actual.midwest16_2) {
             score += 4;
         }
-        if (data.south8_1 == actual.south8_1) {
+        if (data.south8_1 && data.south8_1 !== 'TBD' && data.south8_1 == actual.south8_1) {
             score += 8;
         }
-        if (data.south8_2 == actual.south8_2) {
+        if (data.south8_2 && data.south8_2 !== 'TBD' && data.south8_2 == actual.south8_2) {
             score += 8;
         }
-        if (data.west8_1 == actual.west8_1) {
+        if (data.west8_1 && data.west8_1 !== 'TBD' && data.west8_1 == actual.west8_1) {
             score += 8;
         }
-        if (data.west8_2 == actual.west8_2) {
+        if (data.west8_2 && data.west8_2 !== 'TBD' && data.west8_2 == actual.west8_2) {
             score += 8;
         }
-        if (data.east8_1 == actual.east8_1) {
+        if (data.east8_1 && data.east8_1 !== 'TBD' && data.east8_1 == actual.east8_1) {
             score += 8;
         }
-        if (data.east8_2 == actual.east8_2) {
+        if (data.east8_2 && data.east8_2 !== 'TBD' && data.east8_2 == actual.east8_2) {
             score += 8;
         }
-        if (data.midwest8_1 == actual.midwest8_1) {
+        if (data.midwest8_1 && data.midwest8_1 !== 'TBD' && data.midwest8_1 == actual.midwest8_1) {
             score += 8;
         }
-        if (data.midwest8_2 == actual.midwest8_2) {
+        if (data.midwest8_2 && data.midwest8_2 !== 'TBD' && data.midwest8_2 == actual.midwest8_2) {
             score += 8;
         }
-        if (data.south == actual.south) {
+        if (data.south && data.south !== 'TBD' && data.south == actual.south) {
             score += 16;
         }
-        if (data.west == actual.west) {
+        if (data.west && data.west !== 'TBD' && data.west == actual.west) {
             score += 16;
         }
-        if (data.east == actual.east) {
+        if (data.east && data.east !== 'TBD' && data.east == actual.east) {
             score += 16;
         }
-        if (data.midwest == actual.midwest) {
+        if (data.midwest && data.midwest !== 'TBD' && data.midwest == actual.midwest) {
             score += 16;
         }
-        if (data.finalleft == actual.finalleft) {
+        if (data.finalleft && data.finalleft !== 'TBD' && data.finalleft == actual.finalleft) {
             score += 32;
         }
-        if (data.finalright == actual.finalright) {
+        if (data.finalright && data.finalright !== 'TBD' && data.finalright == actual.finalright) {
             score += 32;
         }
-        if (data.champion == actual.champion) {
+        if (data.champion && data.champion !== 'TBD' && data.champion == actual.champion) {
             score += 64;
         }
         menScoreData.push({name: data.name, score: score});
@@ -234,7 +237,6 @@ function countMenScore() {
 }
 
 function updateMenBracketData() {
-    console.log(menBracketData[0]);
     const parentDiv = document.getElementById('menbracket');
     parentDiv.innerHTML = '';
     const buttonDiv = document.createElement('div');
@@ -423,6 +425,423 @@ function updateMenBracketData() {
                         <p class="team lowright">Utah State</p>
                         <p class="team">Tennessee</p>
                         <p class="team lowright">Wofford</p>
+                    </div>`;
+        bracketDiv.appendChild(containerDiv);
+        parentDiv.appendChild(bracketDiv);
+    })
+}
+
+let womenBracketData = [
+    {name: "Actual"},
+    {name: "Geoffrey", firstfour1: "Southern", firstfour2: "Columbia", firstfour3: "Princeton", firstfour4: "High Point", spokaneup1: "UCLA", spokaneup8: "Richmond", spokaneup5: "Ole Miss", spokaneup4: "Baylor", spokaneup6: "Florida St", spokaneup3: "LSU", spokaneup7: "Michigan St", spokaneup2: "NC State", spokanedown1: "USC", spokanedown8: "California", spokanedown5: "Kansas St", spokanedown4: "Kentucky", spokanedown6: "Iowa", spokanedown3: "Oklahoma", spokanedown7: "Oklahoma St", spokanedown2: "UConn", birminghamup1: "South Carolina", birminghamup8: "Indiana", birminghamup5: "Alabama", birminghamup4: "Maryland", birminghamup6: "West Virginia", birminghamup3: "North Carolina", birminghamup7: "Vanderbilt", birminghamup2: "Duke", birminghamdown1: "Texas", birminghamdown8: "Creighton", birminghamdown5: "Tennessee", birminghamdown4: "Ohio State", birminghamdown6: "Princeton", birminghamdown3: "Notre Dame", birminghamdown7: "Nebraska", birminghamdown2: "TCU", spokaneup16_1: "UCLA", spokaneup16_4: "Baylor", spokaneup16_3: "LSU", spokaneup16_2: "NC State", spokanedown16_1: "USC", spokanedown16_4: "Kansas St", spokanedown16_3: "Iowa", spokanedown16_2: "UConn", birminghamup16_1: "South Carolina", birminghamup16_4: "Maryland", birminghamup16_3: "North Carolina", birminghamup16_2: "Duke", birminghamdown16_1: "Texas", birminghamdown16_4: "Tennessee", birminghamdown16_3: "Notre Dame", birminghamdown16_2: "TCU", spokaneup8_1: "UCLA", spokaneup8_2: "LSU", spokanedown8_1: "USC", spokanedown8_2: "UConn", birminghamup8_1: "South Carolina", birminghamup8_2: "Duke", birminghamdown8_1: "Texas", birminghamdown8_2: "Notre Dame", spokaneup: "UCLA", spokanedown: "UConn", birminghamup: "South Carolina", birminghamdown: "Notre Dame", finalleft: "UConn", finalright: "South Carolina", champion: "UConn"},
+    {name: "Dad 'JuJu' Ben", firstfour1: "UC San Diego", firstfour2: "Columbia", firstfour3: "Princeton", firstfour4: "High Point", spokaneup1: "UCLA", spokaneup8: "Georgia Tech", spokaneup5: "Ole Miss", spokaneup4: "Baylor", spokaneup6: "George Mason", spokaneup3: "LSU", spokaneup7: "Michigan St", spokaneup2: "NC State", spokanedown1: "USC", spokanedown8: "California", spokanedown5: "Kansas St", spokanedown4: "Kentucky", spokanedown6: "Iowa", spokanedown3: "Oklahoma", spokanedown7: "S Dakota St", spokanedown2: "UConn", birminghamup1: "South Carolina", birminghamup8: "Utah", birminghamup5: "Alabama", birminghamup4: "Maryland", birminghamup6: "West Virginia", birminghamup3: "North Carolina", birminghamup7: "Oregon", birminghamup2: "Duke", birminghamdown1: "Texas", birminghamdown8: "Illinois", birminghamdown5: "Tennessee", birminghamdown4: "Ohio State", birminghamdown6: "Michigan", birminghamdown3: "Notre Dame", birminghamdown7: "Nebraska", birminghamdown2: "TCU", spokaneup16_1: "UCLA", spokaneup16_4: "Baylor", spokaneup16_3: "LSU", spokaneup16_2: "NC State", spokanedown16_1: "USC", spokanedown16_4: "Kentucky", spokanedown16_3: "Oklahoma", spokanedown16_2: "UConn", birminghamup16_1: "South Carolina", birminghamup16_4: "Alabama", birminghamup16_3: "West Virginia", birminghamup16_2: "Duke", birminghamdown16_1: "Texas", birminghamdown16_4: "Tennessee", birminghamdown16_3: "Notre Dame", birminghamdown16_2: "TCU", spokaneup8_1: "UCLA", spokaneup8_2: "LSU", spokanedown8_1: "USC", spokanedown8_2: "UConn", birminghamup8_1: "South Carolina", birminghamup8_2: "Duke", birminghamdown8_1: "Texas", birminghamdown8_2: "TCU", spokaneup: "UCLA", spokanedown: "USC", birminghamup: "South Carolina", birminghamdown: "TCU", finalleft: "USC", finalright: "South Carolina", champion: "USC"},
+    {name: "Helena", firstfour1: "UC San Diego", firstfour2: "Columbia", firstfour3: "Princeton", firstfour4: "William & Mary", spokaneup1: "UCLA", spokaneup8: "Richmond", spokaneup5: "Ole Miss", spokaneup4: "Baylor", spokaneup6: "George Mason", spokaneup3: "LSU", spokaneup7: "Harvard", spokaneup2: "NC State", spokanedown1: "USC", spokanedown8: "Mississippi St", spokanedown5: "Fairfield", spokanedown4: "Liberty", spokanedown6: "Murray St", spokanedown3: "Oklahoma", spokanedown7: "Oklahoma St", spokanedown2: "UConn", birminghamup1: "South Carolina", birminghamup8: "Indiana", birminghamup5: "Alabama", birminghamup4: "Maryland", birminghamup6: "West Virginia", birminghamup3: "North Carolina", birminghamup7: "Vanderbilt", birminghamup2: "Lehigh", birminghamdown1: "Texas", birminghamdown8: "Illinois", birminghamdown5: "South Florida", birminghamdown4: "Ohio State", birminghamdown6: "Princeton", birminghamdown3: "Notre Dame", birminghamdown7: "Louisville", birminghamdown2: "TCU", spokaneup16_1: "UCLA", spokaneup16_4: "Ole Miss", spokaneup16_3: "LSU", spokaneup16_2: "Harvard", spokanedown16_1: "USC", spokanedown16_4: "Liberty", spokanedown16_3: "Oklahoma", spokanedown16_2: "UConn", birminghamup16_1: "South Carolina", birminghamup16_4: "Alabama", birminghamup16_3: "North Carolina", birminghamup16_2: "Vanderbilt", birminghamdown16_1: "Texas", birminghamdown16_4: "Ohio State", birminghamdown16_3: "Notre Dame", birminghamdown16_2: "TCU", spokaneup8_1: "UCLA", spokaneup8_2: "LSU", spokanedown8_1: "USC", spokanedown8_2: "UConn", birminghamup8_1: "South Carolina", birminghamup8_2: "North Carolina", birminghamdown8_1: "Texas", birminghamdown8_2: "Notre Dame", spokaneup: "UCLA", spokanedown: "UConn", birminghamup: "South Carolina", birminghamdown: "Notre Dame", finalleft: "UCLA", finalright: "South Carolina", champion: "South Carolina"},
+    {name: "Unc G", firstfour1: "UC San Diego", firstfour2: "Washington", firstfour3: "Princeton", firstfour4: "High Point", spokaneup1: "UCLA", spokaneup8: "Georgia Tech", spokaneup5: "Ole Miss", spokaneup4: "Baylor", spokaneup6: "Florida St", spokaneup3: "LSU", spokaneup7: "Harvard", spokaneup2: "NC State", spokanedown1: "USC", spokanedown8: "California", spokanedown5: "Kansas St", spokanedown4: "Kentucky", spokanedown6: "Iowa", spokanedown3: "FGCU", spokanedown7: "Oklahoma St", spokanedown2: "UConn", birminghamup1: "South Carolina", birminghamup8: "Utah", birminghamup5: "Alabama", birminghamup4: "Maryland", birminghamup6: "West Virginia", birminghamup3: "North Carolina", birminghamup7: "Oregon", birminghamup2: "Duke", birminghamdown1: "Texas", birminghamdown8: "Illinois", birminghamdown5: "Tennessee", birminghamdown4: "Ohio State", birminghamdown6: "Michigan", birminghamdown3: "Notre Dame", birminghamdown7: "Nebraska", birminghamdown2: "TCU", spokaneup16_1: "UCLA", spokaneup16_4: "Baylor", spokaneup16_3: "LSU", spokaneup16_2: "NC State", spokanedown16_1: "USC", spokanedown16_4: "Kentucky", spokanedown16_3: "FGCU", spokanedown16_2: "UConn", birminghamup16_1: "South Carolina", birminghamup16_4: "Maryland", birminghamup16_3: "North Carolina", birminghamup16_2: "Duke", birminghamdown16_1: "Texas", birminghamdown16_4: "Tennessee", birminghamdown16_3: "Notre Dame", birminghamdown16_2: "TCU", spokaneup8_1: "UCLA", spokaneup8_2: "LSU", spokanedown8_1: "USC", spokanedown8_2: "UConn", birminghamup8_1: "South Carolina", birminghamup8_2: "Duke", birminghamdown8_1: "Texas", birminghamdown8_2: "TCU", spokaneup: "LSU", spokanedown: "UConn", birminghamup: "South Carolina", birminghamdown: "TCU", finalleft: "UConn", finalright: "South Carolina", champion: "UConn"},
+    {name: "Eric", firstfour1: "UC San Diego", firstfour2: "Washington", firstfour3: "Iowa State", firstfour4: "High Point", spokaneup1: "UCLA", spokaneup8: "Richmond", spokaneup5: "Ball State", spokaneup4: "Baylor", spokaneup6: "Florida St", spokaneup3: "LSU", spokaneup7: "Harvard", spokaneup2: "NC State", spokanedown1: "USC", spokanedown8: "California", spokanedown5: "Fairfield", spokanedown4: "Kentucky", spokanedown6: "Iowa", spokanedown3: "Oklahoma", spokanedown7: "S Dakota St", spokanedown2: "UConn", birminghamup1: "South Carolina", birminghamup8: "Utah", birminghamup5: "Alabama", birminghamup4: "Maryland", birminghamup6: "West Virginia", birminghamup3: "North Carolina", birminghamup7: "Oregon", birminghamup2: "Duke", birminghamdown1: "Texas", birminghamdown8: "Illinois", birminghamdown5: "Tennessee", birminghamdown4: "Ohio State", birminghamdown6: "Michigan", birminghamdown3: "Notre Dame", birminghamdown7: "Louisville", birminghamdown2: "TCU", spokaneup16_1: "UCLA", spokaneup16_4: "Baylor", spokaneup16_3: "LSU", spokaneup16_2: "NC State", spokanedown16_1: "USC", spokanedown16_4: "Kentucky", spokanedown16_3: "Iowa", spokanedown16_2: "UConn", birminghamup16_1: "South Carolina", birminghamup16_4: "Alabama", birminghamup16_3: "North Carolina", birminghamup16_2: "Duke", birminghamdown16_1: "Texas", birminghamdown16_4: "Ohio State", birminghamdown16_3: "Notre Dame", birminghamdown16_2: "TCU", spokaneup8_1: "UCLA", spokaneup8_2: "LSU", spokanedown8_1: "Kentucky", spokanedown8_2: "UConn", birminghamup8_1: "South Carolina", birminghamup8_2: "North Carolina", birminghamdown8_1: "Texas", birminghamdown8_2: "TCU", spokaneup: "LSU", spokanedown: "UConn", birminghamup: "North Carolina", birminghamdown: "TCU", finalleft: "UConn", finalright: "TCU", champion: "UConn"}
+]
+
+let womenScoreData = [];
+
+function countWomenScore() {
+    womenScoreData = [];
+    const actual = womenBracketData[0];
+    womenBracketData.forEach(data => {
+        let score = 0;
+        if (data.firstfour1 && data.firstfour1 !== 'TBD' && data.firstfour1 == actual.firstfour1) {
+            score += 1;
+        }
+        if (data.firstfour2 && data.firstfour2 !== 'TBD' && data.firstfour2 == actual.firstfour2) {
+            score += 1;
+        }
+        if (data.firstfour3 && data.firstfour3 !== 'TBD' && data.firstfour3 == actual.firstfour3) {
+            score += 1;
+        }
+        if (data.firstfour4 && data.firstfour4 !== 'TBD' && data.firstfour4 == actual.firstfour4) {
+            score += 1;
+        }
+        if (data.spokaneup1 && data.spokaneup1 !== 'TBD' && data.spokaneup1 == actual.spokaneup1) {
+            score += 2;
+        }
+        if (data.spokaneup8 && data.spokaneup8 !== 'TBD' && data.spokaneup8 == actual.spokaneup8) {
+            score += 2;
+        }
+        if (data.spokaneup5 && data.spokaneup5 !== 'TBD' && data.spokaneup5 == actual.spokaneup5) {
+            score += 2;
+        }
+        if (data.spokaneup4 && data.spokaneup4 !== 'TBD' && data.spokaneup4 == actual.spokaneup4) {
+            score += 2;
+        }
+        if (data.spokaneup6 && data.spokaneup6 !== 'TBD' && data.spokaneup6 == actual.spokaneup6) {
+            score += 2;
+        }
+        if (data.spokaneup3 && data.spokaneup3 !== 'TBD' && data.spokaneup3 == actual.spokaneup3) {
+            score += 2;
+        }
+        if (data.spokaneup7 && data.spokaneup7 !== 'TBD' && data.spokaneup7 == actual.spokaneup7) {
+            score += 2;
+        }
+        if (data.spokaneup2 && data.spokaneup2 !== 'TBD' && data.spokaneup2 == actual.spokaneup2) {
+            score += 2;
+        }
+        if (data.spokanedown1 && data.spokanedown1 !== 'TBD' && data.spokanedown1 == actual.spokanedown1) {
+            score += 2;
+        }
+        if (data.spokanedown8 && data.spokanedown8 !== 'TBD' && data.spokanedown8 == actual.spokanedown8) {
+            score += 2;
+        }
+        if (data.spokanedown5 && data.spokanedown5 !== 'TBD' && data.spokanedown5 == actual.spokanedown5) {
+            score += 2;
+        }
+        if (data.spokanedown4 && data.spokanedown4 !== 'TBD' && data.spokanedown4 == actual.spokanedown4) {
+            score += 2;
+        }
+        if (data.spokanedown6 && data.spokanedown6 !== 'TBD' && data.spokanedown6 == actual.spokanedown6) {
+            score += 2;
+        }
+        if (data.spokanedown3 && data.spokanedown3 !== 'TBD' && data.spokanedown3 == actual.spokanedown3) {
+            score += 2;
+        }
+        if (data.spokanedown7 && data.spokanedown7 !== 'TBD' && data.spokanedown7 == actual.spokanedown7) {
+            score += 2;
+        }
+        if (data.spokanedown2 && data.spokanedown2 !== 'TBD' && data.spokanedown2 == actual.spokanedown2) {
+            score += 2;
+        }
+        if (data.birminghamup1 && data.birminghamup1 !== 'TBD' && data.birminghamup1 == actual.birminghamup1) {
+            score += 2;
+        }
+        if (data.birminghamup8 && data.birminghamup8 !== 'TBD' && data.birminghamup8 == actual.birminghamup8) {
+            score += 2;
+        }
+        if (data.birminghamup5 && data.birminghamup5 !== 'TBD' && data.birminghamup5 == actual.birminghamup5) {
+            score += 2;
+        }
+        if (data.birminghamup4 && data.birminghamup4 !== 'TBD' && data.birminghamup4 == actual.birminghamup4) {
+            score += 2;
+        }
+        if (data.birminghamup6 && data.birminghamup6 !== 'TBD' && data.birminghamup6 == actual.birminghamup6) {
+            score += 2;
+        }
+        if (data.birminghamup3 && data.birminghamup3 !== 'TBD' && data.birminghamup3 == actual.birminghamup3) {
+            score += 2;
+        }
+        if (data.birminghamup7 && data.birminghamup7 !== 'TBD' && data.birminghamup7 == actual.birminghamup7) {
+            score += 2;
+        }
+        if (data.birminghamup2 && data.birminghamup2 !== 'TBD' && data.birminghamup2 == actual.birminghamup2) {
+            score += 2;
+        }
+        if (data.birminghamdown1 && data.birminghamdown1 !== 'TBD' && data.birminghamdown1 == actual.birminghamdown1) {
+            score += 2;
+        }
+        if (data.birminghamdown8 && data.birminghamdown8 !== 'TBD' && data.birminghamdown8 == actual.birminghamdown8) {
+            score += 2;
+        }
+        if (data.birminghamdown5 && data.birminghamdown5 !== 'TBD' && data.birminghamdown5 == actual.birminghamdown5) { 
+            score += 2;
+        }
+        if (data.birminghamdown4 && data.birminghamdown4 !== 'TBD' && data.birminghamdown4 == actual.birminghamdown4) {
+            score += 2;
+        }
+        if (data.birminghamdown6 && data.birminghamdown6 !== 'TBD' && data.birminghamdown6 == actual.birminghamdown6) {
+            score += 2;
+        }
+        if (data.birminghamdown3 && data.birminghamdown3 !== 'TBD' && data.birminghamdown3 == actual.birminghamdown3) {
+            score += 2;
+        }
+        if (data.birminghamdown7 && data.birminghamdown7 !== 'TBD' && data.birminghamdown7 == actual.birminghamdown7) {
+            score += 2;
+        }
+        if (data.birminghamdown2 && data.birminghamdown2 !== 'TBD' && data.birminghamdown2 == actual.birminghamdown2) {
+            score += 2;
+        }
+        if (data.spokaneup16_1 && data.spokaneup16_1 !== 'TBD' && data.spokaneup16_1 == actual.spokaneup16_1) {
+            score += 4;
+        }
+        if (data.spokaneup16_4 && data.spokaneup16_4 !== 'TBD' && data.spokaneup16_4 == actual.spokaneup16_4) {
+            score += 4;
+        }
+        if (data.spokaneup16_3 && data.spokaneup16_3 !== 'TBD' && data.spokaneup16_3 == actual.spokaneup16_3) {
+            score += 4;
+        }
+        if (data.spokaneup16_2 && data.spokaneup16_2 !== 'TBD' && data.spokaneup16_2 == actual.spokaneup16_2) {
+            score += 4;
+        }
+        if (data.spokanedown16_1 && data.spokanedown16_1 !== 'TBD' && data.spokanedown16_1 == actual.spokanedown16_1) {
+            score += 4;
+        }
+        if (data.spokanedown16_4 && data.spokanedown16_4 !== 'TBD' && data.spokanedown16_4 == actual.spokanedown16_4) {
+            score += 4;
+        }
+        if (data.spokanedown16_3 && data.spokanedown16_3 !== 'TBD' && data.spokanedown16_3 == actual.spokanedown16_3) {
+            score += 4;
+        }
+        if (data.spokanedown16_2 && data.spokanedown16_2 !== 'TBD' && data.spokanedown16_2 == actual.spokanedown16_2) {
+            score += 4;
+        }
+        if (data.birminghamup16_1 && data.birminghamup16_1 !== 'TBD' && data.birminghamup16_1 == actual.birminghamup16_1) {
+            score += 4;
+        }
+        if (data.birminghamup16_4 && data.birminghamup16_4 !== 'TBD' && data.birminghamup16_4 == actual.birminghamup16_4) {
+            score += 4;
+        }
+        if (data.birminghamup16_3 && data.birminghamup16_3 !== 'TBD' && data.birminghamup16_3 == actual.birminghamup16_3) {
+            score += 4;
+        }
+        if (data.birminghamup16_2 && data.birminghamup16_2 !== 'TBD' && data.birminghamup16_2 == actual.birminghamup16_2) {
+            score += 4;
+        }
+        if (data.birminghamdown16_1 && data.birminghamdown16_1 !== 'TBD' && data.birminghamdown16_1 == actual.birminghamdown16_1) {
+            score += 4;
+        }
+        if (data.birminghamdown16_4 && data.birminghamdown16_4 !== 'TBD' && data.birminghamdown16_4 == actual.birminghamdown16_4) {
+            score += 4;
+        }
+        if (data.birminghamdown16_3 && data.birminghamdown16_3 !== 'TBD' && data.birminghamdown16_3 == actual.birminghamdown16_3) {
+            score += 4;
+        }
+        if (data.birminghamdown16_2 && data.birminghamdown16_2 !== 'TBD' && data.birminghamdown16_2 == actual.birminghamdown16_2) {
+            score += 4;
+        }
+        if (data.spokaneup8_1 && data.spokaneup8_1 !== 'TBD' && data.spokaneup8_1 == actual.spokaneup8_1) {
+            score += 8;
+        }
+        if (data.spokaneup8_2 && data.spokaneup8_2 !== 'TBD' && data.spokaneup8_2 == actual.spokaneup8_2) {
+            score += 8;
+        }
+        if (data.spokanedown8_1 && data.spokanedown8_1 !== 'TBD' && data.spokanedown8_1 == actual.spokanedown8_1) {
+            score += 8;
+        }
+        if (data.spokanedown8_2 && data.spokanedown8_2 !== 'TBD' && data.spokanedown8_2 == actual.spokanedown8_2) {
+            score += 8;
+        }
+        if (data.birminghamup8_1 && data.birminghamup8_1 !== 'TBD' && data.birminghamup8_1 == actual.birminghamup8_1) {
+            score += 8;
+        }
+        if (data.birminghamup8_2 && data.birminghamup8_2 !== 'TBD' && data.birminghamup8_2 == actual.birminghamup8_2) {
+            score += 8;
+        }
+        if (data.birminghamdown8_1 && data.birminghamdown8_1 !== 'TBD' && data.birminghamdown8_1 == actual.birminghamdown8_1) {
+            score += 8;
+        }
+        if (data.birminghamdown8_2 && data.birminghamdown8_2 !== 'TBD' && data.birminghamdown8_2 == actual.birminghamdown8_2) {
+            score += 8;
+        }
+        if (data.spokaneup && data.spokaneup !== 'TBD' && data.spokaneup == actual.spokaneup) {
+            score += 16;
+        }
+        if (data.spokanedown && data.spokanedown !== 'TBD' && data.spokanedown == actual.spokanedown) {
+            score += 16;
+        }
+        if (data.birminghamup && data.birminghamup !== 'TBD' && data.birminghamup == actual.birminghamup) {
+            score += 16;
+        }
+        if (data.birminghamdown && data.birminghamdown !== 'TBD' && data.birminghamdown == actual.birminghamdown) {
+            score += 16;
+        }
+        if (data.finalleft && data.finalleft !== 'TBD' && data.finalleft == actual.finalleft) {
+            score += 32;
+        }
+        if (data.finalright && data.finalright !== 'TBD' && data.finalright == actual.finalright) {
+            score += 32;
+        }
+        if (data.champion && data.champion !== 'TBD' && data.champion == actual.champion) {
+            score += 64;
+        }
+        womenScoreData.push({name: data.name, score: score});
+    })
+    console.log(womenScoreData);
+}
+
+function updateWomenBracketData() {
+    const parentDiv = document.getElementById('womenbracket');
+    parentDiv.innerHTML = '';
+    const buttonDiv = document.createElement('div');
+    buttonDiv.className = 'sub-sub-tab';
+    parentDiv.appendChild(buttonDiv);
+    womenBracketData.forEach(data => {
+        const button = document.createElement('button');
+        button.textContent = data.name;
+        button.className = 'sub-sub-tab-button';
+        button.onclick = function(event) { openSection(event, 'womenbracket-' + data.name.toLowerCase(), 'sub-sub-tab-content', 'sub-sub-tab-button')};
+        buttonDiv.appendChild(button);
+        const bracketDiv = document.createElement('div');
+        bracketDiv.id = 'womenbracket-' + data.name.toLowerCase();
+        bracketDiv.className = 'sub-sub-tab-content';
+        const containerDiv = document.createElement('div');
+        containerDiv.className = 'container';
+        containerDiv.innerHTML = `<div class="section">
+                        <p>1st Round</p>
+                        <p class="date">March 21-22</p>
+                        <p class="team">UCLA</p>
+                        <p class="team lowleft">${data.firstfour1 || 'TBD'}</p>
+                        <p class="team">Richmond</p>
+                        <p class="team lowleft">Georgia Tech</p>
+                        <p class="team">Ole Miss</p>
+                        <p class="team lowleft">Ball State</p>
+                        <p class="team">Baylor</p>
+                        <p class="team lowleft">Grand Canyon</p>
+                        <p class="team">Florida St</p>
+                        <p class="team lowleft">George Mason</p>
+                        <p class="team">LSU</p>
+                        <p class="team lowleft">San Diego St</p>
+                        <p class="team">Michigan St</p>
+                        <p class="team lowleft">Harvard</p>
+                        <p class="team">NC State</p>
+                        <p class="team lowleft">Vermont</p>
+                        <p class="team">USC</p>
+                        <p class="team lowleft">UNC Greensboro</p>
+                        <p class="team">California</p>
+                        <p class="team lowleft">Mississippi St</p>
+                        <p class="team">Kansas St</p>
+                        <p class="team lowleft">Fairfield</p>
+                        <p class="team">Kentucky</p>
+                        <p class="team lowleft">Liberty</p>
+                        <p class="team">Iowa</p>
+                        <p class="team lowleft">Murray St</p>
+                        <p class="team">Oklahoma</p>
+                        <p class="team lowleft">FGCU</p>
+                        <p class="team">Oklahoma St</p>
+                        <p class="team lowleft">S Dakota St</p>
+                        <p class="team">UConn</p>
+                        <p class="team lowleft">Arkansas St</p>
+                    </div>
+                    <div class="section">
+                        <p>2nd Round</p>
+                        <p class="date">March 23-24</p>
+                        <p class="team topset2">${data.spokaneup1 || 'TBD'}</p>
+                        <p class="team lowleft lowset2">${data.spokaneup8 || 'TBD'}</p>
+                        <p class="team lowset2">${data.spokaneup5 || 'TBD'}</p>
+                        <p class="team lowleft lowset2">${data.spokaneup4 || 'TBD'}</p>
+                        <p class="team lowset2">${data.spokaneup6 || 'TBD'}</p>
+                        <p class="team lowleft lowset2">${data.spokaneup3 || 'TBD'}</p>
+                        <p class="team lowset2">${data.spokaneup7 || 'TBD'}</p>
+                        <p class="team lowleft lowset2">${data.spokaneup2 || 'TBD'}</p>
+                        <p class="team lowset2">${data.spokanedown1 || 'TBD'}</p>
+                        <p class="team lowleft lowset2">${data.spokanedown8 || 'TBD'}</p>
+                        <p class="team lowset2">${data.spokanedown5 || 'TBD'}</p>
+                        <p class="team lowleft lowset2">${data.spokanedown4 || 'TBD'}</p>
+                        <p class="team lowset2">${data.spokanedown6 || 'TBD'}</p>
+                        <p class="team lowleft lowset2">${data.spokanedown3 || 'TBD'}</p>
+                        <p class="team lowset2">${data.spokanedown7 || 'TBD'}</p>
+                        <p class="team lowleft lowset2">${data.spokanedown2 || 'TBD'}</p>
+                    </div>
+                    <div class="section">
+                        <p>Sweet 16</p>
+                        <p class="date">March 28-29</p>
+                        <p class="team topset3">${data.spokaneup16_1 || 'TBD'}</p>
+                        <p class="team lowleft lowset3">${data.spokaneup16_4 || 'TBD'}</p>
+                        <p class="team lowset3">${data.spokaneup16_3 || 'TBD'}</p>
+                        <p class="team lowleft lowset3">${data.spokaneup16_2 || 'TBD'}</p>
+                        <p class="team lowset3">${data.spokanedown16_1 || 'TBD'}</p>
+                        <p class="team lowleft lowset3">${data.spokanedown16_4 || 'TBD'}</p>
+                        <p class="team lowset3">${data.spokanedown16_3 || 'TBD'}</p>
+                        <p class="team lowleft lowset3">${data.spokanedown16_2 || 'TBD'}</p>
+                    </div>
+                    <div class="section">
+                        <p>Elite 8</p>
+                        <p class="date">March 30-31</p>
+                        <p class="team topset4">${data.spokaneup8_1 || 'TBD'}</p>
+                        <p class="team lowleft lowset4">${data.spokaneup8_2 || 'TBD'}</p>
+                        <p class="team lowset4">${data.spokanedown8_1 || 'TBD'}</p>
+                        <p class="team lowleft lowset4">${data.spokanedown8_2 || 'TBD'}</p>
+                    </div>
+                    <div class="section">
+                        <p>Final 4</p>
+                        <p class="date">April 4</p>
+                        <p class="team topset5">${data.spokaneup || 'TBD'}</p>
+                        <p class="team lowleft lowset5">${data.spokanedown || 'TBD'}</p>
+                    </div>
+                    <div class="section">
+                        <p>Championship</p>
+                        <p class="date">April 6</p>
+                        <p class="team leftfinal">${data.finalleft || 'TBD'}</p>
+                        <p class="team winner">${data.champion || 'TBD'}</p>
+                        <div class="rightcontainer">
+                            <p class="team rightfinal">${data.finalright || 'TBD'}</p>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <p>Final 4</p>
+                        <p class="date">April 4</p>
+                        <p class="team topset5">${data.birminghamup || 'TBD'}</p>
+                        <p class="team lowright lowset5">${data.birminghamdown || 'TBD'}</p>
+                    </div>
+                    <div class="section">
+                        <p>Elite 8</p>
+                        <p class="date">March 30-31</p>
+                        <p class="team topset4">${data.birminghamup8_1 || 'TBD'}</p>
+                        <p class="team lowright lowset4">${data.birminghamup8_2 || 'TBD'}</p>
+                        <p class="team lowset4">${data.birminghamdown8_1 || 'TBD'}</p>
+                        <p class="team lowright lowset4">${data.birminghamdown8_2 || 'TBD'}</p>
+                    </div>
+                    <div class="section">
+                        <p>Sweet 16</p>
+                        <p class="date">March 28-29</p>
+                        <p class="team topset3">${data.birminghamup16_1 || 'TBD'}</p>
+                        <p class="team lowright lowset3">${data.birminghamup16_4 || 'TBD'}</p>
+                        <p class="team lowset3">${data.birminghamup16_3 || 'TBD'}</p>
+                        <p class="team lowright lowset3">${data.birminghamup16_2 || 'TBD'}</p>
+                        <p class="team lowset3">${data.birminghamdown16_1 || 'TBD'}</p>
+                        <p class="team lowright lowset3">${data.birminghamdown16_4 || 'TBD'}</p>
+                        <p class="team lowset3">${data.birminghamdown16_3 || 'TBD'}</p>
+                        <p class="team lowright lowset3">${data.birminghamdown16_2 || 'TBD'}</p>
+                    </div>
+                    <div class="section">
+                        <p>2nd Round</p>
+                        <p class="date">March 23-24</p>
+                        <p class="team topset2">${data.birminghamup1 || 'TBD'}</p>
+                        <p class="team lowright lowset2">${data.birminghamup8 || 'TBD'}</p>
+                        <p class="team lowset2">${data.birminghamup5 || 'TBD'}</p>
+                        <p class="team lowright lowset2">${data.birminghamup4 || 'TBD'}</p>
+                        <p class="team lowset2">${data.birminghamup6 || 'TBD'}</p>
+                        <p class="team lowright lowset2">${data.birminghamup3 || 'TBD'}</p>
+                        <p class="team lowset2">${data.birminghamup7 || 'TBD'}</p>
+                        <p class="team lowright lowset2">${data.birminghamup2 || 'TBD'}</p>
+                        <p class="team lowset2">${data.birminghamdown1 || 'TBD'}</p>
+                        <p class="team lowright lowset2">${data.birminghamdown8 || 'TBD'}</p>
+                        <p class="team lowset2">${data.birminghamdown5 || 'TBD'}</p>
+                        <p class="team lowright lowset2">${data.birminghamdown4 || 'TBD'}</p>
+                        <p class="team lowset2">${data.birminghamdown6 || 'TBD'}</p>
+                        <p class="team lowright lowset2">${data.birminghamdown3 || 'TBD'}</p>
+                        <p class="team lowset2">${data.birminghamdown7 || 'TBD'}</p>
+                        <p class="team lowright lowset2">${data.birminghamdown2 || 'TBD'}</p>
+                    </div>
+                    <div class="section">
+                        <p>1st Round</p>
+                        <p class="date">March 21-22</p>
+                        <p class="team">South Carolina</p>
+                        <p class="team lowright">Tennessee Tech</p>
+                        <p class="team">Utah</p>
+                        <p class="team lowright">Indiana</p>
+                        <p class="team">Alabama</p>
+                        <p class="team lowright">Green Bay</p>
+                        <p class="team">Maryland</p>
+                        <p class="team lowright">Norfolk St</p>
+                        <p class="team">West Virginia</p>
+                        <p class="team lowright">${data.firstfour2 || 'TBD'}</p>
+                        <p class="team">North Carolina</p>
+                        <p class="team lowright">Oregon St</p>
+                        <p class="team">Vanderbilt</p>
+                        <p class="team lowright">Oregon</p>
+                        <p class="team">Duke</p>
+                        <p class="team lowright">Lehigh</p>
+                        <p class="team">Texas</p>
+                        <p class="team lowright">${data.firstfour4 || 'TBD'}</p>
+                        <p class="team">Illinois</p>
+                        <p class="team lowright">Creighton</p>
+                        <p class="team">Tennessee</p>
+                        <p class="team lowright">South Florida</p>
+                        <p class="team">Ohio State</p>
+                        <p class="team lowright">Montana St</p>
+                        <p class="team">Michigan</p>
+                        <p class="team lowright">${data.firstfour3 || 'TBD'}</p>
+                        <p class="team">Notre Dame</p>
+                        <p class="team lowright">SF Austin</p>
+                        <p class="team">Louisville</p>
+                        <p class="team lowright">Nebraska</p>
+                        <p class="team">TCU</p>
+                        <p class="team lowright">Fair Dickinson</p>
                     </div>`;
         bracketDiv.appendChild(containerDiv);
         parentDiv.appendChild(bracketDiv);
@@ -735,6 +1154,251 @@ function updateGames(gender, startDate, endDate, elementId) {
                             menBracketData[0].champion = victor;
                         }
                     }
+                    if (gender == 'womens') {
+                        if (gameStatus.toLowerCase().includes('final')) {
+                            victor = game.competitions[0].competitors[0].winner === true ? firstTeam : secondTeam;
+                        }
+                        const headline = game.competitions[0].notes[0].headline.toLowerCase();
+                        if (headline.includes('first four')) {
+                            if (headline.includes('1')) {
+                                womenBracketData[0].firstfour1 = victor;
+                            }
+                            if (headline.includes('2')) {
+                                womenBracketData[0].firstfour2 = victor;
+                            }
+                            if (headline.includes('3')) {
+                                if (firstSeed == '(11)') {
+                                    womenBracketData[0].firstfour3 = victor;
+                                }
+                                if (firstSeed == '(16)') {
+                                    womenBracketData[0].firstfour4 = victor;
+                                }
+                            }
+                        }
+                        else if (headline.includes('1st round')) {
+                            if (headline.includes('regional 1')) {
+                                if ((firstSeed == '(1)') || (firstSeed == '(16)')) {
+                                    womenBracketData[0].spokaneup1 = victor;
+                                }
+                                if ((firstSeed == '(8)') || (firstSeed == '(9)')) {
+                                    womenBracketData[0].spokaneup8 = victor;
+                                }
+                                if ((firstSeed == '(5)') || (firstSeed == '(12)')) {
+                                    womenBracketData[0].spokaneup5 = victor;
+                                }
+                                if ((firstSeed == '(4)') || (firstSeed == '(13)')) {
+                                    womenBracketData[0].spokaneup4 = victor;
+                                }
+                                if ((firstSeed == '(6)') || (firstSeed == '(11)')) {
+                                    womenBracketData[0].spokaneup6 = victor;
+                                }
+                                if ((firstSeed == '(3)') || (firstSeed == '(14)')) {
+                                    womenBracketData[0].spokaneup3 = victor;
+                                }
+                                if ((firstSeed == '(7)') || (firstSeed == '(10)')) {
+                                    womenBracketData[0].spokaneup7 = victor;
+                                }
+                                if ((firstSeed == '(2)') || (firstSeed == '(15)')) {
+                                    womenBracketData[0].spokaneup2 = victor;
+                                }
+                            }
+                            if (headline.includes('regional 4')) {
+                                if ((firstSeed == '(1)') || (firstSeed == '(16)')) {
+                                    womenBracketData[0].spokanedown1 = victor;
+                                }
+                                if ((firstSeed == '(8)') || (firstSeed == '(9)')) {
+                                    womenBracketData[0].spokanedown8 = victor;
+                                }
+                                if ((firstSeed == '(5)') || (firstSeed == '(12)')) {
+                                    womenBracketData[0].spokanedown5 = victor;
+                                }
+                                if ((firstSeed == '(4)') || (firstSeed == '(13)')) {
+                                    womenBracketData[0].spokanedown4 = victor;
+                                }
+                                if ((firstSeed == '(6)') || (firstSeed == '(11)')) {
+                                    womenBracketData[0].spokanedown6 = victor;
+                                }
+                                if ((firstSeed == '(3)') || (firstSeed == '(14)')) {
+                                    womenBracketData[0].spokanedown3 = victor;
+                                }
+                                if ((firstSeed == '(7)') || (firstSeed == '(10)')) {
+                                    womenBracketData[0].spokanedown7 = victor;
+                                }
+                                if ((firstSeed == '(2)') || (firstSeed == '(15)')) {
+                                    womenBracketData[0].spokanedown2 = victor;
+                                }
+                            }
+                            if (headline.includes('regional 2')) {
+                                if ((firstSeed == '(1)') || (firstSeed == '(16)')) {
+                                    womenBracketData[0].birminghamup1 = victor;
+                                }
+                                if ((firstSeed == '(8)') || (firstSeed == '(9)')) {
+                                    womenBracketData[0].birminghamup8 = victor;
+                                }
+                                if ((firstSeed == '(5)') || (firstSeed == '(12)')) {
+                                    womenBracketData[0].birminghamup5 = victor;
+                                }
+                                if ((firstSeed == '(4)') || (firstSeed == '(13)')) {
+                                    womenBracketData[0].birminghamup4 = victor;
+                                }
+                                if ((firstSeed == '(6)') || (firstSeed == '(11)')) {
+                                    womenBracketData[0].birminghamup6 = victor;
+                                }
+                                if ((firstSeed == '(3)') || (firstSeed == '(14)')) {
+                                    womenBracketData[0].birminghamup3 = victor;
+                                }
+                                if ((firstSeed == '(7)') || (firstSeed == '(10)')) {
+                                    womenBracketData[0].birminghamup7 = victor;
+                                }
+                                if ((firstSeed == '(2)') || (firstSeed == '(15)')) {
+                                    womenBracketData[0].birminghamup2 = victor;
+                                }
+                            }
+                            if (headline.includes('regional 3')) {
+                                if ((firstSeed == '(1)') || (firstSeed == '(16)')) {
+                                    womenBracketData[0].birminghamdown1 = victor;
+                                }
+                                if ((firstSeed == '(8)') || (firstSeed == '(9)')) {
+                                    womenBracketData[0].birminghamdown8 = victor;
+                                }
+                                if ((firstSeed == '(5)') || (firstSeed == '(12)')) {
+                                    womenBracketData[0].birminghamdown5 = victor;
+                                }
+                                if ((firstSeed == '(4)') || (firstSeed == '(13)')) {
+                                    womenBracketData[0].birminghamdown4 = victor;
+                                }
+                                if ((firstSeed == '(6)') || (firstSeed == '(11)')) {
+                                    womenBracketData[0].birminghamdown6 = victor;
+                                }
+                                if ((firstSeed == '(3)') || (firstSeed == '(14)')) {
+                                    womenBracketData[0].birminghamdown3 = victor;
+                                }
+                                if ((firstSeed == '(7)') || (firstSeed == '(10)')) {
+                                    womenBracketData[0].birminghamdown7 = victor;
+                                }
+                                if ((firstSeed == '(2)') || (firstSeed == '(15)')) {
+                                    womenBracketData[0].birminghamdown2 = victor;
+                                }
+                            }
+                        }
+                        else if (headline.includes('2nd round')) {
+                            if (headline.includes('regional 1')) {
+                                if ((firstSeed == '(1)') || (firstSeed == '(16)') || (firstSeed == '(8)') || (firstSeed == '(9)')) {
+                                    womenBracketData[0].spokaneup16_1 = victor;
+                                }
+                                if ((firstSeed == '(5)') || (firstSeed == '(12)') || (firstSeed == '(4)') || (firstSeed == '(13)')) {
+                                    womenBracketData[0].spokaneup16_4 = victor;
+                                }
+                                if ((firstSeed == '(6)') || (firstSeed == '(11)') || (firstSeed == '(3)') || (firstSeed == '(14)')) {
+                                    womenBracketData[0].spokaneup16_3 = victor;
+                                }
+                                if ((firstSeed == '(7)') || (firstSeed == '(10)') || (firstSeed == '(2)') || (firstSeed == '(15)')) {
+                                    womenBracketData[0].spokaneup16_2 = victor;
+                                }
+                            }
+                            if (headline.includes('regional 4')) {
+                                if ((firstSeed == '(1)') || (firstSeed == '(16)') || (firstSeed == '(8)') || (firstSeed == '(9)')) {
+                                    womenBracketData[0].spokanedown16_1 = victor;
+                                }
+                                if ((firstSeed == '(5)') || (firstSeed == '(12)') || (firstSeed == '(4)') || (firstSeed == '(13)')) {
+                                    womenBracketData[0].spokanedown16_4 = victor;
+                                }
+                                if ((firstSeed == '(6)') || (firstSeed == '(11)') || (firstSeed == '(3)') || (firstSeed == '(14)')) {
+                                    womenBracketData[0].spokanedown16_3 = victor;
+                                }
+                                if ((firstSeed == '(7)') || (firstSeed == '(10)') || (firstSeed == '(2)') || (firstSeed == '(15)')) {
+                                    womenBracketData[0].spokanedown16_2 = victor;
+                                }
+                            }
+                            if (headline.includes('regional 2')) {
+                                if ((firstSeed == '(1)') || (firstSeed == '(16)') || (firstSeed == '(8)') || (firstSeed == '(9)')) {
+                                    womenBracketData[0].birminghamup16_1 = victor;
+                                }
+                                if ((firstSeed == '(5)') || (firstSeed == '(12)') || (firstSeed == '(4)') || (firstSeed == '(13)')) {
+                                    womenBracketData[0].birminghamup16_4 = victor;
+                                }
+                                if ((firstSeed == '(6)') || (firstSeed == '(11)') || (firstSeed == '(3)') || (firstSeed == '(14)')) {
+                                    womenBracketData[0].birminghamup16_3 = victor;
+                                }
+                                if ((firstSeed == '(7)') || (firstSeed == '(10)') || (firstSeed == '(2)') || (firstSeed == '(15)')) {
+                                    womenBracketData[0].birminghamup16_2 = victor;
+                                }
+                            }
+                            if (headline.includes('regional 3')) {
+                                if ((firstSeed == '(1)') || (firstSeed == '(16)') || (firstSeed == '(8)') || (firstSeed == '(9)')) {
+                                    womenBracketData[0].birminghamdown16_1 = victor;
+                                }
+                                if ((firstSeed == '(5)') || (firstSeed == '(12)') || (firstSeed == '(4)') || (firstSeed == '(13)')) {
+                                    womenBracketData[0].birminghamdown16_4 = victor;
+                                }
+                                if ((firstSeed == '(6)') || (firstSeed == '(11)') || (firstSeed == '(3)') || (firstSeed == '(14)')) {
+                                    womenBracketData[0].birminghamdown16_3 = victor;
+                                }
+                                if ((firstSeed == '(7)') || (firstSeed == '(10)') || (firstSeed == '(2)') || (firstSeed == '(15)')) {
+                                    womenBracketData[0].birminghamdown16_2 = victor;
+                                }
+                            }
+                        }
+                        else if (headline.includes('sweet 16')) {
+                            if (headline.includes('regional 1')) {
+                                if ((firstSeed == '(1)') || (firstSeed == '(16)') || (firstSeed == '(8)') || (firstSeed == '(9)') || (firstSeed == '(5)') || (firstSeed == '(12)') || (firstSeed == '(4)') || (firstSeed == '(13)')) {
+                                    womenBracketData[0].spokaneup8_1 = victor;
+                                }
+                                if ((firstSeed == '(6)') || (firstSeed == '(11)') || (firstSeed == '(3)') || (firstSeed == '(14)') || (firstSeed == '(7)') || (firstSeed == '(10)') || (firstSeed == '(2)') || (firstSeed == '(15)')) {
+                                    womenBracketData[0].spokaneup8_2 = victor;
+                                }
+                            }
+                            if (headline.includes('regional 4')) {
+                                if ((firstSeed == '(1)') || (firstSeed == '(16)') || (firstSeed == '(8)') || (firstSeed == '(9)') || (firstSeed == '(5)') || (firstSeed == '(12)') || (firstSeed == '(4)') || (firstSeed == '(13)')) {
+                                    womenBracketData[0].spokanedown8_1 = victor;
+                                }
+                                if ((firstSeed == '(6)') || (firstSeed == '(11)') || (firstSeed == '(3)') || (firstSeed == '(14)') || (firstSeed == '(7)') || (firstSeed == '(10)') || (firstSeed == '(2)') || (firstSeed == '(15)')) {
+                                    womenBracketData[0].spokanedown8_2 = victor;
+                                }
+                            }
+                            if (headline.includes('regional 2')) {
+                                if ((firstSeed == '(1)') || (firstSeed == '(16)') || (firstSeed == '(8)') || (firstSeed == '(9)') || (firstSeed == '(5)') || (firstSeed == '(12)') || (firstSeed == '(4)') || (firstSeed == '(13)')) {
+                                    womenBracketData[0].birminghamup8_1 = victor;
+                                }
+                                if ((firstSeed == '(6)') || (firstSeed == '(11)') || (firstSeed == '(3)') || (firstSeed == '(14)') || (firstSeed == '(7)') || (firstSeed == '(10)') || (firstSeed == '(2)') || (firstSeed == '(15)')) {
+                                    womenBracketData[0].birminghamup8_2 = victor;
+                                }
+                            }
+                            if (headline.includes('regional 3')) {
+                                if ((firstSeed == '(1)') || (firstSeed == '(16)') || (firstSeed == '(8)') || (firstSeed == '(9)') || (firstSeed == '(5)') || (firstSeed == '(12)') || (firstSeed == '(4)') || (firstSeed == '(13)')) {
+                                    womenBracketData[0].birminghamdown8_1 = victor;
+                                }
+                                if ((firstSeed == '(6)') || (firstSeed == '(11)') || (firstSeed == '(3)') || (firstSeed == '(14)') || (firstSeed == '(7)') || (firstSeed == '(10)') || (firstSeed == '(2)') || (firstSeed == '(15)')) {
+                                    womenBracketData[0].birminghamdown8_2 = victor;
+                                }
+                            }
+                        }
+                        else if (headline.includes('elite 8')) {
+                            if (headline.includes('regional 1')) {
+                                womenBracketData[0].spokaneup = victor;
+                            }
+                            if (headline.includes('regional 4')) {
+                                womenBracketData[0].spokanedown = victor;
+                            }
+                            if (headline.includes('regional 2')) {
+                                womenBracketData[0].birminghamup = victor;
+                            }
+                            if (headline.includes('regional 3')) {
+                                womenBracketData[0].birminghamdown = victor;
+                            }
+                        }
+                        else if (headline.includes('final four')) {
+                            if (game.id == 401746073) {
+                                womenBracketData[0].finalleft = victor;
+                            }
+                            else {
+                                womenBracketData[0].finalright = victor;
+                            }
+                        }
+                        else if (headline.includes('national championship')) {
+                            womenBracketData[0].champion = victor;
+                        }
+                    }
                 });
             });
         })
@@ -743,10 +1407,11 @@ function updateGames(gender, startDate, endDate, elementId) {
 
 // Update calls to the new function
 updateMenBracketData();
+updateWomenBracketData();
 updateGames('mens', '20250318', '20250408', 'mengames');
 updateGames('womens', '20250319', '20250407', 'womengames');
-setTimeout(() => updateMenBracketData(), 1000);
-setTimeout(() => countMenScore(), 1500);
+setTimeout(() => {updateMenBracketData(), updateWomenBracketData()}, 1000);
+setTimeout(() => {countMenScore(), countWomenScore()}, 1500);
 
 setInterval(() => updateGames('mens', '20250318', '20250408', 'mengames'), 5000);
 setInterval(() => updateGames('womens', '20250319', '20250407', 'womengames'), 5000);
