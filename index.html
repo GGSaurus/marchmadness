@@ -136,6 +136,16 @@
             text-align: center;
             padding-top: 150px;
         }
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
     </style>
     <title>March Madness 2025</title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
@@ -156,10 +166,30 @@
             <button class="sub-tab-button" onclick="openSection(event, 'rankwomen', 'sub-tab-content', 'sub-tab-button')">Women's Rankings</button>
         </div>
         <div id="rankmen" class="sub-tab-content">
-            <p id="days"></p>
+            <table id="menrankings-table">
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Name</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
         </div>
         <div id="rankwomen" class="sub-tab-content">
-            <p id="years"></p>
+            <table id="womenrankings-table">
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Name</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
         </div>
     </div>
     <div id="livematch" class="tab-content">
@@ -180,270 +210,8 @@
             <button class="sub-tab-button" onclick="openSection(event, 'womenbracket', 'sub-tab-content', 'sub-tab-button')">Women's Bracket</button>
         </div>
         <div id="menbracket" class="sub-tab-content">
-            <div class="sub-sub-tab">
-                <button class="sub-sub-tab-button" onclick="openSection(event, 'menbracket-actual', 'sub-sub-tab-content', 'sub-sub-tab-button')">Actual</button>
-                <button class="sub-sub-tab-button" onclick="openSection(event, 'menbracket-g', 'sub-sub-tab-content', 'sub-sub-tab-button')">G</button>
-                <button class="sub-sub-tab-button" onclick="openSection(event, 'menbracket-other', 'sub-sub-tab-content', 'sub-sub-tab-button')">Other</button>
-            </div>
-            <div id = "menbracket-actual" class="sub-sub-tab-content">
-                <div class="container">
-                    <div class="section">
-                        <p>1st Round</p>
-                        <p class="date">March 20-21</p>
-                        <p class="team">Team 1</p>
-                        <p class="team lowleft">Team 16</p>
-                        <p class="team">Team 8</p>
-                        <p class="team lowleft">Team 9</p>
-                        <p class="team">Team 5</p>
-                        <p class="team lowleft">Team 12</p>
-                        <p class="team">Team 4</p>
-                        <p class="team lowleft">Team 13</p>
-                        <p class="team">Team 6</p>
-                        <p class="team lowleft">Team 11</p>
-                        <p class="team">Team 3</p>
-                        <p class="team lowleft">Team 14</p>
-                        <p class="team">Team 7</p>
-                        <p class="team lowleft">Team 10</p>
-                        <p class="team">Team 2</p>
-                        <p class="team lowleft">Team 15</p>
-                        <p class="team">Team 1</p>
-                        <p class="team lowleft">Team 16</p>
-                        <p class="team">Team 8</p>
-                        <p class="team lowleft">Team 9</p>
-                        <p class="team">Team 5</p>
-                        <p class="team lowleft">Team 12</p>
-                        <p class="team">Team 4</p>
-                        <p class="team lowleft">Team 13</p>
-                        <p class="team">Team 6</p>
-                        <p class="team lowleft">Team 11</p>
-                        <p class="team">Team 3</p>
-                        <p class="team lowleft">Team 14</p>
-                        <p class="team">Team 7</p>
-                        <p class="team lowleft">Team 10</p>
-                        <p class="team">Team 2</p>
-                        <p class="team lowleft">Team 15</p>
-                    </div>
-                    <div class="section">
-                        <p>2nd Round</p>
-                        <p class="date">March 22-23</p>
-                        <p class="team topset2">1/16</p>
-                        <p class="team lowleft lowset2">8/9</p>
-                        <p class="team lowset2">5/12</p>
-                        <p class="team lowleft lowset2">4/13</p>
-                        <p class="team lowset2">6/11</p>
-                        <p class="team lowleft lowset2">3/14</p>
-                        <p class="team lowset2">7/10</p>
-                        <p class="team lowleft lowset2">2/15</p>
-                        <p class="team lowset2">1/16</p>
-                        <p class="team lowleft lowset2">8/9</p>
-                        <p class="team lowset2">5/12</p>
-                        <p class="team lowleft lowset2">4/13</p>
-                        <p class="team lowset2">6/11</p>
-                        <p class="team lowleft lowset2">3/14</p>
-                        <p class="team lowset2">7/10</p>
-                        <p class="team lowleft lowset2">2/15</p>
-                    </div>
-                    <div class="section">
-                        <p>Sweet 16</p>
-                        <p class="date">March 27-28</p>
-                        <p class="team topset3">1/16/8/9</p>
-                        <p class="team lowleft lowset3">5/12/4/13</p>
-                        <p class="team lowset3">6/11/3/14</p>
-                        <p class="team lowleft lowset3">7/10/2/15</p>
-                        <p class="team lowset3">1/16/8/9</p>
-                        <p class="team lowleft lowset3">5/12/4/13</p>
-                        <p class="team lowset3">6/11/3/14</p>
-                        <p class="team lowleft lowset3">7/10/2/15</p>
-                    </div>
-                    <div class="section">
-                        <p>Elite 8</p>
-                        <p class="date">March 29-30</p>
-                        <p class="team topset4">Top half</p>
-                        <p class="team lowleft lowset4">Bottom half</p>
-                        <p class="team lowset4">Top half</p>
-                        <p class="team lowleft lowset4">Bottom half</p>
-                    </div>
-                    <div class="section">
-                        <p>Final 4</p>
-                        <p class="date">April 5</p>
-                        <p class="team topset5">Region 1</p>
-                        <p class="team lowleft lowset5">Region 2</p>
-                    </div>
-                    <div class="section">
-                        <p>Championship</p>
-                        <p class="date">April 7</p>
-                        <p class="team leftfinal">Left Side</p>
-                        <p class="team winner">Winner</p>
-                        <div class="rightcontainer">
-                            <p class="team rightfinal">Right Side</p>
-                        </div>
-                    </div>
-                    <div class="section">
-                        <p>Final 4</p>
-                        <p class="date">April 5</p>
-                        <p class="team topset5">Region 1</p>
-                        <p class="team lowright lowset5">Region 2</p>
-                    </div>
-                    <div class="section">
-                        <p>Elite 8</p>
-                        <p class="date">March 29-30</p>
-                        <p class="team topset4">Top half</p>
-                        <p class="team lowright lowset4">Bottom half</p>
-                        <p class="team lowset4">Top half</p>
-                        <p class="team lowright lowset4">Bottom half</p>
-                    </div>
-                    <div class="section">
-                        <p>Sweet 16</p>
-                        <p class="date">March 27-28</p>
-                        <p class="team topset3">1/16/8/9</p>
-                        <p class="team lowright lowset3">5/12/4/13</p>
-                        <p class="team lowset3">6/11/3/14</p>
-                        <p class="team lowright lowset3">7/10/2/15</p>
-                        <p class="team lowset3">1/16/8/9</p>
-                        <p class="team lowright lowset3">5/12/4/13</p>
-                        <p class="team lowset3">6/11/3/14</p>
-                        <p class="team lowright lowset3">7/10/2/15</p>
-                    </div>
-                    <div class="section">
-                        <p>2nd Round</p>
-                        <p class="date">March 22-23</p>
-                        <p class="team topset2">1/16</p>
-                        <p class="team lowright lowset2">8/9</p>
-                        <p class="team lowset2">5/12</p>
-                        <p class="team lowright lowset2">4/13</p>
-                        <p class="team lowset2">6/11</p>
-                        <p class="team lowright lowset2">3/14</p>
-                        <p class="team lowset2">7/10</p>
-                        <p class="team lowright lowset2">2/15</p>
-                        <p class="team lowset2">1/16</p>
-                        <p class="team lowright lowset2">8/9</p>
-                        <p class="team lowset2">5/12</p>
-                        <p class="team lowright lowset2">4/13</p>
-                        <p class="team lowset2">6/11</p>
-                        <p class="team lowright lowset2">3/14</p>
-                        <p class="team lowset2">7/10</p>
-                        <p class="team lowright lowset2">2/15</p>
-                    </div>
-                    <div class="section">
-                        <p>1st Round</p>
-                        <p class="date">March 20-21</p>
-                        <p class="team">Team 1</p>
-                        <p class="team lowright">Team 16</p>
-                        <p class="team">Team 8</p>
-                        <p class="team lowlright">Team 9</p>
-                        <p class="team">Team 5</p>
-                        <p class="team lowright">Team 12</p>
-                        <p class="team">Team 4</p>
-                        <p class="team lowright">Team 13</p>
-                        <p class="team">Team 6</p>
-                        <p class="team lowright">Team 11</p>
-                        <p class="team">Team 3</p>
-                        <p class="team lowright">Team 14</p>
-                        <p class="team">Team 7</p>
-                        <p class="team lowright">Team 10</p>
-                        <p class="team">Team 2</p>
-                        <p class="team lowright">Team 15</p>
-                        <p class="team">Team 1</p>
-                        <p class="team lowright">Team 16</p>
-                        <p class="team">Team 8</p>
-                        <p class="team lowright">Team 9</p>
-                        <p class="team">Team 5</p>
-                        <p class="team lowright">Team 12</p>
-                        <p class="team">Team 4</p>
-                        <p class="team lowright">Team 13</p>
-                        <p class="team">Team 6</p>
-                        <p class="team lowright">Team 11</p>
-                        <p class="team">Team 3</p>
-                        <p class="team lowright">Team 14</p>
-                        <p class="team">Team 7</p>
-                        <p class="team lowright">Team 10</p>
-                        <p class="team">Team 2</p>
-                        <p class="team lowright">Team 15</p>
-                    </div>
-                </div>
-            </div>
-            <div id="menbracket-g" class="sub-sub-tab-content">
-                <div class="container">
-                    <div class="section"><p>1st Round</p></div>
-                    <div class="section"><p>2nd Round</p></div>
-                    <div class="section"><p>Sweet 16</p></div>
-                    <div class="section"><p>Elite 8</p></div>
-                    <div class="section"><p>Final 4</p></div>
-                    <div class="section"><p>Championship</p></div>
-                    <div class="section"><p>Final 4</p></div>
-                    <div class="section"><p>Elite 8</p></div>
-                    <div class="section"><p>Sweet 16</p></div>
-                    <div class="section"><p>2nd Round</p></div>
-                    <div class="section"><p>1st Round</p></div>
-                </div>
-            </div>
-            <div id="menbracket-other" class="sub-sub-tab-content">
-                <div class="container">
-                    <div class="section"><p>1st Round</p></div>
-                    <div class="section"><p>2nd Round</p></div>
-                    <div class="section"><p>Sweet 16</p></div>
-                    <div class="section"><p>Elite 8</p></div>
-                    <div class="section"><p>Final 4</p></div>
-                    <div class="section"><p>Championship</p></div>
-                    <div class="section"><p>Final 4</p></div>
-                    <div class="section"><p>Elite 8</p></div>
-                    <div class="section"><p>Sweet 16</p></div>
-                    <div class="section"><p>2nd Round</p></div>
-                    <div class="section"><p>1st Round</p></div>
-                </div>
-            </div>
         </div>
         <div id="womenbracket" class="sub-tab-content">
-            <div class="sub-sub-tab">
-                <button class="sub-sub-tab-button" onclick="openSection(event, 'womenbracket-actual', 'sub-sub-tab-content', 'sub-sub-tab-button')">Actual</button>
-                <button class="sub-sub-tab-button" onclick="openSection(event, 'womenbracket-g', 'sub-sub-tab-content', 'sub-sub-tab-button')">G</button>
-                <button class="sub-sub-tab-button" onclick="openSection(event, 'womenbracket-other', 'sub-sub-tab-content', 'sub-sub-tab-button')">Other</button>
-            </div>
-            <div id = "womenbracket-actual" class="sub-sub-tab-content">
-                <div class="container">
-                    <div class="section"><p>1st Round</p></div>
-                    <div class="section"><p>2nd Round</p></div>
-                    <div class="section"><p>Sweet 16</p></div>
-                    <div class="section"><p>Elite 8</p></div>
-                    <div class="section"><p>Final 4</p></div>
-                    <div class="section"><p>Championship</p></div>
-                    <div class="section"><p>Final 4</p></div>
-                    <div class="section"><p>Elite 8</p></div>
-                    <div class="section"><p>Sweet 16</p></div>
-                    <div class="section"><p>2nd Round</p></div>
-                    <div class="section"><p>1st Round</p></div>
-                </div>
-            </div>
-            <div id="womenbracket-g" class="sub-sub-tab-content">
-                <div class="container">
-                    <div class="section"><p>1st Round</p></div>
-                    <div class="section"><p>2nd Round</p></div>
-                    <div class="section"><p>Sweet 16</p></div>
-                    <div class="section"><p>Elite 8</p></div>
-                    <div class="section"><p>Final 4</p></div>
-                    <div class="section"><p>Championship</p></div>
-                    <div class="section"><p>Final 4</p></div>
-                    <div class="section"><p>Elite 8</p></div>
-                    <div class="section"><p>Sweet 16</p></div>
-                    <div class="section"><p>2nd Round</p></div>
-                    <div class="section"><p>1st Round</p></div>
-                </div>
-            </div>
-            <div id="womenbracket-other" class="sub-sub-tab-content">
-                <div class="container">
-                    <div class="section"><p>1st Round</p></div>
-                    <div class="section"><p>2nd Round</p></div>
-                    <div class="section"><p>Sweet 16</p></div>
-                    <div class="section"><p>Elite 8</p></div>
-                    <div class="section"><p>Final 4</p></div>
-                    <div class="section"><p>Championship</p></div>
-                    <div class="section"><p>Final 4</p></div>
-                    <div class="section"><p>Elite 8</p></div>
-                    <div class="section"><p>Sweet 16</p></div>
-                    <div class="section"><p>2nd Round</p></div>
-                    <div class="section"><p>1st Round</p></div>
-                </div>
-            </div>
         </div>
     </div>
     <script src="main.js"></script>
