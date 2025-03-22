@@ -31,207 +31,342 @@ function countMenScore() {
     menScoreData = [];
     const actual = menBracketData[0];
     menBracketData.forEach(data => {
+        const outer = document.getElementById("menbracket-"+data.name.toLowerCase());
         let score = 0;
         if (data.firstfour1 && data.firstfour1 !== 'TBD' && data.firstfour1 == actual.firstfour1) {
             score += 1;
+            const inner = outer.querySelector("#firstfour1");
+            inner.style.color = "#34b233";
         }
         if (data.firstfour2 && data.firstfour2 !== 'TBD' && data.firstfour2 == actual.firstfour2) {
             score += 1;
+            const inner = outer.querySelector("#firstfour2");
+            inner.style.color = "#34b233";
         }
         if (data.firstfour3 && data.firstfour3 !== 'TBD' && data.firstfour3 == actual.firstfour3) {
             score += 1;
+            const inner = outer.querySelector("#firstfour3");
+            inner.style.color = "#34b233";
         }
         if (data.firstfour4 && data.firstfour4 !== 'TBD' && data.firstfour4 == actual.firstfour4) {
             score += 1;
+            const inner = outer.querySelector("#firstfour4");
+            inner.style.color = "#34b233";
         }
         if (data.south1 && data.south1 !== 'TBD' && data.south1 == actual.south1) {
             score += 2;
+            const inner = outer.querySelector("#south1");
+            inner.style.color = "#34b233";
         }
         if (data.south8 && data.south8 !== 'TBD' && data.south8 == actual.south8) {
             score += 2;
+            const inner = outer.querySelector("#south8");
+            inner.style.color = "#34b233";
         }
         if (data.south5 && data.south5 !== 'TBD' && data.south5 == actual.south5) {
             score += 2;
+            const inner = outer.querySelector("#south5");
+            inner.style.color = "#34b233";
         }
         if (data.south4 && data.south4 !== 'TBD' && data.south4 == actual.south4) {
             score += 2;
+            const inner = outer.querySelector("#south4");
+            inner.style.color = "#34b233";
         }
         if (data.south6 && data.south6 !== 'TBD' && data.south6 == actual.south6) {
             score += 2;
+            const inner = outer.querySelector("#south6");
+            inner.style.color = "#34b233";
         }
         if (data.south3 && data.south3 !== 'TBD' && data.south3 == actual.south3) {
             score += 2;
+            const inner = outer.querySelector("#south3");
+            inner.style.color = "#34b233";
         }
         if (data.south7 && data.south7 !== 'TBD' && data.south7 == actual.south7) {
             score += 2;
+            const inner = outer.querySelector("#south7");
+            inner.style.color = "#34b233";
         }
         if (data.south2 && data.south2 !== 'TBD' && data.south2 == actual.south2) {
             score += 2;
+            const inner = outer.querySelector("#south2");
+            inner.style.color = "#34b233";
         }
         if (data.west1 && data.west1 !== 'TBD' && data.west1 == actual.west1) {
             score += 2;
+            const inner = outer.querySelector("#west1");
+            inner.style.color = "#34b233";
         }
         if (data.west8 && data.west8 !== 'TBD' && data.west8 == actual.west8) {
             score += 2;
+            const inner = outer.querySelector("#west8");
+            inner.style.color = "#34b233";
         }
         if (data.west5 && data.west5 !== 'TBD' && data.west5 == actual.west5) {
             score += 2;
+            const inner = outer.querySelector("#west5");
+            inner.style.color = "#34b233";
         }
         if (data.west4 && data.west4 !== 'TBD' && data.west4 == actual.west4) {
             score += 2;
+            const inner = outer.querySelector("#west4");
+            inner.style.color = "#34b233";
         }
         if (data.west6 && data.west6 !== 'TBD' && data.west6 == actual.west6) {
             score += 2;
+            const inner = outer.querySelector("#west6");
+            inner.style.color = "#34b233";
         }
         if (data.west3 && data.west3 !== 'TBD' && data.west3 == actual.west3) {
             score += 2;
+            const inner = outer.querySelector("#west3");
+            inner.style.color = "#34b233";
         }
         if (data.west7 && data.west7 !== 'TBD' && data.west7 == actual.west7) {
             score += 2;
+            const inner = outer.querySelector("#west7");
+            inner.style.color = "#34b233";
         }
         if (data.west2 && data.west2 !== 'TBD' && data.west2 == actual.west2) {
             score += 2;
+            const inner = outer.querySelector("#west2");
+            inner.style.color = "#34b233";
         }
         if (data.east1 && data.east1 !== 'TBD' && data.east1 == actual.east1) {
             score += 2;
+            const inner = outer.querySelector("#east1");
+            inner.style.color = "#34b233";
         }
         if (data.east8 && data.east8 !== 'TBD' && data.east8 == actual.east8) {
             score += 2;
+            const inner = outer.querySelector("#east8");
+            inner.style.color = "#34b233";
         }
         if (data.east5 && data.east5 !== 'TBD' && data.east5 == actual.east5) {
             score += 2;
+            const inner = outer.querySelector("#east5");
+            inner.style.color = "#34b233";
         }
         if (data.east4 && data.east4 !== 'TBD' && data.east4 == actual.east4) {
             score += 2;
+            const inner = outer.querySelector("#east4");
+            inner.style.color = "#34b233";
         }
         if (data.east6 && data.east6 !== 'TBD' && data.east6 == actual.east6) {
             score += 2;
+            const inner = outer.querySelector("#east6");
+            inner.style.color = "#34b233";
         }
         if (data.east3 && data.east3 !== 'TBD' && data.east3 == actual.east3) {
             score += 2;
+            const inner = outer.querySelector("#east3");
+            inner.style.color = "#34b233";
         }
         if (data.east7 && data.east7 !== 'TBD' && data.east7 == actual.east7) {
             score += 2;
+            const inner = outer.querySelector("#east7");
+            inner.style.color = "#34b233";
         }
         if (data.east2 && data.east2 !== 'TBD' && data.east2 == actual.east2) {
             score += 2;
+            const inner = outer.querySelector("#east2");
+            inner.style.color = "#34b233";
         }
         if (data.midwest1 && data.midwest1 !== 'TBD' && data.midwest1 == actual.midwest1) {
             score += 2;
+            const inner = outer.querySelector("#midwest1");
+            inner.style.color = "#34b233";
         }
         if (data.midwest8 && data.midwest8 !== 'TBD' && data.midwest8 == actual.midwest8) {
             score += 2;
+            const inner = outer.querySelector("#midwest8");
+            inner.style.color = "#34b233";
         }
-        if (data.midwest5 && data.midwest5 !== 'TBD' && data.midwest5 == actual.midwest5) { 
+        if (data.midwest5 && data.midwest5 !== 'TBD' && data.midwest5 == actual.midwest5) {
             score += 2;
+            const inner = outer.querySelector("#midwest5");
+            inner.style.color = "#34b233";
         }
         if (data.midwest4 && data.midwest4 !== 'TBD' && data.midwest4 == actual.midwest4) {
             score += 2;
+            const inner = outer.querySelector("#midwest4");
+            inner.style.color = "#34b233";
         }
         if (data.midwest6 && data.midwest6 !== 'TBD' && data.midwest6 == actual.midwest6) {
             score += 2;
+            const inner = outer.querySelector("#midwest6");
+            inner.style.color = "#34b233";
         }
         if (data.midwest3 && data.midwest3 !== 'TBD' && data.midwest3 == actual.midwest3) {
             score += 2;
+            const inner = outer.querySelector("#midwest3");
+            inner.style.color = "#34b233";
         }
         if (data.midwest7 && data.midwest7 !== 'TBD' && data.midwest7 == actual.midwest7) {
             score += 2;
+            const inner = outer.querySelector("#midwest7");
+            inner.style.color = "#34b233";
         }
         if (data.midwest2 && data.midwest2 !== 'TBD' && data.midwest2 == actual.midwest2) {
             score += 2;
+            const inner = outer.querySelector("#midwest2");
+            inner.style.color = "#34b233";
         }
         if (data.south16_1 && data.south16_1 !== 'TBD' && data.south16_1 == actual.south16_1) {
             score += 4;
+            const inner = outer.querySelector("#south16_1");
+            inner.style.color = "#34b233";
         }
         if (data.south16_4 && data.south16_4 !== 'TBD' && data.south16_4 == actual.south16_4) {
             score += 4;
+            const inner = outer.querySelector("#south16_4");
+            inner.style.color = "#34b233";
         }
         if (data.south16_3 && data.south16_3 !== 'TBD' && data.south16_3 == actual.south16_3) {
             score += 4;
+            const inner = outer.querySelector("#south16_3");
+            inner.style.color = "#34b233";
         }
         if (data.south16_2 && data.south16_2 !== 'TBD' && data.south16_2 == actual.south16_2) {
             score += 4;
+            const inner = outer.querySelector("#south16_2");
+            inner.style.color = "#34b233";
         }
         if (data.west16_1 && data.west16_1 !== 'TBD' && data.west16_1 == actual.west16_1) {
             score += 4;
+            const inner = outer.querySelector("#west16_1");
+            inner.style.color = "#34b233";
         }
         if (data.west16_4 && data.west16_4 !== 'TBD' && data.west16_4 == actual.west16_4) {
             score += 4;
+            const inner = outer.querySelector("#west16_4");
+            inner.style.color = "#34b233";
         }
         if (data.west16_3 && data.west16_3 !== 'TBD' && data.west16_3 == actual.west16_3) {
             score += 4;
+            const inner = outer.querySelector("#west16_3");
+            inner.style.color = "#34b233";
         }
         if (data.west16_2 && data.west16_2 !== 'TBD' && data.west16_2 == actual.west16_2) {
             score += 4;
+            const inner = outer.querySelector("#west16_2");
+            inner.style.color = "#34b233";
         }
         if (data.east16_1 && data.east16_1 !== 'TBD' && data.east16_1 == actual.east16_1) {
             score += 4;
+            const inner = outer.querySelector("#east16_1");
+            inner.style.color = "#34b233";
         }
         if (data.east16_4 && data.east16_4 !== 'TBD' && data.east16_4 == actual.east16_4) {
             score += 4;
+            const inner = outer.querySelector("#east16_4");
+            inner.style.color = "#34b233";
         }
         if (data.east16_3 && data.east16_3 !== 'TBD' && data.east16_3 == actual.east16_3) {
             score += 4;
+            const inner = outer.querySelector("#east16_3");
+            inner.style.color = "#34b233";
         }
         if (data.east16_2 && data.east16_2 !== 'TBD' && data.east16_2 == actual.east16_2) {
             score += 4;
+            const inner = outer.querySelector("#east16_2");
+            inner.style.color = "#34b233";
         }
         if (data.midwest16_1 && data.midwest16_1 !== 'TBD' && data.midwest16_1 == actual.midwest16_1) {
             score += 4;
+            const inner = outer.querySelector("#midwest16_1");
+            inner.style.color = "#34b233";
         }
         if (data.midwest16_4 && data.midwest16_4 !== 'TBD' && data.midwest16_4 == actual.midwest16_4) {
             score += 4;
+            const inner = outer.querySelector("#midwest16_4");
+            inner.style.color = "#34b233";
         }
         if (data.midwest16_3 && data.midwest16_3 !== 'TBD' && data.midwest16_3 == actual.midwest16_3) {
             score += 4;
+            const inner = outer.querySelector("#midwest16_3");
+            inner.style.color = "#34b233";
         }
         if (data.midwest16_2 && data.midwest16_2 !== 'TBD' && data.midwest16_2 == actual.midwest16_2) {
             score += 4;
+            const inner = outer.querySelector("#midwest16_2");
+            inner.style.color = "#34b233";
         }
         if (data.south8_1 && data.south8_1 !== 'TBD' && data.south8_1 == actual.south8_1) {
             score += 8;
+            const inner = outer.querySelector("#south8_1");
+            inner.style.color = "#34b233";
         }
         if (data.south8_2 && data.south8_2 !== 'TBD' && data.south8_2 == actual.south8_2) {
             score += 8;
+            const inner = outer.querySelector("#south8_2");
+            inner.style.color = "#34b233";
         }
         if (data.west8_1 && data.west8_1 !== 'TBD' && data.west8_1 == actual.west8_1) {
             score += 8;
+            const inner = outer.querySelector("#west8_1");
+            inner.style.color = "#34b233";
         }
         if (data.west8_2 && data.west8_2 !== 'TBD' && data.west8_2 == actual.west8_2) {
             score += 8;
+            const inner = outer.querySelector("#west8_2");
+            inner.style.color = "#34b233";
         }
         if (data.east8_1 && data.east8_1 !== 'TBD' && data.east8_1 == actual.east8_1) {
             score += 8;
+            const inner = outer.querySelector("#east8_1");
+            inner.style.color = "#34b233";
         }
         if (data.east8_2 && data.east8_2 !== 'TBD' && data.east8_2 == actual.east8_2) {
             score += 8;
+            const inner = outer.querySelector("#east8_2");
+            inner.style.color = "#34b233";
         }
         if (data.midwest8_1 && data.midwest8_1 !== 'TBD' && data.midwest8_1 == actual.midwest8_1) {
             score += 8;
+            const inner = outer.querySelector("#midwest8_1");
+            inner.style.color = "#34b233";
         }
         if (data.midwest8_2 && data.midwest8_2 !== 'TBD' && data.midwest8_2 == actual.midwest8_2) {
             score += 8;
+            const inner = outer.querySelector("#midwest8_2");
+            inner.style.color = "#34b233";
         }
         if (data.south && data.south !== 'TBD' && data.south == actual.south) {
             score += 16;
+            const inner = outer.querySelector("#south");
+            inner.style.color = "#34b233";
         }
         if (data.west && data.west !== 'TBD' && data.west == actual.west) {
             score += 16;
+            const inner = outer.querySelector("#west");
+            inner.style.color = "#34b233";
         }
         if (data.east && data.east !== 'TBD' && data.east == actual.east) {
             score += 16;
+            const inner = outer.querySelector("#east");
+            inner.style.color = "#34b233";
         }
         if (data.midwest && data.midwest !== 'TBD' && data.midwest == actual.midwest) {
             score += 16;
+            const inner = outer.querySelector("#midwest");
+            inner.style.color = "#34b233";
         }
         if (data.finalleft && data.finalleft !== 'TBD' && data.finalleft == actual.finalleft) {
             score += 32;
+            const inner = outer.querySelector("#finalleft");
+            inner.style.color = "#34b233";
         }
         if (data.finalright && data.finalright !== 'TBD' && data.finalright == actual.finalright) {
             score += 32;
+            const inner = outer.querySelector("#finalright");
+            inner.style.color = "#34b233";
         }
         if (data.champion && data.champion !== 'TBD' && data.champion == actual.champion) {
             score += 64;
+            const inner = outer.querySelector("#champion");
+            inner.style.color = "#34b233";
         }
         menScoreData.push({name: data.name, score: score});
     })
@@ -260,7 +395,7 @@ function updateMenBracketData() {
                         <p>1st Round</p>
                         <p class="date">March 20-21</p>
                         <p class="team">Auburn</p>
-                        <p class="team lowleft">${data.firstfour1 || 'TBD'}</p>
+                        <p class="team lowleft" id="firstfour1">${data.firstfour1 || 'TBD'}</p>
                         <p class="team">Louisville</p>
                         <p class="team lowleft">Creighton</p>
                         <p class="team">Michigan</p>
@@ -268,7 +403,7 @@ function updateMenBracketData() {
                         <p class="team">Texas A&M</p>
                         <p class="team lowleft">Yale</p>
                         <p class="team">Ole Miss</p>
-                        <p class="team lowleft">${data.firstfour2 || 'TBD'}</p>
+                        <p class="team lowleft" id="firstfour2">${data.firstfour2 || 'TBD'}</p>
                         <p class="team">Iowa State</p>
                         <p class="team lowleft">Lipscomb</p>
                         <p class="team">Marquette</p>
@@ -295,109 +430,109 @@ function updateMenBracketData() {
                     <div class="section">
                         <p>2nd Round</p>
                         <p class="date">March 22-23</p>
-                        <p class="team topset2">${data.south1 || 'TBD'}</p>
-                        <p class="team lowleft lowset2">${data.south8 || 'TBD'}</p>
-                        <p class="team lowset2">${data.south5 || 'TBD'}</p>
-                        <p class="team lowleft lowset2">${data.south4 || 'TBD'}</p>
-                        <p class="team lowset2">${data.south6 || 'TBD'}</p>
-                        <p class="team lowleft lowset2">${data.south3 || 'TBD'}</p>
-                        <p class="team lowset2">${data.south7 || 'TBD'}</p>
-                        <p class="team lowleft lowset2">${data.south2 || 'TBD'}</p>
-                        <p class="team lowset2">${data.west1 || 'TBD'}</p>
-                        <p class="team lowleft lowset2">${data.west8 || 'TBD'}</p>
-                        <p class="team lowset2">${data.west5 || 'TBD'}</p>
-                        <p class="team lowleft lowset2">${data.west4 || 'TBD'}</p>
-                        <p class="team lowset2">${data.west6 || 'TBD'}</p>
-                        <p class="team lowleft lowset2">${data.west3 || 'TBD'}</p>
-                        <p class="team lowset2">${data.west7 || 'TBD'}</p>
-                        <p class="team lowleft lowset2">${data.west2 || 'TBD'}</p>
+                        <p class="team topset2" id="south1">${data.south1 || 'TBD'}</p>
+                        <p class="team lowleft lowset2" id="south8">${data.south8 || 'TBD'}</p>
+                        <p class="team lowset2" id="south5">${data.south5 || 'TBD'}</p>
+                        <p class="team lowleft lowset2" id="south4">${data.south4 || 'TBD'}</p>
+                        <p class="team lowset2" id="south6">${data.south6 || 'TBD'}</p>
+                        <p class="team lowleft lowset2" id="south3">${data.south3 || 'TBD'}</p>
+                        <p class="team lowset2" id="south7">${data.south7 || 'TBD'}</p>
+                        <p class="team lowleft lowset2" id="south2">${data.south2 || 'TBD'}</p>
+                        <p class="team lowset2" id="west1">${data.west1 || 'TBD'}</p>
+                        <p class="team lowleft lowset2" id="west8">${data.west8 || 'TBD'}</p>
+                        <p class="team lowset2" id="west5">${data.west5 || 'TBD'}</p>
+                        <p class="team lowleft lowset2" id="west4">${data.west4 || 'TBD'}</p>
+                        <p class="team lowset2" id="west6">${data.west6 || 'TBD'}</p>
+                        <p class="team lowleft lowset2" id="west3">${data.west3 || 'TBD'}</p>
+                        <p class="team lowset2" id="west7">${data.west7 || 'TBD'}</p>
+                        <p class="team lowleft lowset2" id="west2">${data.west2 || 'TBD'}</p>
                     </div>
                     <div class="section">
                         <p>Sweet 16</p>
                         <p class="date">March 27-28</p>
-                        <p class="team topset3">${data.south16_1 || 'TBD'}</p>
-                        <p class="team lowleft lowset3">${data.south16_4 || 'TBD'}</p>
-                        <p class="team lowset3">${data.south16_3 || 'TBD'}</p>
-                        <p class="team lowleft lowset3">${data.south16_2 || 'TBD'}</p>
-                        <p class="team lowset3">${data.west16_1 || 'TBD'}</p>
-                        <p class="team lowleft lowset3">${data.west16_4 || 'TBD'}</p>
-                        <p class="team lowset3">${data.west16_3 || 'TBD'}</p>
-                        <p class="team lowleft lowset3">${data.west16_2 || 'TBD'}</p>
+                        <p class="team topset3" id="south16_1">${data.south16_1 || 'TBD'}</p>
+                        <p class="team lowleft lowset3" id="south16_4">${data.south16_4 || 'TBD'}</p>
+                        <p class="team lowset3" id="south16_3">${data.south16_3 || 'TBD'}</p>
+                        <p class="team lowleft lowset3" id="south16_2">${data.south16_2 || 'TBD'}</p>
+                        <p class="team lowset3" id="west16_1">${data.west16_1 || 'TBD'}</p>
+                        <p class="team lowleft lowset3" id="west16_4">${data.west16_4 || 'TBD'}</p>
+                        <p class="team lowset3" id="west16_3">${data.west16_3 || 'TBD'}</p>
+                        <p class="team lowleft lowset3" id="west16_2">${data.west16_2 || 'TBD'}</p>
                     </div>
                     <div class="section">
                         <p>Elite 8</p>
                         <p class="date">March 29-30</p>
-                        <p class="team topset4">${data.south8_1 || 'TBD'}</p>
-                        <p class="team lowleft lowset4">${data.south8_2 || 'TBD'}</p>
-                        <p class="team lowset4">${data.west8_1 || 'TBD'}</p>
-                        <p class="team lowleft lowset4">${data.west8_2 || 'TBD'}</p>
+                        <p class="team topset4" id="south8_1">${data.south8_1 || 'TBD'}</p>
+                        <p class="team lowleft lowset4" id="south8_2">${data.south8_2 || 'TBD'}</p>
+                        <p class="team lowset4" id="west8_1">${data.west8_1 || 'TBD'}</p>
+                        <p class="team lowleft lowset4" id="west8_2">${data.west8_2 || 'TBD'}</p>
                     </div>
                     <div class="section">
                         <p>Final 4</p>
                         <p class="date">April 5</p>
-                        <p class="team topset5">${data.south || 'TBD'}</p>
-                        <p class="team lowleft lowset5">${data.west || 'TBD'}</p>
+                        <p class="team topset5" id="south">${data.south || 'TBD'}</p>
+                        <p class="team lowleft lowset5" id="west">${data.west || 'TBD'}</p>
                     </div>
                     <div class="section">
                         <p>Championship</p>
                         <p class="date">April 7</p>
-                        <p class="team leftfinal">${data.finalleft || 'TBD'}</p>
-                        <p class="team winner">${data.champion || 'TBD'}</p>
+                        <p class="team leftfinal" id="finalleft">${data.finalleft || 'TBD'}</p>
+                        <p class="team winner" id="champion">${data.champion || 'TBD'}</p>
                         <div class="rightcontainer">
-                            <p class="team rightfinal">${data.finalright || 'TBD'}</p>
+                            <p class="team rightfinal" id="finalright">${data.finalright || 'TBD'}</p>
                         </div>
                     </div>
                     <div class="section">
                         <p>Final 4</p>
                         <p class="date">April 5</p>
-                        <p class="team topset5">${data.east || 'TBD'}</p>
-                        <p class="team lowright lowset5">${data.midwest || 'TBD'}</p>
+                        <p class="team topset5" id="east">${data.east || 'TBD'}</p>
+                        <p class="team lowright lowset5" id="midwest">${data.midwest || 'TBD'}</p>
                     </div>
                     <div class="section">
                         <p>Elite 8</p>
                         <p class="date">March 29-30</p>
-                        <p class="team topset4">${data.east8_1 || 'TBD'}</p>
-                        <p class="team lowright lowset4">${data.east8_2 || 'TBD'}</p>
-                        <p class="team lowset4">${data.midwest8_1 || 'TBD'}</p>
-                        <p class="team lowright lowset4">${data.midwest8_2 || 'TBD'}</p>
+                        <p class="team topset4" id="east8_1">${data.east8_1 || 'TBD'}</p>
+                        <p class="team lowright lowset4" id="east8_2">${data.east8_2 || 'TBD'}</p>
+                        <p class="team lowset4" id="midwest8_1">${data.midwest8_1 || 'TBD'}</p>
+                        <p class="team lowright lowset4" id="midwest8_2">${data.midwest8_2 || 'TBD'}</p>
                     </div>
                     <div class="section">
                         <p>Sweet 16</p>
                         <p class="date">March 27-28</p>
-                        <p class="team topset3">${data.east16_1 || 'TBD'}</p>
-                        <p class="team lowright lowset3">${data.east16_4 || 'TBD'}</p>
-                        <p class="team lowset3">${data.east16_3 || 'TBD'}</p>
-                        <p class="team lowright lowset3">${data.east16_2 || 'TBD'}</p>
-                        <p class="team lowset3">${data.midwest16_1 || 'TBD'}</p>
-                        <p class="team lowright lowset3">${data.midwest16_4 || 'TBD'}</p>
-                        <p class="team lowset3">${data.midwest16_3 || 'TBD'}</p>
-                        <p class="team lowright lowset3">${data.midwest16_2 || 'TBD'}</p>
+                        <p class="team topset3" id="east16_1">${data.east16_1 || 'TBD'}</p>
+                        <p class="team lowright lowset3" id="east16_4">${data.east16_4 || 'TBD'}</p>
+                        <p class="team lowset3" id="east16_3">${data.east16_3 || 'TBD'}</p>
+                        <p class="team lowright lowset3" id="east16_2">${data.east16_2 || 'TBD'}</p>
+                        <p class="team lowset3" id="midwest16_1">${data.midwest16_1 || 'TBD'}</p>
+                        <p class="team lowright lowset3" id="midwest16_4">${data.midwest16_4 || 'TBD'}</p>
+                        <p class="team lowset3" id="midwest16_3">${data.midwest16_3 || 'TBD'}</p>
+                        <p class="team lowright lowset3" id="midwest16_2">${data.midwest16_2 || 'TBD'}</p>
                     </div>
                     <div class="section">
                         <p>2nd Round</p>
                         <p class="date">March 22-23</p>
-                        <p class="team topset2">${data.east1 || 'TBD'}</p>
-                        <p class="team lowright lowset2">${data.east8 || 'TBD'}</p>
-                        <p class="team lowset2">${data.east5 || 'TBD'}</p>
-                        <p class="team lowright lowset2">${data.east4 || 'TBD'}</p>
-                        <p class="team lowset2">${data.east6 || 'TBD'}</p>
-                        <p class="team lowright lowset2">${data.east3 || 'TBD'}</p>
-                        <p class="team lowset2">${data.east7 || 'TBD'}</p>
-                        <p class="team lowright lowset2">${data.east2 || 'TBD'}</p>
-                        <p class="team lowset2">${data.midwest1 || 'TBD'}</p>
-                        <p class="team lowright lowset2">${data.midwest8 || 'TBD'}</p>
-                        <p class="team lowset2">${data.midwest5 || 'TBD'}</p>
-                        <p class="team lowright lowset2">${data.midwest4 || 'TBD'}</p>
-                        <p class="team lowset2">${data.midwest6 || 'TBD'}</p>
-                        <p class="team lowright lowset2">${data.midwest3 || 'TBD'}</p>
-                        <p class="team lowset2">${data.midwest7 || 'TBD'}</p>
-                        <p class="team lowright lowset2">${data.midwest2 || 'TBD'}</p>
+                        <p class="team topset2" id="east1">${data.east1 || 'TBD'}</p>
+                        <p class="team lowright lowset2" id="east8">${data.east8 || 'TBD'}</p>
+                        <p class="team lowset2" id="east5">${data.east5 || 'TBD'}</p>
+                        <p class="team lowright lowset2" id="east4">${data.east4 || 'TBD'}</p>
+                        <p class="team lowset2" id="east6">${data.east6 || 'TBD'}</p>
+                        <p class="team lowright lowset2" id="east3">${data.east3 || 'TBD'}</p>
+                        <p class="team lowset2" id="east7">${data.east7 || 'TBD'}</p>
+                        <p class="team lowright lowset2" id="east2">${data.east2 || 'TBD'}</p>
+                        <p class="team lowset2" id="midwest1">${data.midwest1 || 'TBD'}</p>
+                        <p class="team lowright lowset2" id="midwest8">${data.midwest8 || 'TBD'}</p>
+                        <p class="team lowset2" id="midwest5">${data.midwest5 || 'TBD'}</p>
+                        <p class="team lowright lowset2" id="midwest4">${data.midwest4 || 'TBD'}</p>
+                        <p class="team lowset2" id="midwest6">${data.midwest6 || 'TBD'}</p>
+                        <p class="team lowright lowset2" id="midwest3">${data.midwest3 || 'TBD'}</p>
+                        <p class="team lowset2" id="midwest7">${data.midwest7 || 'TBD'}</p>
+                        <p class="team lowright lowset2" id="midwest2">${data.midwest2 || 'TBD'}</p>
                     </div>
                     <div class="section">
                         <p>1st Round</p>
                         <p class="date">March 20-21</p>
                         <p class="team">Duke</p>
-                        <p class="team lowright">${data.firstfour3 || 'TBD'}</p>
+                        <p class="team lowright" id="firstfour3">${data.firstfour3 || 'TBD'}</p>
                         <p class="team">Mississippi St</p>
                         <p class="team lowright">Baylor</p>
                         <p class="team">Oregon</p>
@@ -421,7 +556,7 @@ function updateMenBracketData() {
                         <p class="team">Purdue</p>
                         <p class="team lowright">High Point</p>
                         <p class="team">Illinois</p>
-                        <p class="team lowright">${data.firstfour4 || 'TBD'}</p>
+                        <p class="team lowright" id="firstfour4">${data.firstfour4 || 'TBD'}</p>
                         <p class="team">Kentucky</p>
                         <p class="team lowright">Troy</p>
                         <p class="team">UCLA</p>
@@ -492,207 +627,342 @@ function countWomenScore() {
     womenScoreData = [];
     const actual = womenBracketData[0];
     womenBracketData.forEach(data => {
+        const outer = document.getElementById("womenbracket-"+data.name.toLowerCase());
         let score = 0;
         if (data.firstfour1 && data.firstfour1 !== 'TBD' && data.firstfour1 == actual.firstfour1) {
             score += 1;
+            const inner = outer.querySelector("#firstfour1");
+            inner.style.color = "#34b233";
         }
         if (data.firstfour2 && data.firstfour2 !== 'TBD' && data.firstfour2 == actual.firstfour2) {
             score += 1;
+            const inner = outer.querySelector("#firstfour2");
+            inner.style.color = "#34b233";
         }
         if (data.firstfour3 && data.firstfour3 !== 'TBD' && data.firstfour3 == actual.firstfour3) {
             score += 1;
+            const inner = outer.querySelector("#firstfour3");
+            inner.style.color = "#34b233";
         }
         if (data.firstfour4 && data.firstfour4 !== 'TBD' && data.firstfour4 == actual.firstfour4) {
             score += 1;
+            const inner = outer.querySelector("#firstfour4");
+            inner.style.color = "#34b233";
         }
         if (data.spokaneup1 && data.spokaneup1 !== 'TBD' && data.spokaneup1 == actual.spokaneup1) {
             score += 2;
+            const inner = outer.querySelector("#spokaneup1");
+            inner.style.color = "#34b233";
         }
         if (data.spokaneup8 && data.spokaneup8 !== 'TBD' && data.spokaneup8 == actual.spokaneup8) {
             score += 2;
+            const inner = outer.querySelector("#spokaneup8");
+            inner.style.color = "#34b233";
         }
         if (data.spokaneup5 && data.spokaneup5 !== 'TBD' && data.spokaneup5 == actual.spokaneup5) {
             score += 2;
+            const inner = outer.querySelector("#spokaneup5");
+            inner.style.color = "#34b233";
         }
         if (data.spokaneup4 && data.spokaneup4 !== 'TBD' && data.spokaneup4 == actual.spokaneup4) {
             score += 2;
+            const inner = outer.querySelector("#spokaneup4");
+            inner.style.color = "#34b233";
         }
         if (data.spokaneup6 && data.spokaneup6 !== 'TBD' && data.spokaneup6 == actual.spokaneup6) {
             score += 2;
+            const inner = outer.querySelector("#spokaneup6");
+            inner.style.color = "#34b233";
         }
         if (data.spokaneup3 && data.spokaneup3 !== 'TBD' && data.spokaneup3 == actual.spokaneup3) {
             score += 2;
+            const inner = outer.querySelector("#spokaneup3");
+            inner.style.color = "#34b233";
         }
         if (data.spokaneup7 && data.spokaneup7 !== 'TBD' && data.spokaneup7 == actual.spokaneup7) {
             score += 2;
+            const inner = outer.querySelector("#spokaneup7");
+            inner.style.color = "#34b233";
         }
         if (data.spokaneup2 && data.spokaneup2 !== 'TBD' && data.spokaneup2 == actual.spokaneup2) {
             score += 2;
+            const inner = outer.querySelector("#spokaneup2");
+            inner.style.color = "#34b233";
         }
         if (data.spokanedown1 && data.spokanedown1 !== 'TBD' && data.spokanedown1 == actual.spokanedown1) {
             score += 2;
+            const inner = outer.querySelector("#spokanedown1");
+            inner.style.color = "#34b233";
         }
         if (data.spokanedown8 && data.spokanedown8 !== 'TBD' && data.spokanedown8 == actual.spokanedown8) {
             score += 2;
+            const inner = outer.querySelector("#spokanedown8");
+            inner.style.color = "#34b233";
         }
         if (data.spokanedown5 && data.spokanedown5 !== 'TBD' && data.spokanedown5 == actual.spokanedown5) {
             score += 2;
+            const inner = outer.querySelector("#spokanedown5");
+            inner.style.color = "#34b233";
         }
         if (data.spokanedown4 && data.spokanedown4 !== 'TBD' && data.spokanedown4 == actual.spokanedown4) {
             score += 2;
+            const inner = outer.querySelector("#spokanedown4");
+            inner.style.color = "#34b233";
         }
         if (data.spokanedown6 && data.spokanedown6 !== 'TBD' && data.spokanedown6 == actual.spokanedown6) {
             score += 2;
+            const inner = outer.querySelector("#spokanedown6");
+            inner.style.color = "#34b233";
         }
         if (data.spokanedown3 && data.spokanedown3 !== 'TBD' && data.spokanedown3 == actual.spokanedown3) {
             score += 2;
+            const inner = outer.querySelector("#spokanedown3");
+            inner.style.color = "#34b233";
         }
         if (data.spokanedown7 && data.spokanedown7 !== 'TBD' && data.spokanedown7 == actual.spokanedown7) {
             score += 2;
+            const inner = outer.querySelector("#spokanedown7");
+            inner.style.color = "#34b233";
         }
         if (data.spokanedown2 && data.spokanedown2 !== 'TBD' && data.spokanedown2 == actual.spokanedown2) {
             score += 2;
+            const inner = outer.querySelector("#spokanedown2");
+            inner.style.color = "#34b233";
         }
         if (data.birminghamup1 && data.birminghamup1 !== 'TBD' && data.birminghamup1 == actual.birminghamup1) {
             score += 2;
+            const inner = outer.querySelector("#birminghamup1");
+            inner.style.color = "#34b233";
         }
         if (data.birminghamup8 && data.birminghamup8 !== 'TBD' && data.birminghamup8 == actual.birminghamup8) {
             score += 2;
+            const inner = outer.querySelector("#birminghamup8");
+            inner.style.color = "#34b233";
         }
         if (data.birminghamup5 && data.birminghamup5 !== 'TBD' && data.birminghamup5 == actual.birminghamup5) {
             score += 2;
+            const inner = outer.querySelector("#birminghamup5");
+            inner.style.color = "#34b233";
         }
         if (data.birminghamup4 && data.birminghamup4 !== 'TBD' && data.birminghamup4 == actual.birminghamup4) {
             score += 2;
+            const inner = outer.querySelector("#birminghamup4");
+            inner.style.color = "#34b233";
         }
         if (data.birminghamup6 && data.birminghamup6 !== 'TBD' && data.birminghamup6 == actual.birminghamup6) {
             score += 2;
+            const inner = outer.querySelector("#birminghamup6");
+            inner.style.color = "#34b233";
         }
         if (data.birminghamup3 && data.birminghamup3 !== 'TBD' && data.birminghamup3 == actual.birminghamup3) {
             score += 2;
+            const inner = outer.querySelector("#birminghamup3");
+            inner.style.color = "#34b233";
         }
         if (data.birminghamup7 && data.birminghamup7 !== 'TBD' && data.birminghamup7 == actual.birminghamup7) {
             score += 2;
+            const inner = outer.querySelector("#birminghamup7");
+            inner.style.color = "#34b233";
         }
         if (data.birminghamup2 && data.birminghamup2 !== 'TBD' && data.birminghamup2 == actual.birminghamup2) {
             score += 2;
+            const inner = outer.querySelector("#birminghamup2");
+            inner.style.color = "#34b233";
         }
         if (data.birminghamdown1 && data.birminghamdown1 !== 'TBD' && data.birminghamdown1 == actual.birminghamdown1) {
             score += 2;
+            const inner = outer.querySelector("#birminghamdown1");
+            inner.style.color = "#34b233";
         }
         if (data.birminghamdown8 && data.birminghamdown8 !== 'TBD' && data.birminghamdown8 == actual.birminghamdown8) {
             score += 2;
+            const inner = outer.querySelector("#birminghamdown8");
+            inner.style.color = "#34b233";
         }
-        if (data.birminghamdown5 && data.birminghamdown5 !== 'TBD' && data.birminghamdown5 == actual.birminghamdown5) { 
+        if (data.birminghamdown5 && data.birminghamdown5 !== 'TBD' && data.birminghamdown5 == actual.birminghamdown5) {
             score += 2;
+            const inner = outer.querySelector("#birminghamdown5");
+            inner.style.color = "#34b233";
         }
         if (data.birminghamdown4 && data.birminghamdown4 !== 'TBD' && data.birminghamdown4 == actual.birminghamdown4) {
             score += 2;
+            const inner = outer.querySelector("#birminghamdown4");
+            inner.style.color = "#34b233";
         }
         if (data.birminghamdown6 && data.birminghamdown6 !== 'TBD' && data.birminghamdown6 == actual.birminghamdown6) {
             score += 2;
+            const inner = outer.querySelector("#birminghamdown6");
+            inner.style.color = "#34b233";
         }
         if (data.birminghamdown3 && data.birminghamdown3 !== 'TBD' && data.birminghamdown3 == actual.birminghamdown3) {
             score += 2;
+            const inner = outer.querySelector("#birminghamdown3");
+            inner.style.color = "#34b233";
         }
         if (data.birminghamdown7 && data.birminghamdown7 !== 'TBD' && data.birminghamdown7 == actual.birminghamdown7) {
             score += 2;
+            const inner = outer.querySelector("#birminghamdown7");
+            inner.style.color = "#34b233";
         }
         if (data.birminghamdown2 && data.birminghamdown2 !== 'TBD' && data.birminghamdown2 == actual.birminghamdown2) {
             score += 2;
+            const inner = outer.querySelector("#birminghamdown2");
+            inner.style.color = "#34b233";
         }
         if (data.spokaneup16_1 && data.spokaneup16_1 !== 'TBD' && data.spokaneup16_1 == actual.spokaneup16_1) {
             score += 4;
+            const inner = outer.querySelector("#spokaneup16_1");
+            inner.style.color = "#34b233";
         }
         if (data.spokaneup16_4 && data.spokaneup16_4 !== 'TBD' && data.spokaneup16_4 == actual.spokaneup16_4) {
             score += 4;
+            const inner = outer.querySelector("#spokaneup16_4");
+            inner.style.color = "#34b233";
         }
         if (data.spokaneup16_3 && data.spokaneup16_3 !== 'TBD' && data.spokaneup16_3 == actual.spokaneup16_3) {
             score += 4;
+            const inner = outer.querySelector("#spokaneup16_3");
+            inner.style.color = "#34b233";
         }
         if (data.spokaneup16_2 && data.spokaneup16_2 !== 'TBD' && data.spokaneup16_2 == actual.spokaneup16_2) {
             score += 4;
+            const inner = outer.querySelector("#spokaneup16_2");
+            inner.style.color = "#34b233";
         }
         if (data.spokanedown16_1 && data.spokanedown16_1 !== 'TBD' && data.spokanedown16_1 == actual.spokanedown16_1) {
             score += 4;
+            const inner = outer.querySelector("#spokanedown16_1");
+            inner.style.color = "#34b233";
         }
         if (data.spokanedown16_4 && data.spokanedown16_4 !== 'TBD' && data.spokanedown16_4 == actual.spokanedown16_4) {
             score += 4;
+            const inner = outer.querySelector("#spokanedown16_4");
+            inner.style.color = "#34b233";
         }
         if (data.spokanedown16_3 && data.spokanedown16_3 !== 'TBD' && data.spokanedown16_3 == actual.spokanedown16_3) {
             score += 4;
+            const inner = outer.querySelector("#spokanedown16_3");
+            inner.style.color = "#34b233";
         }
         if (data.spokanedown16_2 && data.spokanedown16_2 !== 'TBD' && data.spokanedown16_2 == actual.spokanedown16_2) {
             score += 4;
+            const inner = outer.querySelector("#spokanedown16_2");
+            inner.style.color = "#34b233";
         }
         if (data.birminghamup16_1 && data.birminghamup16_1 !== 'TBD' && data.birminghamup16_1 == actual.birminghamup16_1) {
             score += 4;
+            const inner = outer.querySelector("#birminghamup16_1");
+            inner.style.color = "#34b233";
         }
         if (data.birminghamup16_4 && data.birminghamup16_4 !== 'TBD' && data.birminghamup16_4 == actual.birminghamup16_4) {
             score += 4;
+            const inner = outer.querySelector("#birminghamup16_4");
+            inner.style.color = "#34b233";
         }
         if (data.birminghamup16_3 && data.birminghamup16_3 !== 'TBD' && data.birminghamup16_3 == actual.birminghamup16_3) {
             score += 4;
+            const inner = outer.querySelector("#birminghamup16_3");
+            inner.style.color = "#34b233";
         }
         if (data.birminghamup16_2 && data.birminghamup16_2 !== 'TBD' && data.birminghamup16_2 == actual.birminghamup16_2) {
             score += 4;
+            const inner = outer.querySelector("#birminghamup16_2");
+            inner.style.color = "#34b233";
         }
         if (data.birminghamdown16_1 && data.birminghamdown16_1 !== 'TBD' && data.birminghamdown16_1 == actual.birminghamdown16_1) {
             score += 4;
+            const inner = outer.querySelector("#birminghamdown16_1");
+            inner.style.color = "#34b233";
         }
         if (data.birminghamdown16_4 && data.birminghamdown16_4 !== 'TBD' && data.birminghamdown16_4 == actual.birminghamdown16_4) {
             score += 4;
+            const inner = outer.querySelector("#birminghamdown16_4");
+            inner.style.color = "#34b233";
         }
         if (data.birminghamdown16_3 && data.birminghamdown16_3 !== 'TBD' && data.birminghamdown16_3 == actual.birminghamdown16_3) {
             score += 4;
+            const inner = outer.querySelector("#birminghamdown16_3");
+            inner.style.color = "#34b233";
         }
         if (data.birminghamdown16_2 && data.birminghamdown16_2 !== 'TBD' && data.birminghamdown16_2 == actual.birminghamdown16_2) {
             score += 4;
+            const inner = outer.querySelector("#birminghamdown16_2");
+            inner.style.color = "#34b233";
         }
         if (data.spokaneup8_1 && data.spokaneup8_1 !== 'TBD' && data.spokaneup8_1 == actual.spokaneup8_1) {
             score += 8;
+            const inner = outer.querySelector("#spokaneup8_1");
+            inner.style.color = "#34b233";
         }
         if (data.spokaneup8_2 && data.spokaneup8_2 !== 'TBD' && data.spokaneup8_2 == actual.spokaneup8_2) {
             score += 8;
+            const inner = outer.querySelector("#spokaneup8_2");
+            inner.style.color = "#34b233";
         }
         if (data.spokanedown8_1 && data.spokanedown8_1 !== 'TBD' && data.spokanedown8_1 == actual.spokanedown8_1) {
             score += 8;
+            const inner = outer.querySelector("#spokanedown8_1");
+            inner.style.color = "#34b233";
         }
         if (data.spokanedown8_2 && data.spokanedown8_2 !== 'TBD' && data.spokanedown8_2 == actual.spokanedown8_2) {
             score += 8;
+            const inner = outer.querySelector("#spokanedown8_2");
+            inner.style.color = "#34b233";
         }
         if (data.birminghamup8_1 && data.birminghamup8_1 !== 'TBD' && data.birminghamup8_1 == actual.birminghamup8_1) {
             score += 8;
+            const inner = outer.querySelector("#birminghamup8_1");
+            inner.style.color = "#34b233";
         }
         if (data.birminghamup8_2 && data.birminghamup8_2 !== 'TBD' && data.birminghamup8_2 == actual.birminghamup8_2) {
             score += 8;
+            const inner = outer.querySelector("#birminghamup8_2");
+            inner.style.color = "#34b233";
         }
         if (data.birminghamdown8_1 && data.birminghamdown8_1 !== 'TBD' && data.birminghamdown8_1 == actual.birminghamdown8_1) {
             score += 8;
+            const inner = outer.querySelector("#birminghamdown8_1");
+            inner.style.color = "#34b233";
         }
         if (data.birminghamdown8_2 && data.birminghamdown8_2 !== 'TBD' && data.birminghamdown8_2 == actual.birminghamdown8_2) {
             score += 8;
+            const inner = outer.querySelector("#birminghamdown8_2");
+            inner.style.color = "#34b233";
         }
         if (data.spokaneup && data.spokaneup !== 'TBD' && data.spokaneup == actual.spokaneup) {
             score += 16;
+            const inner = outer.querySelector("#spokaneup");
+            inner.style.color = "#34b233";
         }
         if (data.spokanedown && data.spokanedown !== 'TBD' && data.spokanedown == actual.spokanedown) {
             score += 16;
+            const inner = outer.querySelector("#spokanedown");
+            inner.style.color = "#34b233";
         }
         if (data.birminghamup && data.birminghamup !== 'TBD' && data.birminghamup == actual.birminghamup) {
             score += 16;
+            const inner = outer.querySelector("#birminghamup");
+            inner.style.color = "#34b233";
         }
         if (data.birminghamdown && data.birminghamdown !== 'TBD' && data.birminghamdown == actual.birminghamdown) {
             score += 16;
+            const inner = outer.querySelector("#birminghamdown");
+            inner.style.color = "#34b233";
         }
         if (data.finalleft && data.finalleft !== 'TBD' && data.finalleft == actual.finalleft) {
             score += 32;
+            const inner = outer.querySelector("#finalleft");
+            inner.style.color = "#34b233";
         }
         if (data.finalright && data.finalright !== 'TBD' && data.finalright == actual.finalright) {
             score += 32;
+            const inner = outer.querySelector("#finalright");
+            inner.style.color = "#34b233";
         }
         if (data.champion && data.champion !== 'TBD' && data.champion == actual.champion) {
             score += 64;
+            const inner = outer.querySelector("#champion");
+            inner.style.color = "#34b233";
         }
         womenScoreData.push({name: data.name, score: score});
     })
@@ -721,7 +991,7 @@ function updateWomenBracketData() {
                         <p>1st Round</p>
                         <p class="date">March 21-22</p>
                         <p class="team">UCLA</p>
-                        <p class="team lowleft">${data.firstfour1 || 'TBD'}</p>
+                        <p class="team lowleft" id="firstfour1">${data.firstfour1 || 'TBD'}</p>
                         <p class="team">Richmond</p>
                         <p class="team lowleft">Georgia Tech</p>
                         <p class="team">Ole Miss</p>
@@ -756,103 +1026,103 @@ function updateWomenBracketData() {
                     <div class="section">
                         <p>2nd Round</p>
                         <p class="date">March 23-24</p>
-                        <p class="team topset2">${data.spokaneup1 || 'TBD'}</p>
-                        <p class="team lowleft lowset2">${data.spokaneup8 || 'TBD'}</p>
-                        <p class="team lowset2">${data.spokaneup5 || 'TBD'}</p>
-                        <p class="team lowleft lowset2">${data.spokaneup4 || 'TBD'}</p>
-                        <p class="team lowset2">${data.spokaneup6 || 'TBD'}</p>
-                        <p class="team lowleft lowset2">${data.spokaneup3 || 'TBD'}</p>
-                        <p class="team lowset2">${data.spokaneup7 || 'TBD'}</p>
-                        <p class="team lowleft lowset2">${data.spokaneup2 || 'TBD'}</p>
-                        <p class="team lowset2">${data.spokanedown1 || 'TBD'}</p>
-                        <p class="team lowleft lowset2">${data.spokanedown8 || 'TBD'}</p>
-                        <p class="team lowset2">${data.spokanedown5 || 'TBD'}</p>
-                        <p class="team lowleft lowset2">${data.spokanedown4 || 'TBD'}</p>
-                        <p class="team lowset2">${data.spokanedown6 || 'TBD'}</p>
-                        <p class="team lowleft lowset2">${data.spokanedown3 || 'TBD'}</p>
-                        <p class="team lowset2">${data.spokanedown7 || 'TBD'}</p>
-                        <p class="team lowleft lowset2">${data.spokanedown2 || 'TBD'}</p>
+                        <p class="team topset2" id="spokaneup1">${data.spokaneup1 || 'TBD'}</p>
+                        <p class="team lowleft lowset2" id="spokaneup8">${data.spokaneup8 || 'TBD'}</p>
+                        <p class="team lowset2" id="spokaneup5">${data.spokaneup5 || 'TBD'}</p>
+                        <p class="team lowleft lowset2" id="spokaneup4">${data.spokaneup4 || 'TBD'}</p>
+                        <p class="team lowset2" id="spokaneup6">${data.spokaneup6 || 'TBD'}</p>
+                        <p class="team lowleft lowset2" id="spokaneup3">${data.spokaneup3 || 'TBD'}</p>
+                        <p class="team lowset2" id="spokaneup7">${data.spokaneup7 || 'TBD'}</p>
+                        <p class="team lowleft lowset2" id="spokaneup2">${data.spokaneup2 || 'TBD'}</p>
+                        <p class="team lowset2" id="spokanedown1">${data.spokanedown1 || 'TBD'}</p>
+                        <p class="team lowleft lowset2" id="spokanedown8">${data.spokanedown8 || 'TBD'}</p>
+                        <p class="team lowset2" id="spokanedown5">${data.spokanedown5 || 'TBD'}</p>
+                        <p class="team lowleft lowset2" id="spokanedown4">${data.spokanedown4 || 'TBD'}</p>
+                        <p class="team lowset2" id="spokanedown6">${data.spokanedown6 || 'TBD'}</p>
+                        <p class="team lowleft lowset2" id="spokanedown3">${data.spokanedown3 || 'TBD'}</p>
+                        <p class="team lowset2" id="spokanedown7">${data.spokanedown7 || 'TBD'}</p>
+                        <p class="team lowleft lowset2" id="spokanedown2">${data.spokanedown2 || 'TBD'}</p>
                     </div>
                     <div class="section">
                         <p>Sweet 16</p>
                         <p class="date">March 28-29</p>
-                        <p class="team topset3">${data.spokaneup16_1 || 'TBD'}</p>
-                        <p class="team lowleft lowset3">${data.spokaneup16_4 || 'TBD'}</p>
-                        <p class="team lowset3">${data.spokaneup16_3 || 'TBD'}</p>
-                        <p class="team lowleft lowset3">${data.spokaneup16_2 || 'TBD'}</p>
-                        <p class="team lowset3">${data.spokanedown16_1 || 'TBD'}</p>
-                        <p class="team lowleft lowset3">${data.spokanedown16_4 || 'TBD'}</p>
-                        <p class="team lowset3">${data.spokanedown16_3 || 'TBD'}</p>
-                        <p class="team lowleft lowset3">${data.spokanedown16_2 || 'TBD'}</p>
+                        <p class="team topset3" id="spokaneup16_1">${data.spokaneup16_1 || 'TBD'}</p>
+                        <p class="team lowleft lowset3" id="spokaneup16_4">${data.spokaneup16_4 || 'TBD'}</p>
+                        <p class="team lowset3" id="spokaneup16_3">${data.spokaneup16_3 || 'TBD'}</p>
+                        <p class="team lowleft lowset3" id="spokaneup16_2">${data.spokaneup16_2 || 'TBD'}</p>
+                        <p class="team lowset3" id="spokanedown16_1">${data.spokanedown16_1 || 'TBD'}</p>
+                        <p class="team lowleft lowset3" id="spokanedown16_4">${data.spokanedown16_4 || 'TBD'}</p>
+                        <p class="team lowset3" id="spokanedown16_3">${data.spokanedown16_3 || 'TBD'}</p>
+                        <p class="team lowleft lowset3" id="spokanedown16_2">${data.spokanedown16_2 || 'TBD'}</p>
                     </div>
                     <div class="section">
                         <p>Elite 8</p>
                         <p class="date">March 30-31</p>
-                        <p class="team topset4">${data.spokaneup8_1 || 'TBD'}</p>
-                        <p class="team lowleft lowset4">${data.spokaneup8_2 || 'TBD'}</p>
-                        <p class="team lowset4">${data.spokanedown8_1 || 'TBD'}</p>
-                        <p class="team lowleft lowset4">${data.spokanedown8_2 || 'TBD'}</p>
+                        <p class="team topset4" id="spokaneup8_1">${data.spokaneup8_1 || 'TBD'}</p>
+                        <p class="team lowleft lowset4" id="spokaneup8_2">${data.spokaneup8_2 || 'TBD'}</p>
+                        <p class="team lowset4" id="spokanedown8_1">${data.spokanedown8_1 || 'TBD'}</p>
+                        <p class="team lowleft lowset4" id="spokanedown8_2">${data.spokanedown8_2 || 'TBD'}</p>
                     </div>
                     <div class="section">
                         <p>Final 4</p>
                         <p class="date">April 4</p>
-                        <p class="team topset5">${data.spokaneup || 'TBD'}</p>
-                        <p class="team lowleft lowset5">${data.spokanedown || 'TBD'}</p>
+                        <p class="team topset5" id="spokaneup">${data.spokaneup || 'TBD'}</p>
+                        <p class="team lowleft lowset5" id="spokanedown">${data.spokanedown || 'TBD'}</p>
                     </div>
                     <div class="section">
                         <p>Championship</p>
                         <p class="date">April 6</p>
-                        <p class="team leftfinal">${data.finalleft || 'TBD'}</p>
-                        <p class="team winner">${data.champion || 'TBD'}</p>
+                        <p class="team leftfinal" id="finalleft">${data.finalleft || 'TBD'}</p>
+                        <p class="team winner" id="champion">${data.champion || 'TBD'}</p>
                         <div class="rightcontainer">
-                            <p class="team rightfinal">${data.finalright || 'TBD'}</p>
+                            <p class="team rightfinal" id="finalright">${data.finalright || 'TBD'}</p>
                         </div>
                     </div>
                     <div class="section">
                         <p>Final 4</p>
                         <p class="date">April 4</p>
-                        <p class="team topset5">${data.birminghamup || 'TBD'}</p>
-                        <p class="team lowright lowset5">${data.birminghamdown || 'TBD'}</p>
+                        <p class="team topset5" id="birminghamup">${data.birminghamup || 'TBD'}</p>
+                        <p class="team lowright lowset5" id="birminghamdown">${data.birminghamdown || 'TBD'}</p>
                     </div>
                     <div class="section">
                         <p>Elite 8</p>
                         <p class="date">March 30-31</p>
-                        <p class="team topset4">${data.birminghamup8_1 || 'TBD'}</p>
-                        <p class="team lowright lowset4">${data.birminghamup8_2 || 'TBD'}</p>
-                        <p class="team lowset4">${data.birminghamdown8_1 || 'TBD'}</p>
-                        <p class="team lowright lowset4">${data.birminghamdown8_2 || 'TBD'}</p>
+                        <p class="team topset4" id="birminghamup8_1">${data.birminghamup8_1 || 'TBD'}</p>
+                        <p class="team lowright lowset4" id="birminghamup8_2">${data.birminghamup8_2 || 'TBD'}</p>
+                        <p class="team lowset4" id="birminghamdown8_1">${data.birminghamdown8_1 || 'TBD'}</p>
+                        <p class="team lowright lowset4" id="birminghamdown8_2">${data.birminghamdown8_2 || 'TBD'}</p>
                     </div>
                     <div class="section">
                         <p>Sweet 16</p>
                         <p class="date">March 28-29</p>
-                        <p class="team topset3">${data.birminghamup16_1 || 'TBD'}</p>
-                        <p class="team lowright lowset3">${data.birminghamup16_4 || 'TBD'}</p>
-                        <p class="team lowset3">${data.birminghamup16_3 || 'TBD'}</p>
-                        <p class="team lowright lowset3">${data.birminghamup16_2 || 'TBD'}</p>
-                        <p class="team lowset3">${data.birminghamdown16_1 || 'TBD'}</p>
-                        <p class="team lowright lowset3">${data.birminghamdown16_4 || 'TBD'}</p>
-                        <p class="team lowset3">${data.birminghamdown16_3 || 'TBD'}</p>
-                        <p class="team lowright lowset3">${data.birminghamdown16_2 || 'TBD'}</p>
+                        <p class="team topset3" id="birminghamup16_1">${data.birminghamup16_1 || 'TBD'}</p>
+                        <p class="team lowright lowset3" id="birminghamup16_4">${data.birminghamup16_4 || 'TBD'}</p>
+                        <p class="team lowset3" id="birminghamup16_3">${data.birminghamup16_3 || 'TBD'}</p>
+                        <p class="team lowright lowset3" id="birminghamup16_2">${data.birminghamup16_2 || 'TBD'}</p>
+                        <p class="team lowset3" id="birminghamdown16_1">${data.birminghamdown16_1 || 'TBD'}</p>
+                        <p class="team lowright lowset3" id="birminghamdown16_4">${data.birminghamdown16_4 || 'TBD'}</p>
+                        <p class="team lowset3" id="birminghamdown16_3">${data.birminghamdown16_3 || 'TBD'}</p>
+                        <p class="team lowright lowset3" id="birminghamdown16_2">${data.birminghamdown16_2 || 'TBD'}</p>
                     </div>
                     <div class="section">
                         <p>2nd Round</p>
                         <p class="date">March 23-24</p>
-                        <p class="team topset2">${data.birminghamup1 || 'TBD'}</p>
-                        <p class="team lowright lowset2">${data.birminghamup8 || 'TBD'}</p>
-                        <p class="team lowset2">${data.birminghamup5 || 'TBD'}</p>
-                        <p class="team lowright lowset2">${data.birminghamup4 || 'TBD'}</p>
-                        <p class="team lowset2">${data.birminghamup6 || 'TBD'}</p>
-                        <p class="team lowright lowset2">${data.birminghamup3 || 'TBD'}</p>
-                        <p class="team lowset2">${data.birminghamup7 || 'TBD'}</p>
-                        <p class="team lowright lowset2">${data.birminghamup2 || 'TBD'}</p>
-                        <p class="team lowset2">${data.birminghamdown1 || 'TBD'}</p>
-                        <p class="team lowright lowset2">${data.birminghamdown8 || 'TBD'}</p>
-                        <p class="team lowset2">${data.birminghamdown5 || 'TBD'}</p>
-                        <p class="team lowright lowset2">${data.birminghamdown4 || 'TBD'}</p>
-                        <p class="team lowset2">${data.birminghamdown6 || 'TBD'}</p>
-                        <p class="team lowright lowset2">${data.birminghamdown3 || 'TBD'}</p>
-                        <p class="team lowset2">${data.birminghamdown7 || 'TBD'}</p>
-                        <p class="team lowright lowset2">${data.birminghamdown2 || 'TBD'}</p>
+                        <p class="team topset2" id="birminghamup1">${data.birminghamup1 || 'TBD'}</p>
+                        <p class="team lowright lowset2" id="birminghamup8">${data.birminghamup8 || 'TBD'}</p>
+                        <p class="team lowset2" id="birminghamup5">${data.birminghamup5 || 'TBD'}</p>
+                        <p class="team lowright lowset2" id="birminghamup4">${data.birminghamup4 || 'TBD'}</p>
+                        <p class="team lowset2" id="birminghamup6">${data.birminghamup6 || 'TBD'}</p>
+                        <p class="team lowright lowset2" id="birminghamup3">${data.birminghamup3 || 'TBD'}</p>
+                        <p class="team lowset2" id="birminghamup7">${data.birminghamup7 || 'TBD'}</p>
+                        <p class="team lowright lowset2" id="birminghamup2">${data.birminghamup2 || 'TBD'}</p>
+                        <p class="team lowset2" id="birminghamdown1">${data.birminghamdown1 || 'TBD'}</p>
+                        <p class="team lowright lowset2" id="birminghamdown8">${data.birminghamdown8 || 'TBD'}</p>
+                        <p class="team lowset2" id="birminghamdown5">${data.birminghamdown5 || 'TBD'}</p>
+                        <p class="team lowright lowset2" id="birminghamdown4">${data.birminghamdown4 || 'TBD'}</p>
+                        <p class="team lowset2" id="birminghamdown6">${data.birminghamdown6 || 'TBD'}</p>
+                        <p class="team lowright lowset2" id="birminghamdown3">${data.birminghamdown3 || 'TBD'}</p>
+                        <p class="team lowset2" id="birminghamdown7">${data.birminghamdown7 || 'TBD'}</p>
+                        <p class="team lowright lowset2" id="birminghamdown2">${data.birminghamdown2 || 'TBD'}</p>
                     </div>
                     <div class="section">
                         <p>1st Round</p>
@@ -866,7 +1136,7 @@ function updateWomenBracketData() {
                         <p class="team">Maryland</p>
                         <p class="team lowright">Norfolk St</p>
                         <p class="team">West Virginia</p>
-                        <p class="team lowright">${data.firstfour2 || 'TBD'}</p>
+                        <p class="team lowright" id="firstfour2">${data.firstfour2 || 'TBD'}</p>
                         <p class="team">North Carolina</p>
                         <p class="team lowright">Oregon St</p>
                         <p class="team">Vanderbilt</p>
@@ -874,7 +1144,7 @@ function updateWomenBracketData() {
                         <p class="team">Duke</p>
                         <p class="team lowright">Lehigh</p>
                         <p class="team">Texas</p>
-                        <p class="team lowright">${data.firstfour4 || 'TBD'}</p>
+                        <p class="team lowright" id="firstfour4">${data.firstfour4 || 'TBD'}</p>
                         <p class="team">Illinois</p>
                         <p class="team lowright">Creighton</p>
                         <p class="team">Tennessee</p>
@@ -882,7 +1152,7 @@ function updateWomenBracketData() {
                         <p class="team">Ohio State</p>
                         <p class="team lowright">Montana St</p>
                         <p class="team">Michigan</p>
-                        <p class="team lowright">${data.firstfour3 || 'TBD'}</p>
+                        <p class="team lowright" id="firstfour3">${data.firstfour3 || 'TBD'}</p>
                         <p class="team">Notre Dame</p>
                         <p class="team lowright">SF Austin</p>
                         <p class="team">Louisville</p>
