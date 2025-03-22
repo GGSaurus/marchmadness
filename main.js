@@ -434,13 +434,31 @@ function updateMenBracketData() {
 }
 
 function updateMenTable() {
-    menScoreData.sort((a,b) => b.score - a.score);
+    const rankPlayers = menScoreData.slice(1);
+    rankPlayers.sort((a,b) => b.score - a.score);
     const tableBody = document.querySelector("#menrankings-table tbody");
-    menScoreData.forEach((player, index) => {
+    const maxScoreRow = document.createElement("tr");
+    const maxRankCell = document.createElement("td");
+    maxScoreRow.appendChild(maxRankCell);
+    const maxNameCell = document.createElement("td");
+    maxNameCell.textContent = "Maximum";
+    maxScoreRow.appendChild(maxNameCell);
+    const maxScoreCell = document.createElement("td");
+    maxScoreCell.textContent = menScoreData[0].score;
+    maxScoreRow.appendChild(maxScoreCell);
+    tableBody.appendChild(maxScoreRow);
+    let currentRank = 1;
+    rankPlayers.forEach((player, index) => {
         const row = document.createElement("tr");
 
         const rankCell = document.createElement("td");
-        rankCell.textContent = index + 1;
+        if (index > 0 && player.score === rankPlayers[index - 1].score) {
+            rankCell.textContent = currentRank;
+        }
+        else {
+            rankCell.textContent = index + 1;
+            currentRank = index + 1;
+        }
         row.appendChild(rankCell);
 
         const nameCell = document.createElement("td");
@@ -876,13 +894,30 @@ function updateWomenBracketData() {
 }
 
 function updateWomenTable() {
-    womenScoreData.sort((a,b) => b.score - a.score);
+    const rankPlayers = womenScoreData.slice(1);
+    rankPlayers.sort((a,b) => b.score - a.score);
     const tableBody = document.querySelector("#womenrankings-table tbody");
-    womenScoreData.forEach((player, index) => {
+    const maxScoreRow = document.createElement("tr");
+    const maxRankCell = document.createElement("td");
+    maxScoreRow.appendChild(maxRankCell);
+    const maxNameCell = document.createElement("td");
+    maxNameCell.textContent = "Maximum";
+    maxScoreRow.appendChild(maxNameCell);
+    const maxScoreCell = document.createElement("td");
+    maxScoreCell.textContent = womenScoreData[0].score;
+    maxScoreRow.appendChild(maxScoreCell);
+    tableBody.appendChild(maxScoreRow);
+    rankPlayers.forEach((player, index) => {
         const row = document.createElement("tr");
 
         const rankCell = document.createElement("td");
-        rankCell.textContent = index + 1;
+        if (index > 0 && player.score === rankPlayers[index - 1].score) {
+            rankCell.textContent = currentRank;
+        }
+        else {
+            rankCell.textContent = index + 1;
+            currentRank = index + 1;
+        }
         row.appendChild(rankCell);
 
         const nameCell = document.createElement("td");
@@ -954,6 +989,15 @@ function updateGames(gender, startDate, endDate, elementId) {
                     if (gameStatus.toLowerCase().includes('in progress') || gameStatus.toLowerCase().includes('halftime') || gameStatus.toLowerCase().includes('end of period')) {
                         gameElement.style.color = 'red';
                         gameElement.style.fontWeight = 'bold';
+                    }
+
+                    if (gameStatus.toLowerCase().includes('final')) {
+                        if (firstScore > secondScore) {
+                            gameElement.innerHTML = `<strong>${firstSeed} ${firstTeam} ${firstScore}</strong> - ${secondScore} ${secondSeed} ${secondTeam} (${gameStatus})`;
+                        }
+                        else {
+                            gameElement.innerHTML = `${firstSeed} ${firstTeam} ${firstScore} - <strong>${secondScore} ${secondSeed} ${secondTeam}</strong> (${gameStatus})`;
+                        }
                     }
 
                     gameDiv.appendChild(gameElement);
