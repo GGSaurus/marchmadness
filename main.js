@@ -992,7 +992,7 @@ function updateGames(gender, startDate, endDate, elementId) {
                     }
 
                     if (gameStatus.toLowerCase().includes('final')) {
-                        if (firstScore > secondScore) {
+                        if (parseInt(firstScore) > parseInt(secondScore)) {
                             gameElement.innerHTML = `<strong>${firstSeed} ${firstTeam} ${firstScore}</strong> - ${secondScore} ${secondSeed} ${secondTeam} (${gameStatus})`;
                         }
                         else {
