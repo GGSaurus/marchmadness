@@ -38,335 +38,603 @@ function countMenScore() {
             const inner = outer.querySelector("#firstfour1");
             inner.style.color = "#34b233";
         }
+        else if (data.firstfour1 && actual.firstfour1 && data.firstfour1 !== 'TBD' && actual.firstfour1 !== 'TBD' && data.firstfour1 !== actual.firstfour1) {
+            const inner = outer.querySelector("#firstfour1");
+            inner.style.color = "#e83922";
+        }
         if (data.firstfour2 && data.firstfour2 !== 'TBD' && data.firstfour2 == actual.firstfour2) {
             score += 1;
             const inner = outer.querySelector("#firstfour2");
             inner.style.color = "#34b233";
+        }
+        else if (data.firstfour2 && actual.firstfour2 && data.firstfour2 !== 'TBD' && actual.firstfour2 !== 'TBD' && data.firstfour2 !== actual.firstfour2) {
+            const inner = outer.querySelector("#firstfour2");
+            inner.style.color = "#e83922";
         }
         if (data.firstfour3 && data.firstfour3 !== 'TBD' && data.firstfour3 == actual.firstfour3) {
             score += 1;
             const inner = outer.querySelector("#firstfour3");
             inner.style.color = "#34b233";
         }
+        else if (data.firstfour3 && actual.firstfour3 && data.firstfour3 !== 'TBD' && actual.firstfour3 !== 'TBD' && data.firstfour3 !== actual.firstfour3) {
+            const inner = outer.querySelector("#firstfour3");
+            inner.style.color = "#e83922";
+        }
         if (data.firstfour4 && data.firstfour4 !== 'TBD' && data.firstfour4 == actual.firstfour4) {
             score += 1;
             const inner = outer.querySelector("#firstfour4");
             inner.style.color = "#34b233";
+        }
+        else if (data.firstfour4 && actual.firstfour4 && data.firstfour4 !== 'TBD' && actual.firstfour4 !== 'TBD' && data.firstfour4 !== actual.firstfour4) {
+            const inner = outer.querySelector("#firstfour4");
+            inner.style.color = "#e83922";
         }
         if (data.south1 && data.south1 !== 'TBD' && data.south1 == actual.south1) {
             score += 2;
             const inner = outer.querySelector("#south1");
             inner.style.color = "#34b233";
         }
+        else if (data.south1 && actual.south1 && data.south1 !== 'TBD' && actual.south1 !== 'TBD' && data.south1 !== actual.south1) {
+            const inner = outer.querySelector("#south1");
+            inner.style.color = "#e83922";
+        }
         if (data.south8 && data.south8 !== 'TBD' && data.south8 == actual.south8) {
             score += 2;
             const inner = outer.querySelector("#south8");
             inner.style.color = "#34b233";
+        }
+        else if (data.south8 && actual.south8 && data.south8 !== 'TBD' && actual.south8 !== 'TBD' && data.south8 !== actual.south8) {
+            const inner = outer.querySelector("#south8");
+            inner.style.color = "#e83922";
         }
         if (data.south5 && data.south5 !== 'TBD' && data.south5 == actual.south5) {
             score += 2;
             const inner = outer.querySelector("#south5");
             inner.style.color = "#34b233";
         }
+        else if (data.south5 && actual.south5 && data.south5 !== 'TBD' && actual.south5 !== 'TBD' && data.south5 !== actual.south5) {
+            const inner = outer.querySelector("#south5");
+            inner.style.color = "#e83922";
+        }
         if (data.south4 && data.south4 !== 'TBD' && data.south4 == actual.south4) {
             score += 2;
             const inner = outer.querySelector("#south4");
             inner.style.color = "#34b233";
+        }
+        else if (data.south4 && actual.south4 && data.south4 !== 'TBD' && actual.south4 !== 'TBD' && data.south4 !== actual.south4) {
+            const inner = outer.querySelector("#south4");
+            inner.style.color = "#e83922";
         }
         if (data.south6 && data.south6 !== 'TBD' && data.south6 == actual.south6) {
             score += 2;
             const inner = outer.querySelector("#south6");
             inner.style.color = "#34b233";
         }
+        else if (data.south6 && actual.south6 && data.south6 !== 'TBD' && actual.south6 !== 'TBD' && data.south6 !== actual.south6) {
+            const inner = outer.querySelector("#south6");
+            inner.style.color = "#e83922";
+        }
         if (data.south3 && data.south3 !== 'TBD' && data.south3 == actual.south3) {
             score += 2;
             const inner = outer.querySelector("#south3");
             inner.style.color = "#34b233";
+        }
+        else if (data.south3 && actual.south3 && data.south3 !== 'TBD' && actual.south3 !== 'TBD' && data.south3 !== actual.south3) {
+            const inner = outer.querySelector("#south3");
+            inner.style.color = "#e83922";
         }
         if (data.south7 && data.south7 !== 'TBD' && data.south7 == actual.south7) {
             score += 2;
             const inner = outer.querySelector("#south7");
             inner.style.color = "#34b233";
         }
+        else if (data.south7 && actual.south7 && data.south7 !== 'TBD' && actual.south7 !== 'TBD' && data.south7 !== actual.south7) {
+            const inner = outer.querySelector("#south7");
+            inner.style.color = "#e83922";
+        }
         if (data.south2 && data.south2 !== 'TBD' && data.south2 == actual.south2) {
             score += 2;
             const inner = outer.querySelector("#south2");
             inner.style.color = "#34b233";
+        }
+        else if (data.south2 && actual.south2 && data.south2 !== 'TBD' && actual.south2 !== 'TBD' && data.south2 !== actual.south2) {
+            const inner = outer.querySelector("#south2");
+            inner.style.color = "#e83922";
         }
         if (data.west1 && data.west1 !== 'TBD' && data.west1 == actual.west1) {
             score += 2;
             const inner = outer.querySelector("#west1");
             inner.style.color = "#34b233";
         }
+        else if (data.west1 && actual.west1 && data.west1 !== 'TBD' && actual.west1 !== 'TBD' && data.west1 !== actual.west1) {
+            const inner = outer.querySelector("#west1");
+            inner.style.color = "#e83922";
+        }
         if (data.west8 && data.west8 !== 'TBD' && data.west8 == actual.west8) {
             score += 2;
             const inner = outer.querySelector("#west8");
             inner.style.color = "#34b233";
+        }
+        else if (data.west8 && actual.west8 && data.west8 !== 'TBD' && actual.west8 !== 'TBD' && data.west8 !== actual.west8) {
+            const inner = outer.querySelector("#west8");
+            inner.style.color = "#e83922";
         }
         if (data.west5 && data.west5 !== 'TBD' && data.west5 == actual.west5) {
             score += 2;
             const inner = outer.querySelector("#west5");
             inner.style.color = "#34b233";
         }
+        else if (data.west5 && actual.west5 && data.west5 !== 'TBD' && actual.west5 !== 'TBD' && data.west5 !== actual.west5) {
+            const inner = outer.querySelector("#west5");
+            inner.style.color = "#e83922";
+        }
         if (data.west4 && data.west4 !== 'TBD' && data.west4 == actual.west4) {
             score += 2;
             const inner = outer.querySelector("#west4");
             inner.style.color = "#34b233";
+        }
+        else if (data.west4 && actual.west4 && data.west4 !== 'TBD' && actual.west4 !== 'TBD' && data.west4 !== actual.west4) {
+            const inner = outer.querySelector("#west4");
+            inner.style.color = "#e83922";
         }
         if (data.west6 && data.west6 !== 'TBD' && data.west6 == actual.west6) {
             score += 2;
             const inner = outer.querySelector("#west6");
             inner.style.color = "#34b233";
         }
+        else if (data.west6 && actual.west6 && data.west6 !== 'TBD' && actual.west6 !== 'TBD' && data.west6 !== actual.west6) {
+            const inner = outer.querySelector("#west6");
+            inner.style.color = "#e83922";
+        }
         if (data.west3 && data.west3 !== 'TBD' && data.west3 == actual.west3) {
             score += 2;
             const inner = outer.querySelector("#west3");
             inner.style.color = "#34b233";
+        }
+        else if (data.west3 && actual.west3 && data.west3 !== 'TBD' && actual.west3 !== 'TBD' && data.west3 !== actual.west3) {
+            const inner = outer.querySelector("#west3");
+            inner.style.color = "#e83922";
         }
         if (data.west7 && data.west7 !== 'TBD' && data.west7 == actual.west7) {
             score += 2;
             const inner = outer.querySelector("#west7");
             inner.style.color = "#34b233";
         }
+        else if (data.west7 && actual.west7 && data.west7 !== 'TBD' && actual.west7 !== 'TBD' && data.west7 !== actual.west7) {
+            const inner = outer.querySelector("#west7");
+            inner.style.color = "#e83922";
+        }
         if (data.west2 && data.west2 !== 'TBD' && data.west2 == actual.west2) {
             score += 2;
             const inner = outer.querySelector("#west2");
             inner.style.color = "#34b233";
+        }
+        else if (data.west2 && actual.west2 && data.west2 !== 'TBD' && actual.west2 !== 'TBD' && data.west2 !== actual.west2) {
+            const inner = outer.querySelector("#west2");
+            inner.style.color = "#e83922";
         }
         if (data.east1 && data.east1 !== 'TBD' && data.east1 == actual.east1) {
             score += 2;
             const inner = outer.querySelector("#east1");
             inner.style.color = "#34b233";
         }
+        else if (data.east1 && actual.east1 && data.east1 !== 'TBD' && actual.east1 !== 'TBD' && data.east1 !== actual.east1) {
+            const inner = outer.querySelector("#east1");
+            inner.style.color = "#e83922";
+        }
         if (data.east8 && data.east8 !== 'TBD' && data.east8 == actual.east8) {
             score += 2;
             const inner = outer.querySelector("#east8");
             inner.style.color = "#34b233";
+        }
+        else if (data.east8 && actual.east8 && data.east8 !== 'TBD' && actual.east8 !== 'TBD' && data.east8 !== actual.east8) {
+            const inner = outer.querySelector("#east8");
+            inner.style.color = "#e83922";
         }
         if (data.east5 && data.east5 !== 'TBD' && data.east5 == actual.east5) {
             score += 2;
             const inner = outer.querySelector("#east5");
             inner.style.color = "#34b233";
         }
+        else if (data.east5 && actual.east5 && data.east5 !== 'TBD' && actual.east5 !== 'TBD' && data.east5 !== actual.east5) {
+            const inner = outer.querySelector("#east5");
+            inner.style.color = "#e83922";
+        }
         if (data.east4 && data.east4 !== 'TBD' && data.east4 == actual.east4) {
             score += 2;
             const inner = outer.querySelector("#east4");
             inner.style.color = "#34b233";
+        }
+        else if (data.east4 && actual.east4 && data.east4 !== 'TBD' && actual.east4 !== 'TBD' && data.east4 !== actual.east4) {
+            const inner = outer.querySelector("#east4");
+            inner.style.color = "#e83922";
         }
         if (data.east6 && data.east6 !== 'TBD' && data.east6 == actual.east6) {
             score += 2;
             const inner = outer.querySelector("#east6");
             inner.style.color = "#34b233";
         }
+        else if (data.east6 && actual.east6 && data.east6 !== 'TBD' && actual.east6 !== 'TBD' && data.east6 !== actual.east6) {
+            const inner = outer.querySelector("#east6");
+            inner.style.color = "#e83922";
+        }
         if (data.east3 && data.east3 !== 'TBD' && data.east3 == actual.east3) {
             score += 2;
             const inner = outer.querySelector("#east3");
             inner.style.color = "#34b233";
+        }
+        else if (data.east3 && actual.east3 && data.east3 !== 'TBD' && actual.east3 !== 'TBD' && data.east3 !== actual.east3) {
+            const inner = outer.querySelector("#east3");
+            inner.style.color = "#e83922";
         }
         if (data.east7 && data.east7 !== 'TBD' && data.east7 == actual.east7) {
             score += 2;
             const inner = outer.querySelector("#east7");
             inner.style.color = "#34b233";
         }
+        else if (data.east7 && actual.east7 && data.east7 !== 'TBD' && actual.east7 !== 'TBD' && data.east7 !== actual.east7) {
+            const inner = outer.querySelector("#east7");
+            inner.style.color = "#e83922";
+        }
         if (data.east2 && data.east2 !== 'TBD' && data.east2 == actual.east2) {
             score += 2;
             const inner = outer.querySelector("#east2");
             inner.style.color = "#34b233";
+        }
+        else if (data.east2 && actual.east2 && data.east2 !== 'TBD' && actual.east2 !== 'TBD' && data.east2 !== actual.east2) {
+            const inner = outer.querySelector("#east2");
+            inner.style.color = "#e83922";
         }
         if (data.midwest1 && data.midwest1 !== 'TBD' && data.midwest1 == actual.midwest1) {
             score += 2;
             const inner = outer.querySelector("#midwest1");
             inner.style.color = "#34b233";
         }
+        else if (data.midwest1 && actual.midwest1 && data.midwest1 !== 'TBD' && actual.midwest1 !== 'TBD' && data.midwest1 !== actual.midwest1) {
+            const inner = outer.querySelector("#midwest1");
+            inner.style.color = "#e83922";
+        }
         if (data.midwest8 && data.midwest8 !== 'TBD' && data.midwest8 == actual.midwest8) {
             score += 2;
             const inner = outer.querySelector("#midwest8");
             inner.style.color = "#34b233";
+        }
+        else if (data.midwest8 && actual.midwest8 && data.midwest8 !== 'TBD' && actual.midwest8 !== 'TBD' && data.midwest8 !== actual.midwest8) {
+            const inner = outer.querySelector("#midwest8");
+            inner.style.color = "#e83922";
         }
         if (data.midwest5 && data.midwest5 !== 'TBD' && data.midwest5 == actual.midwest5) {
             score += 2;
             const inner = outer.querySelector("#midwest5");
             inner.style.color = "#34b233";
         }
+        else if (data.midwest5 && actual.midwest5 && data.midwest5 !== 'TBD' && actual.midwest5 !== 'TBD' && data.midwest5 !== actual.midwest5) {
+            const inner = outer.querySelector("#midwest5");
+            inner.style.color = "#e83922";
+        }
         if (data.midwest4 && data.midwest4 !== 'TBD' && data.midwest4 == actual.midwest4) {
             score += 2;
             const inner = outer.querySelector("#midwest4");
             inner.style.color = "#34b233";
+        }
+        else if (data.midwest4 && actual.midwest4 && data.midwest4 !== 'TBD' && actual.midwest4 !== 'TBD' && data.midwest4 !== actual.midwest4) {
+            const inner = outer.querySelector("#midwest4");
+            inner.style.color = "#e83922";
         }
         if (data.midwest6 && data.midwest6 !== 'TBD' && data.midwest6 == actual.midwest6) {
             score += 2;
             const inner = outer.querySelector("#midwest6");
             inner.style.color = "#34b233";
         }
+        else if (data.midwest6 && actual.midwest6 && data.midwest6 !== 'TBD' && actual.midwest6 !== 'TBD' && data.midwest6 !== actual.midwest6) {
+            const inner = outer.querySelector("#midwest6");
+            inner.style.color = "#e83922";
+        }
         if (data.midwest3 && data.midwest3 !== 'TBD' && data.midwest3 == actual.midwest3) {
             score += 2;
             const inner = outer.querySelector("#midwest3");
             inner.style.color = "#34b233";
+        }
+        else if (data.midwest3 && actual.midwest3 && data.midwest3 !== 'TBD' && actual.midwest3 !== 'TBD' && data.midwest3 !== actual.midwest3) {
+            const inner = outer.querySelector("#midwest3");
+            inner.style.color = "#e83922";
         }
         if (data.midwest7 && data.midwest7 !== 'TBD' && data.midwest7 == actual.midwest7) {
             score += 2;
             const inner = outer.querySelector("#midwest7");
             inner.style.color = "#34b233";
         }
+        else if (data.midwest7 && actual.midwest7 && data.midwest7 !== 'TBD' && actual.midwest7 !== 'TBD' && data.midwest7 !== actual.midwest7) {
+            const inner = outer.querySelector("#midwest7");
+            inner.style.color = "#e83922";
+        }
         if (data.midwest2 && data.midwest2 !== 'TBD' && data.midwest2 == actual.midwest2) {
             score += 2;
             const inner = outer.querySelector("#midwest2");
             inner.style.color = "#34b233";
+        }
+        else if (data.midwest2 && actual.midwest2 && data.midwest2 !== 'TBD' && actual.midwest2 !== 'TBD' && data.midwest2 !== actual.midwest2) {
+            const inner = outer.querySelector("#midwest2");
+            inner.style.color = "#e83922";
         }
         if (data.south16_1 && data.south16_1 !== 'TBD' && data.south16_1 == actual.south16_1) {
             score += 4;
             const inner = outer.querySelector("#south16_1");
             inner.style.color = "#34b233";
         }
+        else if (data.south16_1 && actual.south16_1 && data.south16_1 !== 'TBD' && actual.south16_1 !== 'TBD' && data.south16_1 !== actual.south16_1) {
+            const inner = outer.querySelector("#south16_1");
+            inner.style.color = "#e83922";
+        }
         if (data.south16_4 && data.south16_4 !== 'TBD' && data.south16_4 == actual.south16_4) {
             score += 4;
             const inner = outer.querySelector("#south16_4");
             inner.style.color = "#34b233";
+        }
+        else if (data.south16_4 && actual.south16_4 && data.south16_4 !== 'TBD' && actual.south16_4 !== 'TBD' && data.south16_4 !== actual.south16_4) {
+            const inner = outer.querySelector("#south16_4");
+            inner.style.color = "#e83922";
         }
         if (data.south16_3 && data.south16_3 !== 'TBD' && data.south16_3 == actual.south16_3) {
             score += 4;
             const inner = outer.querySelector("#south16_3");
             inner.style.color = "#34b233";
         }
+        else if (data.south16_3 && actual.south16_3 && data.south16_3 !== 'TBD' && actual.south16_3 !== 'TBD' && data.south16_3 !== actual.south16_3) {
+            const inner = outer.querySelector("#south16_3");
+            inner.style.color = "#e83922";
+        }
         if (data.south16_2 && data.south16_2 !== 'TBD' && data.south16_2 == actual.south16_2) {
             score += 4;
             const inner = outer.querySelector("#south16_2");
             inner.style.color = "#34b233";
+        }
+        else if (data.south16_2 && actual.south16_2 && data.south16_2 !== 'TBD' && actual.south16_2 !== 'TBD' && data.south16_2 !== actual.south16_2) {
+            const inner = outer.querySelector("#south16_2");
+            inner.style.color = "#e83922";
         }
         if (data.west16_1 && data.west16_1 !== 'TBD' && data.west16_1 == actual.west16_1) {
             score += 4;
             const inner = outer.querySelector("#west16_1");
             inner.style.color = "#34b233";
         }
+        else if (data.west16_1 && actual.west16_1 && data.west16_1 !== 'TBD' && actual.west16_1 !== 'TBD' && data.west16_1 !== actual.west16_1) {
+            const inner = outer.querySelector("#west16_1");
+            inner.style.color = "#e83922";
+        }
         if (data.west16_4 && data.west16_4 !== 'TBD' && data.west16_4 == actual.west16_4) {
             score += 4;
             const inner = outer.querySelector("#west16_4");
             inner.style.color = "#34b233";
+        }
+        else if (data.west16_4 && actual.west16_4 && data.west16_4 !== 'TBD' && actual.west16_4 !== 'TBD' && data.west16_4 !== actual.west16_4) {
+            const inner = outer.querySelector("#west16_4");
+            inner.style.color = "#e83922";
         }
         if (data.west16_3 && data.west16_3 !== 'TBD' && data.west16_3 == actual.west16_3) {
             score += 4;
             const inner = outer.querySelector("#west16_3");
             inner.style.color = "#34b233";
         }
+        else if (data.west16_3 && actual.west16_3 && data.west16_3 !== 'TBD' && actual.west16_3 !== 'TBD' && data.west16_3 !== actual.west16_3) {
+            const inner = outer.querySelector("#west16_3");
+            inner.style.color = "#e83922";
+        }
         if (data.west16_2 && data.west16_2 !== 'TBD' && data.west16_2 == actual.west16_2) {
             score += 4;
             const inner = outer.querySelector("#west16_2");
             inner.style.color = "#34b233";
+        }
+        else if (data.west16_2 && actual.west16_2 && data.west16_2 !== 'TBD' && actual.west16_2 !== 'TBD' && data.west16_2 !== actual.west16_2) {
+            const inner = outer.querySelector("#west16_2");
+            inner.style.color = "#e83922";
         }
         if (data.east16_1 && data.east16_1 !== 'TBD' && data.east16_1 == actual.east16_1) {
             score += 4;
             const inner = outer.querySelector("#east16_1");
             inner.style.color = "#34b233";
         }
+        else if (data.east16_1 && actual.east16_1 && data.east16_1 !== 'TBD' && actual.east16_1 !== 'TBD' && data.east16_1 !== actual.east16_1) {
+            const inner = outer.querySelector("#east16_1");
+            inner.style.color = "#e83922";
+        }
         if (data.east16_4 && data.east16_4 !== 'TBD' && data.east16_4 == actual.east16_4) {
             score += 4;
             const inner = outer.querySelector("#east16_4");
             inner.style.color = "#34b233";
+        }
+        else if (data.east16_4 && actual.east16_4 && data.east16_4 !== 'TBD' && actual.east16_4 !== 'TBD' && data.east16_4 !== actual.east16_4) {
+            const inner = outer.querySelector("#east16_4");
+            inner.style.color = "#e83922";
         }
         if (data.east16_3 && data.east16_3 !== 'TBD' && data.east16_3 == actual.east16_3) {
             score += 4;
             const inner = outer.querySelector("#east16_3");
             inner.style.color = "#34b233";
         }
+        else if (data.east16_3 && actual.east16_3 && data.east16_3 !== 'TBD' && actual.east16_3 !== 'TBD' && data.east16_3 !== actual.east16_3) {
+            const inner = outer.querySelector("#east16_3");
+            inner.style.color = "#e83922";
+        }
         if (data.east16_2 && data.east16_2 !== 'TBD' && data.east16_2 == actual.east16_2) {
             score += 4;
             const inner = outer.querySelector("#east16_2");
             inner.style.color = "#34b233";
+        }
+        else if (data.east16_2 && actual.east16_2 && data.east16_2 !== 'TBD' && actual.east16_2 !== 'TBD' && data.east16_2 !== actual.east16_2) {
+            const inner = outer.querySelector("#east16_2");
+            inner.style.color = "#e83922";
         }
         if (data.midwest16_1 && data.midwest16_1 !== 'TBD' && data.midwest16_1 == actual.midwest16_1) {
             score += 4;
             const inner = outer.querySelector("#midwest16_1");
             inner.style.color = "#34b233";
         }
+        else if (data.midwest16_1 && actual.midwest16_1 && data.midwest16_1 !== 'TBD' && actual.midwest16_1 !== 'TBD' && data.midwest16_1 !== actual.midwest16_1) {
+            const inner = outer.querySelector("#midwest16_1");
+            inner.style.color = "#e83922";
+        }
         if (data.midwest16_4 && data.midwest16_4 !== 'TBD' && data.midwest16_4 == actual.midwest16_4) {
             score += 4;
             const inner = outer.querySelector("#midwest16_4");
             inner.style.color = "#34b233";
+        }
+        else if (data.midwest16_4 && actual.midwest16_4 && data.midwest16_4 !== 'TBD' && actual.midwest16_4 !== 'TBD' && data.midwest16_4 !== actual.midwest16_4) {
+            const inner = outer.querySelector("#midwest16_4");
+            inner.style.color = "#e83922";
         }
         if (data.midwest16_3 && data.midwest16_3 !== 'TBD' && data.midwest16_3 == actual.midwest16_3) {
             score += 4;
             const inner = outer.querySelector("#midwest16_3");
             inner.style.color = "#34b233";
         }
+        else if (data.midwest16_3 && actual.midwest16_3 && data.midwest16_3 !== 'TBD' && actual.midwest16_3 !== 'TBD' && data.midwest16_3 !== actual.midwest16_3) {
+            const inner = outer.querySelector("#midwest16_3");
+            inner.style.color = "#e83922";
+        }
         if (data.midwest16_2 && data.midwest16_2 !== 'TBD' && data.midwest16_2 == actual.midwest16_2) {
             score += 4;
             const inner = outer.querySelector("#midwest16_2");
             inner.style.color = "#34b233";
+        }
+        else if (data.midwest16_2 && actual.midwest16_2 && data.midwest16_2 !== 'TBD' && actual.midwest16_2 !== 'TBD' && data.midwest16_2 !== actual.midwest16_2) {
+            const inner = outer.querySelector("#midwest16_2");
+            inner.style.color = "#e83922";
         }
         if (data.south8_1 && data.south8_1 !== 'TBD' && data.south8_1 == actual.south8_1) {
             score += 8;
             const inner = outer.querySelector("#south8_1");
             inner.style.color = "#34b233";
         }
+        else if (data.south8_1 && actual.south8_1 && data.south8_1 !== 'TBD' && actual.south8_1 !== 'TBD' && data.south8_1 !== actual.south8_1) {
+            const inner = outer.querySelector("#south8_1");
+            inner.style.color = "#e83922";
+        }
         if (data.south8_2 && data.south8_2 !== 'TBD' && data.south8_2 == actual.south8_2) {
             score += 8;
             const inner = outer.querySelector("#south8_2");
             inner.style.color = "#34b233";
+        }
+        else if (data.south8_2 && actual.south8_2 && data.south8_2 !== 'TBD' && actual.south8_2 !== 'TBD' && data.south8_2 !== actual.south8_2) {
+            const inner = outer.querySelector("#south8_2");
+            inner.style.color = "#e83922";
         }
         if (data.west8_1 && data.west8_1 !== 'TBD' && data.west8_1 == actual.west8_1) {
             score += 8;
             const inner = outer.querySelector("#west8_1");
             inner.style.color = "#34b233";
         }
+        else if (data.west8_1 && actual.west8_1 && data.west8_1 !== 'TBD' && actual.west8_1 !== 'TBD' && data.west8_1 !== actual.west8_1) {
+            const inner = outer.querySelector("#west8_1");
+            inner.style.color = "#e83922";
+        }
         if (data.west8_2 && data.west8_2 !== 'TBD' && data.west8_2 == actual.west8_2) {
             score += 8;
             const inner = outer.querySelector("#west8_2");
             inner.style.color = "#34b233";
+        }
+        else if (data.west8_2 && actual.west8_2 && data.west8_2 !== 'TBD' && actual.west8_2 !== 'TBD' && data.west8_2 !== actual.west8_2) {
+            const inner = outer.querySelector("#west8_2");
+            inner.style.color = "#e83922";
         }
         if (data.east8_1 && data.east8_1 !== 'TBD' && data.east8_1 == actual.east8_1) {
             score += 8;
             const inner = outer.querySelector("#east8_1");
             inner.style.color = "#34b233";
         }
+        else if (data.east8_1 && actual.east8_1 && data.east8_1 !== 'TBD' && actual.east8_1 !== 'TBD' && data.east8_1 !== actual.east8_1) {
+            const inner = outer.querySelector("#east8_1");
+            inner.style.color = "#e83922";
+        }
         if (data.east8_2 && data.east8_2 !== 'TBD' && data.east8_2 == actual.east8_2) {
             score += 8;
             const inner = outer.querySelector("#east8_2");
             inner.style.color = "#34b233";
+        }
+        else if (data.east8_2 && actual.east8_2 && data.east8_2 !== 'TBD' && actual.east8_2 !== 'TBD' && data.east8_2 !== actual.east8_2) {
+            const inner = outer.querySelector("#east8_2");
+            inner.style.color = "#e83922";
         }
         if (data.midwest8_1 && data.midwest8_1 !== 'TBD' && data.midwest8_1 == actual.midwest8_1) {
             score += 8;
             const inner = outer.querySelector("#midwest8_1");
             inner.style.color = "#34b233";
         }
+        else if (data.midwest8_1 && actual.midwest8_1 && data.midwest8_1 !== 'TBD' && actual.midwest8_1 !== 'TBD' && data.midwest8_1 !== actual.midwest8_1) {
+            const inner = outer.querySelector("#midwest8_1");
+            inner.style.color = "#e83922";
+        }
         if (data.midwest8_2 && data.midwest8_2 !== 'TBD' && data.midwest8_2 == actual.midwest8_2) {
             score += 8;
             const inner = outer.querySelector("#midwest8_2");
             inner.style.color = "#34b233";
+        }
+        else if (data.midwest8_2 && actual.midwest8_2 && data.midwest8_2 !== 'TBD' && actual.midwest8_2 !== 'TBD' && data.midwest8_2 !== actual.midwest8_2) {
+            const inner = outer.querySelector("#midwest8_2");
+            inner.style.color = "#e83922";
         }
         if (data.south && data.south !== 'TBD' && data.south == actual.south) {
             score += 16;
             const inner = outer.querySelector("#south");
             inner.style.color = "#34b233";
         }
+        else if (data.south && actual.south && data.south !== 'TBD' && actual.south !== 'TBD' && data.south !== actual.south) {
+            const inner = outer.querySelector("#south");
+            inner.style.color = "#e83922";
+        }
         if (data.west && data.west !== 'TBD' && data.west == actual.west) {
             score += 16;
             const inner = outer.querySelector("#west");
             inner.style.color = "#34b233";
+        }
+        else if (data.west && actual.west && data.west !== 'TBD' && actual.west !== 'TBD' && data.west !== actual.west) {
+            const inner = outer.querySelector("#west");
+            inner.style.color = "#e83922";
         }
         if (data.east && data.east !== 'TBD' && data.east == actual.east) {
             score += 16;
             const inner = outer.querySelector("#east");
             inner.style.color = "#34b233";
         }
+        else if (data.east && actual.east && data.east !== 'TBD' && actual.east !== 'TBD' && data.east !== actual.east) {
+            const inner = outer.querySelector("#east");
+            inner.style.color = "#e83922";
+        }
         if (data.midwest && data.midwest !== 'TBD' && data.midwest == actual.midwest) {
             score += 16;
             const inner = outer.querySelector("#midwest");
             inner.style.color = "#34b233";
+        }
+        else if (data.midwest && actual.midwest && data.midwest !== 'TBD' && actual.midwest !== 'TBD' && data.midwest !== actual.midwest) {
+            const inner = outer.querySelector("#midwest");
+            inner.style.color = "#e83922";
         }
         if (data.finalleft && data.finalleft !== 'TBD' && data.finalleft == actual.finalleft) {
             score += 32;
             const inner = outer.querySelector("#finalleft");
             inner.style.color = "#34b233";
         }
+        else if (data.finalleft && actual.finalleft && data.finalleft !== 'TBD' && actual.finalleft !== 'TBD' && data.finalleft !== actual.finalleft) {
+            const inner = outer.querySelector("#finalleft");
+            inner.style.color = "#e83922";
+        }
         if (data.finalright && data.finalright !== 'TBD' && data.finalright == actual.finalright) {
             score += 32;
             const inner = outer.querySelector("#finalright");
             inner.style.color = "#34b233";
         }
+        else if (data.finalright && actual.finalright && data.finalright !== 'TBD' && actual.finalright !== 'TBD' && data.finalright !== actual.finalright) {
+            const inner = outer.querySelector("#finalright");
+            inner.style.color = "#e83922";
+        }
         if (data.champion && data.champion !== 'TBD' && data.champion == actual.champion) {
             score += 64;
             const inner = outer.querySelector("#champion");
             inner.style.color = "#34b233";
+        }
+        else if (data.champion && actual.champion && data.champion !== 'TBD' && actual.champion !== 'TBD' && data.champion !== actual.champion) {
+            const inner = outer.querySelector("#champion");
+            inner.style.color = "#e83922";
         }
         menScoreData.push({name: data.name, score: score});
     })
@@ -634,335 +902,603 @@ function countWomenScore() {
             const inner = outer.querySelector("#firstfour1");
             inner.style.color = "#34b233";
         }
+        else if (data.firstfour1 && actual.firstfour1 && data.firstfour1 !== 'TBD' && actual.firstfour1 !== 'TBD' && data.firstfour1 !== actual.firstfour1) {
+            const inner = outer.querySelector("#firstfour1");
+            inner.style.color = "#e83922";
+        }
         if (data.firstfour2 && data.firstfour2 !== 'TBD' && data.firstfour2 == actual.firstfour2) {
             score += 1;
             const inner = outer.querySelector("#firstfour2");
             inner.style.color = "#34b233";
+        }
+        else if (data.firstfour2 && actual.firstfour2 && data.firstfour2 !== 'TBD' && actual.firstfour2 !== 'TBD' && data.firstfour2 !== actual.firstfour2) {
+            const inner = outer.querySelector("#firstfour2");
+            inner.style.color = "#e83922";
         }
         if (data.firstfour3 && data.firstfour3 !== 'TBD' && data.firstfour3 == actual.firstfour3) {
             score += 1;
             const inner = outer.querySelector("#firstfour3");
             inner.style.color = "#34b233";
         }
+        else if (data.firstfour3 && actual.firstfour3 && data.firstfour3 !== 'TBD' && actual.firstfour3 !== 'TBD' && data.firstfour3 !== actual.firstfour3) {
+            const inner = outer.querySelector("#firstfour3");
+            inner.style.color = "#e83922";
+        }
         if (data.firstfour4 && data.firstfour4 !== 'TBD' && data.firstfour4 == actual.firstfour4) {
             score += 1;
             const inner = outer.querySelector("#firstfour4");
             inner.style.color = "#34b233";
+        }
+        else if (data.firstfour4 && actual.firstfour4 && data.firstfour4 !== 'TBD' && actual.firstfour4 !== 'TBD' && data.firstfour4 !== actual.firstfour4) {
+            const inner = outer.querySelector("#firstfour4");
+            inner.style.color = "#e83922";
         }
         if (data.spokaneup1 && data.spokaneup1 !== 'TBD' && data.spokaneup1 == actual.spokaneup1) {
             score += 2;
             const inner = outer.querySelector("#spokaneup1");
             inner.style.color = "#34b233";
         }
+        else if (data.spokaneup1 && actual.spokaneup1 && data.spokaneup1 !== 'TBD' && actual.spokaneup1 !== 'TBD' && data.spokaneup1 !== actual.spokaneup1) {
+            const inner = outer.querySelector("#spokaneup1");
+            inner.style.color = "#e83922";
+        }
         if (data.spokaneup8 && data.spokaneup8 !== 'TBD' && data.spokaneup8 == actual.spokaneup8) {
             score += 2;
             const inner = outer.querySelector("#spokaneup8");
             inner.style.color = "#34b233";
+        }
+        else if (data.spokaneup8 && actual.spokaneup8 && data.spokaneup8 !== 'TBD' && actual.spokaneup8 !== 'TBD' && data.spokaneup8 !== actual.spokaneup8) {
+            const inner = outer.querySelector("#spokaneup8");
+            inner.style.color = "#e83922";
         }
         if (data.spokaneup5 && data.spokaneup5 !== 'TBD' && data.spokaneup5 == actual.spokaneup5) {
             score += 2;
             const inner = outer.querySelector("#spokaneup5");
             inner.style.color = "#34b233";
         }
+        else if (data.spokaneup5 && actual.spokaneup5 && data.spokaneup5 !== 'TBD' && actual.spokaneup5 !== 'TBD' && data.spokaneup5 !== actual.spokaneup5) {
+            const inner = outer.querySelector("#spokaneup5");
+            inner.style.color = "#e83922";
+        }
         if (data.spokaneup4 && data.spokaneup4 !== 'TBD' && data.spokaneup4 == actual.spokaneup4) {
             score += 2;
             const inner = outer.querySelector("#spokaneup4");
             inner.style.color = "#34b233";
+        }
+        else if (data.spokaneup4 && actual.spokaneup4 && data.spokaneup4 !== 'TBD' && actual.spokaneup4 !== 'TBD' && data.spokaneup4 !== actual.spokaneup4) {
+            const inner = outer.querySelector("#spokaneup4");
+            inner.style.color = "#e83922";
         }
         if (data.spokaneup6 && data.spokaneup6 !== 'TBD' && data.spokaneup6 == actual.spokaneup6) {
             score += 2;
             const inner = outer.querySelector("#spokaneup6");
             inner.style.color = "#34b233";
         }
+        else if (data.spokaneup6 && actual.spokaneup6 && data.spokaneup6 !== 'TBD' && actual.spokaneup6 !== 'TBD' && data.spokaneup6 !== actual.spokaneup6) {
+            const inner = outer.querySelector("#spokaneup6");
+            inner.style.color = "#e83922";
+        }
         if (data.spokaneup3 && data.spokaneup3 !== 'TBD' && data.spokaneup3 == actual.spokaneup3) {
             score += 2;
             const inner = outer.querySelector("#spokaneup3");
             inner.style.color = "#34b233";
+        }
+        else if (data.spokaneup3 && actual.spokaneup3 && data.spokaneup3 !== 'TBD' && actual.spokaneup3 !== 'TBD' && data.spokaneup3 !== actual.spokaneup3) {
+            const inner = outer.querySelector("#spokaneup3");
+            inner.style.color = "#e83922";
         }
         if (data.spokaneup7 && data.spokaneup7 !== 'TBD' && data.spokaneup7 == actual.spokaneup7) {
             score += 2;
             const inner = outer.querySelector("#spokaneup7");
             inner.style.color = "#34b233";
         }
+        else if (data.spokaneup7 && actual.spokaneup7 && data.spokaneup7 !== 'TBD' && actual.spokaneup7 !== 'TBD' && data.spokaneup7 !== actual.spokaneup7) {
+            const inner = outer.querySelector("#spokaneup7");
+            inner.style.color = "#e83922";
+        }
         if (data.spokaneup2 && data.spokaneup2 !== 'TBD' && data.spokaneup2 == actual.spokaneup2) {
             score += 2;
             const inner = outer.querySelector("#spokaneup2");
             inner.style.color = "#34b233";
+        }
+        else if (data.spokaneup2 && actual.spokaneup2 && data.spokaneup2 !== 'TBD' && actual.spokaneup2 !== 'TBD' && data.spokaneup2 !== actual.spokaneup2) {
+            const inner = outer.querySelector("#spokaneup2");
+            inner.style.color = "#e83922";
         }
         if (data.spokanedown1 && data.spokanedown1 !== 'TBD' && data.spokanedown1 == actual.spokanedown1) {
             score += 2;
             const inner = outer.querySelector("#spokanedown1");
             inner.style.color = "#34b233";
         }
+        else if (data.spokanedown1 && actual.spokanedown1 && data.spokanedown1 !== 'TBD' && actual.spokanedown1 !== 'TBD' && data.spokanedown1 !== actual.spokanedown1) {
+            const inner = outer.querySelector("#spokanedown1");
+            inner.style.color = "#e83922";
+        }
         if (data.spokanedown8 && data.spokanedown8 !== 'TBD' && data.spokanedown8 == actual.spokanedown8) {
             score += 2;
             const inner = outer.querySelector("#spokanedown8");
             inner.style.color = "#34b233";
+        }
+        else if (data.spokanedown8 && actual.spokanedown8 && data.spokanedown8 !== 'TBD' && actual.spokanedown8 !== 'TBD' && data.spokanedown8 !== actual.spokanedown8) {
+            const inner = outer.querySelector("#spokanedown8");
+            inner.style.color = "#e83922";
         }
         if (data.spokanedown5 && data.spokanedown5 !== 'TBD' && data.spokanedown5 == actual.spokanedown5) {
             score += 2;
             const inner = outer.querySelector("#spokanedown5");
             inner.style.color = "#34b233";
         }
+        else if (data.spokanedown5 && actual.spokanedown5 && data.spokanedown5 !== 'TBD' && actual.spokanedown5 !== 'TBD' && data.spokanedown5 !== actual.spokanedown5) {
+            const inner = outer.querySelector("#spokanedown5");
+            inner.style.color = "#e83922";
+        }
         if (data.spokanedown4 && data.spokanedown4 !== 'TBD' && data.spokanedown4 == actual.spokanedown4) {
             score += 2;
             const inner = outer.querySelector("#spokanedown4");
             inner.style.color = "#34b233";
+        }
+        else if (data.spokanedown4 && actual.spokanedown4 && data.spokanedown4 !== 'TBD' && actual.spokanedown4 !== 'TBD' && data.spokanedown4 !== actual.spokanedown4) {
+            const inner = outer.querySelector("#spokanedown4");
+            inner.style.color = "#e83922";
         }
         if (data.spokanedown6 && data.spokanedown6 !== 'TBD' && data.spokanedown6 == actual.spokanedown6) {
             score += 2;
             const inner = outer.querySelector("#spokanedown6");
             inner.style.color = "#34b233";
         }
+        else if (data.spokanedown6 && actual.spokanedown6 && data.spokanedown6 !== 'TBD' && actual.spokanedown6 !== 'TBD' && data.spokanedown6 !== actual.spokanedown6) {
+            const inner = outer.querySelector("#spokanedown6");
+            inner.style.color = "#e83922";
+        }
         if (data.spokanedown3 && data.spokanedown3 !== 'TBD' && data.spokanedown3 == actual.spokanedown3) {
             score += 2;
             const inner = outer.querySelector("#spokanedown3");
             inner.style.color = "#34b233";
+        }
+        else if (data.spokanedown3 && actual.spokanedown3 && data.spokanedown3 !== 'TBD' && actual.spokanedown3 !== 'TBD' && data.spokanedown3 !== actual.spokanedown3) {
+            const inner = outer.querySelector("#spokanedown3");
+            inner.style.color = "#e83922";
         }
         if (data.spokanedown7 && data.spokanedown7 !== 'TBD' && data.spokanedown7 == actual.spokanedown7) {
             score += 2;
             const inner = outer.querySelector("#spokanedown7");
             inner.style.color = "#34b233";
         }
+        else if (data.spokanedown7 && actual.spokanedown7 && data.spokanedown7 !== 'TBD' && actual.spokanedown7 !== 'TBD' && data.spokanedown7 !== actual.spokanedown7) {
+            const inner = outer.querySelector("#spokanedown7");
+            inner.style.color = "#e83922";
+        }
         if (data.spokanedown2 && data.spokanedown2 !== 'TBD' && data.spokanedown2 == actual.spokanedown2) {
             score += 2;
             const inner = outer.querySelector("#spokanedown2");
             inner.style.color = "#34b233";
+        }
+        else if (data.spokanedown2 && actual.spokanedown2 && data.spokanedown2 !== 'TBD' && actual.spokanedown2 !== 'TBD' && data.spokanedown2 !== actual.spokanedown2) {
+            const inner = outer.querySelector("#spokanedown2");
+            inner.style.color = "#e83922";
         }
         if (data.birminghamup1 && data.birminghamup1 !== 'TBD' && data.birminghamup1 == actual.birminghamup1) {
             score += 2;
             const inner = outer.querySelector("#birminghamup1");
             inner.style.color = "#34b233";
         }
+        else if (data.birminghamup1 && actual.birminghamup1 && data.birminghamup1 !== 'TBD' && actual.birminghamup1 !== 'TBD' && data.birminghamup1 !== actual.birminghamup1) {
+            const inner = outer.querySelector("#birminghamup1");
+            inner.style.color = "#e83922";
+        }
         if (data.birminghamup8 && data.birminghamup8 !== 'TBD' && data.birminghamup8 == actual.birminghamup8) {
             score += 2;
             const inner = outer.querySelector("#birminghamup8");
             inner.style.color = "#34b233";
+        }
+        else if (data.birminghamup8 && actual.birminghamup8 && data.birminghamup8 !== 'TBD' && actual.birminghamup8 !== 'TBD' && data.birminghamup8 !== actual.birminghamup8) {
+            const inner = outer.querySelector("#birminghamup8");
+            inner.style.color = "#e83922";
         }
         if (data.birminghamup5 && data.birminghamup5 !== 'TBD' && data.birminghamup5 == actual.birminghamup5) {
             score += 2;
             const inner = outer.querySelector("#birminghamup5");
             inner.style.color = "#34b233";
         }
+        else if (data.birminghamup5 && actual.birminghamup5 && data.birminghamup5 !== 'TBD' && actual.birminghamup5 !== 'TBD' && data.birminghamup5 !== actual.birminghamup5) {
+            const inner = outer.querySelector("#birminghamup5");
+            inner.style.color = "#e83922";
+        }
         if (data.birminghamup4 && data.birminghamup4 !== 'TBD' && data.birminghamup4 == actual.birminghamup4) {
             score += 2;
             const inner = outer.querySelector("#birminghamup4");
             inner.style.color = "#34b233";
+        }
+        else if (data.birminghamup4 && actual.birminghamup4 && data.birminghamup4 !== 'TBD' && actual.birminghamup4 !== 'TBD' && data.birminghamup4 !== actual.birminghamup4) {
+            const inner = outer.querySelector("#birminghamup4");
+            inner.style.color = "#e83922";
         }
         if (data.birminghamup6 && data.birminghamup6 !== 'TBD' && data.birminghamup6 == actual.birminghamup6) {
             score += 2;
             const inner = outer.querySelector("#birminghamup6");
             inner.style.color = "#34b233";
         }
+        else if (data.birminghamup6 && actual.birminghamup6 && data.birminghamup6 !== 'TBD' && actual.birminghamup6 !== 'TBD' && data.birminghamup6 !== actual.birminghamup6) {
+            const inner = outer.querySelector("#birminghamup6");
+            inner.style.color = "#e83922";
+        }
         if (data.birminghamup3 && data.birminghamup3 !== 'TBD' && data.birminghamup3 == actual.birminghamup3) {
             score += 2;
             const inner = outer.querySelector("#birminghamup3");
             inner.style.color = "#34b233";
+        }
+        else if (data.birminghamup3 && actual.birminghamup3 && data.birminghamup3 !== 'TBD' && actual.birminghamup3 !== 'TBD' && data.birminghamup3 !== actual.birminghamup3) {
+            const inner = outer.querySelector("#birminghamup3");
+            inner.style.color = "#e83922";
         }
         if (data.birminghamup7 && data.birminghamup7 !== 'TBD' && data.birminghamup7 == actual.birminghamup7) {
             score += 2;
             const inner = outer.querySelector("#birminghamup7");
             inner.style.color = "#34b233";
         }
+        else if (data.birminghamup7 && actual.birminghamup7 && data.birminghamup7 !== 'TBD' && actual.birminghamup7 !== 'TBD' && data.birminghamup7 !== actual.birminghamup7) {
+            const inner = outer.querySelector("#birminghamup7");
+            inner.style.color = "#e83922";
+        }
         if (data.birminghamup2 && data.birminghamup2 !== 'TBD' && data.birminghamup2 == actual.birminghamup2) {
             score += 2;
             const inner = outer.querySelector("#birminghamup2");
             inner.style.color = "#34b233";
+        }
+        else if (data.birminghamup2 && actual.birminghamup2 && data.birminghamup2 !== 'TBD' && actual.birminghamup2 !== 'TBD' && data.birminghamup2 !== actual.birminghamup2) {
+            const inner = outer.querySelector("#birminghamup2");
+            inner.style.color = "#e83922";
         }
         if (data.birminghamdown1 && data.birminghamdown1 !== 'TBD' && data.birminghamdown1 == actual.birminghamdown1) {
             score += 2;
             const inner = outer.querySelector("#birminghamdown1");
             inner.style.color = "#34b233";
         }
+        else if (data.birminghamdown1 && actual.birminghamdown1 && data.birminghamdown1 !== 'TBD' && actual.birminghamdown1 !== 'TBD' && data.birminghamdown1 !== actual.birminghamdown1) {
+            const inner = outer.querySelector("#birminghamdown1");
+            inner.style.color = "#e83922";
+        }
         if (data.birminghamdown8 && data.birminghamdown8 !== 'TBD' && data.birminghamdown8 == actual.birminghamdown8) {
             score += 2;
             const inner = outer.querySelector("#birminghamdown8");
             inner.style.color = "#34b233";
+        }
+        else if (data.birminghamdown8 && actual.birminghamdown8 && data.birminghamdown8 !== 'TBD' && actual.birminghamdown8 !== 'TBD' && data.birminghamdown8 !== actual.birminghamdown8) {
+            const inner = outer.querySelector("#birminghamdown8");
+            inner.style.color = "#e83922";
         }
         if (data.birminghamdown5 && data.birminghamdown5 !== 'TBD' && data.birminghamdown5 == actual.birminghamdown5) {
             score += 2;
             const inner = outer.querySelector("#birminghamdown5");
             inner.style.color = "#34b233";
         }
+        else if (data.birminghamdown5 && actual.birminghamdown5 && data.birminghamdown5 !== 'TBD' && actual.birminghamdown5 !== 'TBD' && data.birminghamdown5 !== actual.birminghamdown5) {
+            const inner = outer.querySelector("#birminghamdown5");
+            inner.style.color = "#e83922";
+        }
         if (data.birminghamdown4 && data.birminghamdown4 !== 'TBD' && data.birminghamdown4 == actual.birminghamdown4) {
             score += 2;
             const inner = outer.querySelector("#birminghamdown4");
             inner.style.color = "#34b233";
+        }
+        else if (data.birminghamdown4 && actual.birminghamdown4 && data.birminghamdown4 !== 'TBD' && actual.birminghamdown4 !== 'TBD' && data.birminghamdown4 !== actual.birminghamdown4) {
+            const inner = outer.querySelector("#birminghamdown4");
+            inner.style.color = "#e83922";
         }
         if (data.birminghamdown6 && data.birminghamdown6 !== 'TBD' && data.birminghamdown6 == actual.birminghamdown6) {
             score += 2;
             const inner = outer.querySelector("#birminghamdown6");
             inner.style.color = "#34b233";
         }
+        else if (data.birminghamdown6 && actual.birminghamdown6 && data.birminghamdown6 !== 'TBD' && actual.birminghamdown6 !== 'TBD' && data.birminghamdown6 !== actual.birminghamdown6) {
+            const inner = outer.querySelector("#birminghamdown6");
+            inner.style.color = "#e83922";
+        }
         if (data.birminghamdown3 && data.birminghamdown3 !== 'TBD' && data.birminghamdown3 == actual.birminghamdown3) {
             score += 2;
             const inner = outer.querySelector("#birminghamdown3");
             inner.style.color = "#34b233";
+        }
+        else if (data.birminghamdown3 && actual.birminghamdown3 && data.birminghamdown3 !== 'TBD' && actual.birminghamdown3 !== 'TBD' && data.birminghamdown3 !== actual.birminghamdown3) {
+            const inner = outer.querySelector("#birminghamdown3");
+            inner.style.color = "#e83922";
         }
         if (data.birminghamdown7 && data.birminghamdown7 !== 'TBD' && data.birminghamdown7 == actual.birminghamdown7) {
             score += 2;
             const inner = outer.querySelector("#birminghamdown7");
             inner.style.color = "#34b233";
         }
+        else if (data.birminghamdown7 && actual.birminghamdown7 && data.birminghamdown7 !== 'TBD' && actual.birminghamdown7 !== 'TBD' && data.birminghamdown7 !== actual.birminghamdown7) {
+            const inner = outer.querySelector("#birminghamdown7");
+            inner.style.color = "#e83922";
+        }
         if (data.birminghamdown2 && data.birminghamdown2 !== 'TBD' && data.birminghamdown2 == actual.birminghamdown2) {
             score += 2;
             const inner = outer.querySelector("#birminghamdown2");
             inner.style.color = "#34b233";
+        }
+        else if (data.birminghamdown2 && actual.birminghamdown2 && data.birminghamdown2 !== 'TBD' && actual.birminghamdown2 !== 'TBD' && data.birminghamdown2 !== actual.birminghamdown2) {
+            const inner = outer.querySelector("#birminghamdown2");
+            inner.style.color = "#e83922";
         }
         if (data.spokaneup16_1 && data.spokaneup16_1 !== 'TBD' && data.spokaneup16_1 == actual.spokaneup16_1) {
             score += 4;
             const inner = outer.querySelector("#spokaneup16_1");
             inner.style.color = "#34b233";
         }
+        else if (data.spokaneup16_1 && actual.spokaneup16_1 && data.spokaneup16_1 !== 'TBD' && actual.spokaneup16_1 !== 'TBD' && data.spokaneup16_1 !== actual.spokaneup16_1) {
+            const inner = outer.querySelector("#spokaneup16_1");
+            inner.style.color = "#e83922";
+        }
         if (data.spokaneup16_4 && data.spokaneup16_4 !== 'TBD' && data.spokaneup16_4 == actual.spokaneup16_4) {
             score += 4;
             const inner = outer.querySelector("#spokaneup16_4");
             inner.style.color = "#34b233";
+        }
+        else if (data.spokaneup16_4 && actual.spokaneup16_4 && data.spokaneup16_4 !== 'TBD' && actual.spokaneup16_4 !== 'TBD' && data.spokaneup16_4 !== actual.spokaneup16_4) {
+            const inner = outer.querySelector("#spokaneup16_4");
+            inner.style.color = "#e83922";
         }
         if (data.spokaneup16_3 && data.spokaneup16_3 !== 'TBD' && data.spokaneup16_3 == actual.spokaneup16_3) {
             score += 4;
             const inner = outer.querySelector("#spokaneup16_3");
             inner.style.color = "#34b233";
         }
+        else if (data.spokaneup16_3 && actual.spokaneup16_3 && data.spokaneup16_3 !== 'TBD' && actual.spokaneup16_3 !== 'TBD' && data.spokaneup16_3 !== actual.spokaneup16_3) {
+            const inner = outer.querySelector("#spokaneup16_3");
+            inner.style.color = "#e83922";
+        }
         if (data.spokaneup16_2 && data.spokaneup16_2 !== 'TBD' && data.spokaneup16_2 == actual.spokaneup16_2) {
             score += 4;
             const inner = outer.querySelector("#spokaneup16_2");
             inner.style.color = "#34b233";
+        }
+        else if (data.spokaneup16_2 && actual.spokaneup16_2 && data.spokaneup16_2 !== 'TBD' && actual.spokaneup16_2 !== 'TBD' && data.spokaneup16_2 !== actual.spokaneup16_2) {
+            const inner = outer.querySelector("#spokaneup16_2");
+            inner.style.color = "#e83922";
         }
         if (data.spokanedown16_1 && data.spokanedown16_1 !== 'TBD' && data.spokanedown16_1 == actual.spokanedown16_1) {
             score += 4;
             const inner = outer.querySelector("#spokanedown16_1");
             inner.style.color = "#34b233";
         }
+        else if (data.spokanedown16_1 && actual.spokanedown16_1 && data.spokanedown16_1 !== 'TBD' && actual.spokanedown16_1 !== 'TBD' && data.spokanedown16_1 !== actual.spokanedown16_1) {
+            const inner = outer.querySelector("#spokanedown16_1");
+            inner.style.color = "#e83922";
+        }
         if (data.spokanedown16_4 && data.spokanedown16_4 !== 'TBD' && data.spokanedown16_4 == actual.spokanedown16_4) {
             score += 4;
             const inner = outer.querySelector("#spokanedown16_4");
             inner.style.color = "#34b233";
+        }
+        else if (data.spokanedown16_4 && actual.spokanedown16_4 && data.spokanedown16_4 !== 'TBD' && actual.spokanedown16_4 !== 'TBD' && data.spokanedown16_4 !== actual.spokanedown16_4) {
+            const inner = outer.querySelector("#spokanedown16_4");
+            inner.style.color = "#e83922";
         }
         if (data.spokanedown16_3 && data.spokanedown16_3 !== 'TBD' && data.spokanedown16_3 == actual.spokanedown16_3) {
             score += 4;
             const inner = outer.querySelector("#spokanedown16_3");
             inner.style.color = "#34b233";
         }
+        else if (data.spokanedown16_3 && actual.spokanedown16_3 && data.spokanedown16_3 !== 'TBD' && actual.spokanedown16_3 !== 'TBD' && data.spokanedown16_3 !== actual.spokanedown16_3) {
+            const inner = outer.querySelector("#spokanedown16_3");
+            inner.style.color = "#e83922";
+        }
         if (data.spokanedown16_2 && data.spokanedown16_2 !== 'TBD' && data.spokanedown16_2 == actual.spokanedown16_2) {
             score += 4;
             const inner = outer.querySelector("#spokanedown16_2");
             inner.style.color = "#34b233";
+        }
+        else if (data.spokanedown16_2 && actual.spokanedown16_2 && data.spokanedown16_2 !== 'TBD' && actual.spokanedown16_2 !== 'TBD' && data.spokanedown16_2 !== actual.spokanedown16_2) {
+            const inner = outer.querySelector("#spokanedown16_2");
+            inner.style.color = "#e83922";
         }
         if (data.birminghamup16_1 && data.birminghamup16_1 !== 'TBD' && data.birminghamup16_1 == actual.birminghamup16_1) {
             score += 4;
             const inner = outer.querySelector("#birminghamup16_1");
             inner.style.color = "#34b233";
         }
+        else if (data.birminghamup16_1 && actual.birminghamup16_1 && data.birminghamup16_1 !== 'TBD' && actual.birminghamup16_1 !== 'TBD' && data.birminghamup16_1 !== actual.birminghamup16_1) {
+            const inner = outer.querySelector("#birminghamup16_1");
+            inner.style.color = "#e83922";
+        }
         if (data.birminghamup16_4 && data.birminghamup16_4 !== 'TBD' && data.birminghamup16_4 == actual.birminghamup16_4) {
             score += 4;
             const inner = outer.querySelector("#birminghamup16_4");
             inner.style.color = "#34b233";
+        }
+        else if (data.birminghamup16_4 && actual.birminghamup16_4 && data.birminghamup16_4 !== 'TBD' && actual.birminghamup16_4 !== 'TBD' && data.birminghamup16_4 !== actual.birminghamup16_4) {
+            const inner = outer.querySelector("#birminghamup16_4");
+            inner.style.color = "#e83922";
         }
         if (data.birminghamup16_3 && data.birminghamup16_3 !== 'TBD' && data.birminghamup16_3 == actual.birminghamup16_3) {
             score += 4;
             const inner = outer.querySelector("#birminghamup16_3");
             inner.style.color = "#34b233";
         }
+        else if (data.birminghamup16_3 && actual.birminghamup16_3 && data.birminghamup16_3 !== 'TBD' && actual.birminghamup16_3 !== 'TBD' && data.birminghamup16_3 !== actual.birminghamup16_3) {
+            const inner = outer.querySelector("#birminghamup16_3");
+            inner.style.color = "#e83922";
+        }
         if (data.birminghamup16_2 && data.birminghamup16_2 !== 'TBD' && data.birminghamup16_2 == actual.birminghamup16_2) {
             score += 4;
             const inner = outer.querySelector("#birminghamup16_2");
             inner.style.color = "#34b233";
+        }
+        else if (data.birminghamup16_2 && actual.birminghamup16_2 && data.birminghamup16_2 !== 'TBD' && actual.birminghamup16_2 !== 'TBD' && data.birminghamup16_2 !== actual.birminghamup16_2) {
+            const inner = outer.querySelector("#birminghamup16_2");
+            inner.style.color = "#e83922";
         }
         if (data.birminghamdown16_1 && data.birminghamdown16_1 !== 'TBD' && data.birminghamdown16_1 == actual.birminghamdown16_1) {
             score += 4;
             const inner = outer.querySelector("#birminghamdown16_1");
             inner.style.color = "#34b233";
         }
+        else if (data.birminghamdown16_1 && actual.birminghamdown16_1 && data.birminghamdown16_1 !== 'TBD' && actual.birminghamdown16_1 !== 'TBD' && data.birminghamdown16_1 !== actual.birminghamdown16_1) {
+            const inner = outer.querySelector("#birminghamdown16_1");
+            inner.style.color = "#e83922";
+        }
         if (data.birminghamdown16_4 && data.birminghamdown16_4 !== 'TBD' && data.birminghamdown16_4 == actual.birminghamdown16_4) {
             score += 4;
             const inner = outer.querySelector("#birminghamdown16_4");
             inner.style.color = "#34b233";
+        }
+        else if (data.birminghamdown16_4 && actual.birminghamdown16_4 && data.birminghamdown16_4 !== 'TBD' && actual.birminghamdown16_4 !== 'TBD' && data.birminghamdown16_4 !== actual.birminghamdown16_4) {
+            const inner = outer.querySelector("#birminghamdown16_4");
+            inner.style.color = "#e83922";
         }
         if (data.birminghamdown16_3 && data.birminghamdown16_3 !== 'TBD' && data.birminghamdown16_3 == actual.birminghamdown16_3) {
             score += 4;
             const inner = outer.querySelector("#birminghamdown16_3");
             inner.style.color = "#34b233";
         }
+        else if (data.birminghamdown16_3 && actual.birminghamdown16_3 && data.birminghamdown16_3 !== 'TBD' && actual.birminghamdown16_3 !== 'TBD' && data.birminghamdown16_3 !== actual.birminghamdown16_3) {
+            const inner = outer.querySelector("#birminghamdown16_3");
+            inner.style.color = "#e83922";
+        }
         if (data.birminghamdown16_2 && data.birminghamdown16_2 !== 'TBD' && data.birminghamdown16_2 == actual.birminghamdown16_2) {
             score += 4;
             const inner = outer.querySelector("#birminghamdown16_2");
             inner.style.color = "#34b233";
+        }
+        else if (data.birminghamdown16_2 && actual.birminghamdown16_2 && data.birminghamdown16_2 !== 'TBD' && actual.birminghamdown16_2 !== 'TBD' && data.birminghamdown16_2 !== actual.birminghamdown16_2) {
+            const inner = outer.querySelector("#birminghamdown16_2");
+            inner.style.color = "#e83922";
         }
         if (data.spokaneup8_1 && data.spokaneup8_1 !== 'TBD' && data.spokaneup8_1 == actual.spokaneup8_1) {
             score += 8;
             const inner = outer.querySelector("#spokaneup8_1");
             inner.style.color = "#34b233";
         }
+        else if (data.spokaneup8_1 && actual.spokaneup8_1 && data.spokaneup8_1 !== 'TBD' && actual.spokaneup8_1 !== 'TBD' && data.spokaneup8_1 !== actual.spokaneup8_1) {
+            const inner = outer.querySelector("#spokaneup8_1");
+            inner.style.color = "#e83922";
+        }
         if (data.spokaneup8_2 && data.spokaneup8_2 !== 'TBD' && data.spokaneup8_2 == actual.spokaneup8_2) {
             score += 8;
             const inner = outer.querySelector("#spokaneup8_2");
             inner.style.color = "#34b233";
+        }
+        else if (data.spokaneup8_2 && actual.spokaneup8_2 && data.spokaneup8_2 !== 'TBD' && actual.spokaneup8_2 !== 'TBD' && data.spokaneup8_2 !== actual.spokaneup8_2) {
+            const inner = outer.querySelector("#spokaneup8_2");
+            inner.style.color = "#e83922";
         }
         if (data.spokanedown8_1 && data.spokanedown8_1 !== 'TBD' && data.spokanedown8_1 == actual.spokanedown8_1) {
             score += 8;
             const inner = outer.querySelector("#spokanedown8_1");
             inner.style.color = "#34b233";
         }
+        else if (data.spokanedown8_1 && actual.spokanedown8_1 && data.spokanedown8_1 !== 'TBD' && actual.spokanedown8_1 !== 'TBD' && data.spokanedown8_1 !== actual.spokanedown8_1) {
+            const inner = outer.querySelector("#spokanedown8_1");
+            inner.style.color = "#e83922";
+        }
         if (data.spokanedown8_2 && data.spokanedown8_2 !== 'TBD' && data.spokanedown8_2 == actual.spokanedown8_2) {
             score += 8;
             const inner = outer.querySelector("#spokanedown8_2");
             inner.style.color = "#34b233";
+        }
+        else if (data.spokanedown8_2 && actual.spokanedown8_2 && data.spokanedown8_2 !== 'TBD' && actual.spokanedown8_2 !== 'TBD' && data.spokanedown8_2 !== actual.spokanedown8_2) {
+            const inner = outer.querySelector("#spokanedown8_2");
+            inner.style.color = "#e83922";
         }
         if (data.birminghamup8_1 && data.birminghamup8_1 !== 'TBD' && data.birminghamup8_1 == actual.birminghamup8_1) {
             score += 8;
             const inner = outer.querySelector("#birminghamup8_1");
             inner.style.color = "#34b233";
         }
+        else if (data.birminghamup8_1 && actual.birminghamup8_1 && data.birminghamup8_1 !== 'TBD' && actual.birminghamup8_1 !== 'TBD' && data.birminghamup8_1 !== actual.birminghamup8_1) {
+            const inner = outer.querySelector("#birminghamup8_1");
+            inner.style.color = "#e83922";
+        }
         if (data.birminghamup8_2 && data.birminghamup8_2 !== 'TBD' && data.birminghamup8_2 == actual.birminghamup8_2) {
             score += 8;
             const inner = outer.querySelector("#birminghamup8_2");
             inner.style.color = "#34b233";
+        }
+        else if (data.birminghamup8_2 && actual.birminghamup8_2 && data.birminghamup8_2 !== 'TBD' && actual.birminghamup8_2 !== 'TBD' && data.birminghamup8_2 !== actual.birminghamup8_2) {
+            const inner = outer.querySelector("#birminghamup8_2");
+            inner.style.color = "#e83922";
         }
         if (data.birminghamdown8_1 && data.birminghamdown8_1 !== 'TBD' && data.birminghamdown8_1 == actual.birminghamdown8_1) {
             score += 8;
             const inner = outer.querySelector("#birminghamdown8_1");
             inner.style.color = "#34b233";
         }
+        else if (data.birminghamdown8_1 && actual.birminghamdown8_1 && data.birminghamdown8_1 !== 'TBD' && actual.birminghamdown8_1 !== 'TBD' && data.birminghamdown8_1 !== actual.birminghamdown8_1) {
+            const inner = outer.querySelector("#birminghamdown8_1");
+            inner.style.color = "#e83922";
+        }
         if (data.birminghamdown8_2 && data.birminghamdown8_2 !== 'TBD' && data.birminghamdown8_2 == actual.birminghamdown8_2) {
             score += 8;
             const inner = outer.querySelector("#birminghamdown8_2");
             inner.style.color = "#34b233";
+        }
+        else if (data.birminghamdown8_2 && actual.birminghamdown8_2 && data.birminghamdown8_2 !== 'TBD' && actual.birminghamdown8_2 !== 'TBD' && data.birminghamdown8_2 !== actual.birminghamdown8_2) {
+            const inner = outer.querySelector("#birminghamdown8_2");
+            inner.style.color = "#e83922";
         }
         if (data.spokaneup && data.spokaneup !== 'TBD' && data.spokaneup == actual.spokaneup) {
             score += 16;
             const inner = outer.querySelector("#spokaneup");
             inner.style.color = "#34b233";
         }
+        else if (data.spokaneup && actual.spokaneup && data.spokaneup !== 'TBD' && actual.spokaneup !== 'TBD' && data.spokaneup !== actual.spokaneup) {
+            const inner = outer.querySelector("#spokaneup");
+            inner.style.color = "#e83922";
+        }
         if (data.spokanedown && data.spokanedown !== 'TBD' && data.spokanedown == actual.spokanedown) {
             score += 16;
             const inner = outer.querySelector("#spokanedown");
             inner.style.color = "#34b233";
+        }
+        else if (data.spokanedown && actual.spokanedown && data.spokanedown !== 'TBD' && actual.spokanedown !== 'TBD' && data.spokanedown !== actual.spokanedown) {
+            const inner = outer.querySelector("#spokanedown");
+            inner.style.color = "#e83922";
         }
         if (data.birminghamup && data.birminghamup !== 'TBD' && data.birminghamup == actual.birminghamup) {
             score += 16;
             const inner = outer.querySelector("#birminghamup");
             inner.style.color = "#34b233";
         }
+        else if (data.birminghamup && actual.birminghamup && data.birminghamup !== 'TBD' && actual.birminghamup !== 'TBD' && data.birminghamup !== actual.birminghamup) {
+            const inner = outer.querySelector("#birminghamup");
+            inner.style.color = "#e83922";
+        }
         if (data.birminghamdown && data.birminghamdown !== 'TBD' && data.birminghamdown == actual.birminghamdown) {
             score += 16;
             const inner = outer.querySelector("#birminghamdown");
             inner.style.color = "#34b233";
+        }
+        else if (data.birminghamdown && actual.birminghamdown && data.birminghamdown !== 'TBD' && actual.birminghamdown !== 'TBD' && data.birminghamdown !== actual.birminghamdown) {
+            const inner = outer.querySelector("#birminghamdown");
+            inner.style.color = "#e83922";
         }
         if (data.finalleft && data.finalleft !== 'TBD' && data.finalleft == actual.finalleft) {
             score += 32;
             const inner = outer.querySelector("#finalleft");
             inner.style.color = "#34b233";
         }
+        else if (data.finalleft && actual.finalleft && data.finalleft !== 'TBD' && actual.finalleft !== 'TBD' && data.finalleft !== actual.finalleft) {
+            const inner = outer.querySelector("#finalleft");
+            inner.style.color = "#e83922";
+        }
         if (data.finalright && data.finalright !== 'TBD' && data.finalright == actual.finalright) {
             score += 32;
             const inner = outer.querySelector("#finalright");
             inner.style.color = "#34b233";
         }
+        else if (data.finalright && actual.finalright && data.finalright !== 'TBD' && actual.finalright !== 'TBD' && data.finalright !== actual.finalright) {
+            const inner = outer.querySelector("#finalright");
+            inner.style.color = "#e83922";
+        }
         if (data.champion && data.champion !== 'TBD' && data.champion == actual.champion) {
             score += 64;
             const inner = outer.querySelector("#champion");
             inner.style.color = "#34b233";
+        }
+        else if (data.champion && actual.champion && data.champion !== 'TBD' && actual.champion !== 'TBD' && data.champion !== actual.champion) {
+            const inner = outer.querySelector("#champion");
+            inner.style.color = "#e83922";
         }
         womenScoreData.push({name: data.name, score: score});
     })
