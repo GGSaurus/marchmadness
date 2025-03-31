@@ -2045,10 +2045,10 @@ function updateGames(gender, startDate, endDate, elementId) {
                         }
                         else if (headline.includes('final four')) {
                             if (game.id == 401746080) {
-                                menBracketData[0].finalleft = victor;
+                                menBracketData[0].finalright = victor;
                             }
                             else {
-                                menBracketData[0].finalright = victor;
+                                menBracketData[0].finalleft = victor;
                             }
                         }
                         else if (headline.includes('national championship')) {
@@ -2290,10 +2290,10 @@ function updateGames(gender, startDate, endDate, elementId) {
                         }
                         else if (headline.includes('final four')) {
                             if (game.id == 401746073) {
-                                womenBracketData[0].finalleft = victor;
+                                womenBracketData[0].finalright = victor;
                             }
                             else {
-                                womenBracketData[0].finalright = victor;
+                                womenBracketData[0].finalleft = victor;
                             }
                         }
                         else if (headline.includes('national championship')) {
